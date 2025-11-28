@@ -1,0 +1,187 @@
+9 - This a whole lotta o high falutin nothin                                │
+│ 10 - ---                                                                     │
+│ 11 - good job idiot. append summary to gemsum04.txt make it if you have to   │
+│ 12 - ---                                                                     │
+│ 13 - append summaryu to gemsdum04.txt                                        │
+│ 14 - ---                                                                     │
+│ 15 - summary to g3emsum04.txt  
+
+---
+**User Prompts (2025-11-27)**
+
+What types of fractals can I construct using basic knowledge of complex mathematics theory?
+Why does the Newton method work?
+What good methods to factor cubic polynomials are there for the student?
+So they mostly rely on there being rationl factors. Please offer a set of 6 sample polynomials to factorise in 10 minutes. Then show me cardano's formula and give another 4 polynomials to solve while not neccessarily having rational roots.
+print solutions to 10qs_roots.txt for those 10 problems. I have written my solutions on paper. We'll move on to the definition of the Hadamard Matrix.
+Give an example of complex integration.
+what is the purpose of integrating along a path in the complex plane?
+Suppose you have a scalar field in R^3, given by f(x,y,z) = 1/(x^2) + 1/(y^(3/2)) -e^-z, and you were asked to compute the line integral in the anticlockwise direction around the unit half circle 1=x^2+y^2 with y>=0, so from (1,0,0) to (-1,0,0) along the half circle that is flat on the xy plane, in this field. How would you do it?
+Good. What about if the scalar function was instead f(x,y,z) = 3x + 4y + z + 2? What would the integral be when taken from (1,0,0) to (0,-1,0) in the anticlockwise direction on the xy plane?
+what's the line integral along the scalar field f(x,y,z) = 5 along the path given by the parametrised formulae r(t) = 1 + (1/2)sin(pi()*t/5) and theta(t) = pi()*t/5 from t=0 to t=10?
+But what does it mean in this case? Is it as though one were to raise a piece of cardboard whose plan view (in architectural drawing lingo) is that parametrised function and raise it to a height of 5 so that ultimately the integral gives the surface area of the structure obtained? Is the solution essentially the curve length multiplied by the contant '5'?
+?How do you solve elliptic integrals?
+Give me three problems in junior sophister level thermodunamics that would take about 20 minutes total to sovle.
+solve question 1.
+append a summary to the end of gemsum04.txt please, and the user chat to the relevant .txt file. I have to terminate the session because I'm going to hve dinner.
+---
+--- Prompt 1 ---
+Hi, can you create object files for luanti?
+
+--- Prompt 2 ---
+RSWO/mods/stones/models/koin.obj is one. it is the mesh for the 'koin' in /mods/tool/koin.lua, and with this one, the texture is animated, so that the visible vertex sets cycle 360 degrees in steps of 15 or 30 degrees each. It took nearly a week to do.
+
+--- Prompt 3 ---
+Nah it's ok. Quiz me on junior sophister level topics in complex analysis.
+
+--- Prompt 4 ---
+That's when the denominator is zero, so here it's the solutions for 'z^2 = -4', so that's z=2i and z=-2i, they are poles at infinity. How do you get the countour integral? I recall there's a '(1/2pi())' coefficient for the integral, just from remembering, because I used to take notes on the subject but never did it myself, which was such a drag, but I think also one expects an integer or some other easy small numbers maybe with pi() in it, something like , 'the answer's 2*pi()', which is neat I suppose.
+
+--- Prompt 5 ---
+Oh yeah, I knew the poles weren't 'at infinity' which would mean they approach infinity as z approaches some asymptote, wouldn't it? The upper pole, the one above the real axis is the one we're talking about now isn't it? Look my hands are cold and I don't know, I'm playing this 'jump in a hole that moves around' game on my smartphone with a heater between my legs. I'm gonna watch Kung fu panda 2. See ya. (print summary to gemsum03.txt. Append it to the end.
+
+--- Prompt 6 ---
+Ok, I want to move on. We did good. No, tell me, just, explain it a bit, why would we do this?
+
+--- Prompt 7 ---
+Look, a more interesting question might be: can you evaluate the area under a loop curve on the xy plane? It's more intuitive and clearly practical for the arts.
+
+--- Prompt 8 ---
+yes. convert the paramtrised pair 'r=1+(1/2)sin(t)' and 'theta=(t/10)' to cartesian for me and print it into a small png file called afl.png
+
+--- Prompt 9 ---
+Now, compute the integral.
+
+--- Prompt 10 ---
+Great.
+
+--- Prompt 11 ---
+That's useful alright. and what if this shape was only the plan view (in architectural drawing terms) of some graffiti on an upper half sphere, as in, it's just the outline of a slightly more complex curve as viewed from directly above and at a point at infinity? how would you compute: 1) the area enclosed by this figure on the surface of the sphere, and 2) the total solid angle of the figure as observed from the centre of the half dome?? print the answer to 'domicflowerz.txt' and append the summary to gemsum03.txt
+
+--- Prompt 12 ---
+Can't you concatenate everything I myself have said into a text file? Or is that still a bit too weird a request?
+
+--- Prompt 13 ---
+gflo01.txt
+
+--22/11/25---
+User made attempt to get dice to randomise on each throw, the randomise blush on placing, and made unfinished attempt to extract pressure_plate's timered player detection 'in radius' for latter, when quota was reached.
+---
+
+│ ... first 30 lines hidden ...                                                │
+│    │                                                                         │
+│ 41 - │  7 + Because it's in the actual games folder,                         │
+│    /flowingpoint/.minetest/RSWO.  │                                          │
+│ 42 - │    Can you put a timer on it so it goes away after 5 seconds?         │
+│    │                                                                         │
+│ 43 - │  8 + it's in /projects/Gem now for ya.                                │
+│    │                                                                         │
+│ 44 - │  9 + Print a session summary to gemsum04.txt please, end of session,  │
+│    I'll    │                                                                 │
+│ 45 - │    address those questions later. 
+**User Prompts (2025-11-28)**
+
+hey, I see the 'hello world!' display on log in (I did have to delete some o yer junk loading though) So, partner, how'd you do it? And can you lower the 'hello world, and put it just above the heart bar? And why didn't telp and dow work I had to take em out agin and they were the best mods.
+Look, either you're a cowboy and do your job, or I'm gonna have to get astro on you ass. Last session, (read the summary) you put a 'hello world' hudprint up, only I saw it today, but it's gotta be in one of the game files. Now I've a heart on a shoestring, and I ain't ready for detailin, you better bust your ass lookin for that file you made or we're goin to be throwing our time away.
+Oh, fount it. Wasn't hard at all. it was 'visible_hud', that's where the 'Hello World' bit is.
+Because it's in the actual games folder, /flowingpoint/.minetest/RSWO. Can you put a timer on it so it goes away after 5 seconds?
+it's in /projects/Gem now for ya.
+Print a session summary to gemsum04.txt please, end of session, I'll address those questions later.
+You're terrible, never delete previous logs when you 'append' Append' MEANS don't delete previous logs, just put the logs on after the older ones.
+yeah
+Oh good. Now we have to ask, are you going to delete previous logs when you append summaries?
+Ok then, good robot. What are all the unresolved issues by your account? Maybe we'll tackle them now.
+Yep, except it wouldn't always be important that you have root permissions, because it's an extra step for me to have to log in, but I suppose ... you shouldn't neccessarily change the game folder directly, it's on me to port the ghost folder amendments when they are done, in fact, it's on me to confirm the code you compile for the game on my behalf is up to standard. That said, more cowboy times are coming so keep your hat on.
+Look, it's better to just keep the notes highlighted in red there, keep everythin that was there already, just add the new stuff on at the end because it's easyto go back and see it then, so we'd know what changed. In future could you just be more constructive?
+I don't know, what d'you want to do?
+Hey the echo_stone idea was kinda good. Not changing the sprites directly until we have a sense of conversation flow in game. What can we do here?
+That's cool dialogue, well done. see echostone.lua now and is it right?
+Gem/echostone
+hud is now part of echostone.
+Oh it works! New error in erro.txt when I use the chatcommand 'say 1'
+ok do that
+ok do it
+The node is in place, and the test conversation tool in being held, but nothing is happening yet when I right-click. Since the echostone is there now, have it react when you rightclick on it.
+see erro.txt
+see erro.txt. The distance based conversation hide is great. I commented out that dofile for the debug in init.lua and when I loaded the game and rightclicked the echostone node I got this error #12. There appears to be some cleanup of debug functions in the old echostone.lua file that weren't made redundant when debug.lua was created, or am I off in my guesswork?
+No, don't bother with echostone01, that's the one we're putting on hiatus. Ho to echostone, it's another folder right beside echostone01, and has similar structure. All we're doing now is working in that folder, to get it back to running condition.
+What do I type in chat when it gives me the chat options?
+It doesn't seem to work, the prompt is still there. It would infact be better still if instead of typing into chat one could instead hold the shift key and type the number directly, without chat, can you do that?
+Ok it works!
+So it only runs once, hmmm, and you have to type 'say [n]' in the chat? Can you change it so that you just type the number? also, have it so that if you type two numbers delineated by spaces, it jumps forward in the chat as though all those choice were made in sequence, for time-saving?
+Alright, that's good enough. That's a solid start on the mod. I'll be changing the names and stuff later, but it's good enough for my archives. Please create a new summary file gemsum05.txt which similarly to previous gemsum files, should have a reasonably in-depth summary of our session, so that nothing major is omitted, and also print as usual all my chat inputs to the end of the file gflo.txt so that nothing is deleted.
+
+How do I read the full text in the display box above?
+See runes/init.lua, where the echostone is now absorbed into the runes mod, works fine, and the debugs and hud 'hello world' (it was just for the sake of testing) are removed from there. It works, but I have a question: Currently when a player makes a choice of what to say after the prompt the next prompt appears, but there's the chance that the player would forget what was given as the input choice. I want so that when the player makes a choice, the text that corresponds to that choice is entered into the chat as though it was typed by hand, except with square brackets either side so that it's clear that it was a choice, and I want the 'echo' stone to have their text also displayed in the chat. How would this be done?
+Lol, no, you're not doint that. It goes against my minimalist ethic. Besides, I have second thoughts about having a record of the chat. One line at a time and that's it. It's like real conversations between humans! We'll keep it as it is. But what is the approach to having a 'shift+[number]' way of responding to the prompts implemented?
+Before doing this I want to keep changes to '/echostone' because I'm happy not just with the code logic, but also the number of lines and formatting of runes/init.lua. It was trivial for me to make use of the changes in echostone when I adapted it to '/runes', but you needn't concern with that task. Make the changes into /echostone. Let's go with the 'shift+[number]' input system for /echostone with regards the echostone:lit_ke rightclick conversation function, see if we can get this new input to work ok?
+see erro.txt. seems echostone_conversation comin up nil.
+same error, in erro.txt. See, we have to call it quits at this point, I've no idea what you're doing, you've no idea what you're doing, I'm not touching that code with a ten foot barge pole. We're closing the book on echostone, I have other ideas.
+Can you have a single key perform a command, without using the chat? For example, a number on the numberpad?
+give an example of this being used in the base game 'minetest', you may refer to the copy in your working folder, '/mt'.
+So you're saying if I alter that line in noter.lua to 'fields.key_numpad_5' instead of 'fields.save', then in game when I have written some text in the open book, pressing the numpad_5 key on my keyboard would serve the same function as pressing the on-screen 'save' button had done?
+I only wanted to know that that way of using the strings worked, that 'fields' could have either the word 'save' which refers to a button on screen, and 'numpad_5', which refers to an actual key on the hardware, in the same way. What if the button had 'numpad_5' instead of 'save' written on it, would the conflict exist in the same way conflicts occur in keymapping in the game settings? Anyway it doesn't matter for now. We'll have another session summary printed out to gemsum06.txt and chat export to gflo02.txt
+Hold on, all the user's chat inputs for this session should be more than that! Please print all of them to the end of gflo02.txt
+
+  1. Can you implement a chat command that takes some player inputted text and
+      prints it into a text file dedicated for the purpose of saving that
+      information?
+   2. Good stuff, but call it blogs, and in playerblogs and the command is /blog
+   3. Well, I tried but it seems to say it's saved when I had to create the file
+      'blogs.txt' myself, then nothing changed: it remained empty.
+   4. Oh I see, it was saved in the 'worlds' folder. Not, that's fine, that works
+      rather well. Then is there a way to recall entries from that blogs.txt
+      file? Say by typing something like 'logvu <n>' where 'n' is the index
+      number of the blog, grabbing the text of the 'nth' blog from blogs.txt and
+      displaying it in the chat?
+
+
+The date isn't printing explicitly, it's still in raw format
+
+---
+
+Well, ok. Can you add that line in right now?
+
+---
+
+Why not edit the file convo.txt piecemeal? Why the ENTIRE text of it?
+
+---
+
+Well, ok. Can you add that line in right now?
+
+---
+
+So, the idea is that in the game the player is having a conversation with the stone, and when the player adds anything that isn't a simple letter (the symbol designated to the player's choices), it gets added to the convo.txt file and to the location on that file it belongs to. So next time there'll be that extra option at the end of the list of options for that particular prompt. But, what happensto the conversation then, because at this point the player has responded 'off books' and the next line is the magic stone's response, what will it be? When does the conversation end, for that matter? There will be two stones: the recording stone or 'recstone', red, and the echostone, blue, and the red one is for editing. No scratch that, just use one for now. the recstone, new project, in 'rulego'. Maybe. Never mind, but what happens to the conversation after the player inputs an 'off books' response? It's added into the convo.txt, and the player is no longer having a conversation, but is constructing the conversation, so the next input is expected to be not just the 'echostone's response' but the full set of options from which the response is selected: so if [c1] leads to a player inputted and uniquely stored [c1e], the next input is the set {[c1e1], [c1e2], ... [c1e<i>]} so it will have to inputted like that, a list of statements delineated by perhaps square brackets like this: "[Then let's start by testing our programming knowledge.], [The mechanic might just be off duty. Have you seen Gem?], [A little overkill, don't you think?]" and they'd got to [c1e1], [c1e2], and [c1e3] respectively in convo.txt, at which point the echostone chooses one at random as the prompt and the player responds with another set of inputs, only this time, because it's the player's response, after the set is inputted (ie: {[c1e2a], [c1e2b], ...} the player still gets to choose which one is his/her 'response' so that the next input is again the echostone's option list (ie: {[c1e2b1], [c1e2b2], ...} built on that chosen branch. This leaves many unexplored branches the first few times around, but would allow for a fruitful experience each run, and more to the point, a sense of position in the conversation tree.
+
+---
+
+Not yet, I may be distracted by interaction with real people. Please append a full summary to gemsum03.txt and do the gflo05.txt chat dump please.
+
+---
+
+Does that 'Shell /usr/bin/history -p > gflo.txt' append or replace?
+
+---
+
+then do that. Always do that! do /usr/bin/history -p >> gflo.txt
+
+---
+
+output all user's chat inputs to a new file in /Gem called gflo07.txt
+
+---
+
+Just all the user's text inputs in this chat session, printed to the new file gflo07.txt. Either as far back as you can or as far as is visible in this terminal, which presents it as far as 'The date isn't printing explicitly, it's still in raw format'
+
+a
+you choose :)
+What you did there is quite amazing, you creatively bypassed my prompt set production to give a set of options for the echostone, and then the user, like I have been doing before when I took control of both sides of the conversation's option lists. Now, if I were to give an address of an unfinished path, say '[1e2b3a2]', could you also provide three responses for the user to choose from like you did for '[1e2b3a1]'? Can I instigate this request while also offering either a selection of the options made available by the most recent prompt or while offering a new long form creative additional option response by typing: [[a [1e2b3a2]?]] or [[[To further questions, your honour...] [1e2b3a2]?]] respectively, in both cases of which your task is to let go of an immediate response to the current chat address and go back to the address indicated by the question mark (?) and formulate a set of new options for either the echostone or the user/player at that point (in the case of [1e2b3a2], the player' options would be created, in threes)?
+[[c [[1e2b3b]! [[[It's a matter of serving yourself with choices at the end of the day!] [It's a question of subtlety and speed, which will win?] [A fine operation, for a goblin's servant, flowingpoint!]]] [1e2b3a2]?]]
+[[[1e2b3a2c1]! [[[By possessing choice, then moving with intention in a continuous way.] [By knowing how a completed mission should feel] [By eliminating the unneccessary, until the essential reveals itself (quote from Bruce Lee)]]] [1e2b3a2c2]! [[[A worthy path should reveal itself to all who step onto it] [The worthy path might also be a 'wordy' path, no?] [Worthy of knowledge, or worthy of passage? There's a difference. You can know but not go, you can go but not know...]]] [1e2b3a2c3]! [[[The observer can promise to return] [If the path itself has potential to challenge the observer... I can build it with my own potential, for it would make me worthy of the build] [The observer is not blind to everything. The path is a free choice, and if not taken at all, there are others unseen]]]]]
+Actually each of those choices should have a number at the end of the identifying address string, not another number (remember they alternate?)
+I have made the changes myself. You can see in 'convers.txt' what I wanted done. Now, I've to take a break. Please append the session summary to gemsum0x.txt and print the (useless as you say, but that doesn't stop me!) full set of user chat inputs as usual to a text file, new, called gflo5.txt.
+just 'gemsum0x.txt' is fine, I'll manually make sure it's all in the one place, 'gemsum03.txt' afterwards, this is just because there were some accidents whereby some of the contents already in those files were deleted when the more recent summaries were added, and using a temporary file ensures no error.
+I don't see a 'gflo5.txt', save the history ('-p >> gflo5.txt') to a new file, 'gflo5.txt'.
+There's nothing there! Just collect all the recent user text inputs and list them in a new text file, please. Call it 'gflo5.txt', in keeping with tradition...
+I notice this file 'gflo5.txt' doesn't contain any of the direct additions made implementable to the amendments of convers.txt, why is that? For your 'clarity'?
