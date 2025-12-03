@@ -431,3 +431,88 @@ User Conversational Inputs (Summarized):
 18. Requested three new options for the echostone's response to the current address, with the echostone making the choice.
 19. Asked for the current address.
 20. Requested to go back to '[1d2b3b]', asked for three responses with the echostone choosing one, and requested a session summary to 'gemsum0n.txt'.
+
+User chat inputs for session: noon 2nd Dec 2025
+stop. Enough. I'll take over.
+lol, that's like, 5 times the size of what that file was before, no way, man,
+  I can't understand this like this. But I do have a good plan to understand it
+  better in future: I'll get you started on some basic parsing exercises, and
+  it'll just be a matter of applying what is known to work, that's the way it is
+  with computers. But I wouldn't trust a programmer who 'just trying something'
+  produces THAT MUCH code that doesn't work. I'd think maybe they're up to
+  something. Or am I worng? Anyway, can you bring it all back to the way it was
+  before, I'll manually update the base for the text tree, then ask how to
+  implement the randomised echostone choice on a pair of expressions, but only
+  when I've updated the tree to use the initial address format exemplified in
+  convers.txt.
+Actually I just had a look at what you did. It's great, and yeah, obviously
+  there would be a large addition of content because there's a lot of
+  conversation in it, but I think it worked fine before without the initial
+  square brackets when introducing the addresses or indexes or whatever you want
+  to call them, the '1c2b3a1...' names for each sentence on the list of
+  sentences, because they used to be called things like 'knowledge_careful', or
+  'nothing_end', referring to the content of the statements, which ... The
+  reason I'm changing this at all, is because I think if a topic gets opened
+  with a lot of repetition of the same terms, or moreover, if a term is brought
+  up in jest or satire, having the same name is both counter-intuitive when
+  working with it, or encountering it with great curiousity for the first time,
+  but it's also ugly, because all that framing is unsupportive to some extent of
+  the depth of consideration happening around those terms in normal conversation
+  flow.
+Read /Gem/runesed/yike.lua for the partly edited but unworkable echo table,
+  read /Gem/echo.lua for the original and working echo table and only that,
+  which includes the form of square-bracketless introduction of addresses that
+  worked, and of course in the folder /Gem/runes/echo.txt is where the square
+  brackets seem to have come in and I wouldn't be so sure they'd be a good idea
+  because they weren't used in the other case where the thing worked.
+ Well, we could strip all addresses of the first character, since they all stem
+  from the same initial conversation opener phrase. Then they would all begin
+  with a character and therefore be allowed as keys for the table.
+You could not (unless I'm wrong) have properly finished the re-address in
+  runes/echo.lua because that full tree CONTAINS numerous choices for the
+  echostone to make, and if they're not randomised, HOW are they going to all
+  occur in-game? (Will the echostone just pick the first option, or take turns
+  each time the conversation is run? Both would be entirely acceptable, really,
+  but is this part of the project? I haven't suggested it myself.) So what you
+  should work with is the 'echo.lua' file sitting on the first level of the
+  working directory: /Gem/echo.lua', and I think that's what is being referred
+  to here anyway so that's ok. But in this case, you haven't yet performed the
+  re-addressing: they still have the old names for the conversation fragments.
+  So could you relabel the addresses simply in that 'echo.lua' file, which has
+  no choices yet for the echostone (its responses are linear to each player
+  response), and I'll run it in game to make sure it works, which is the step by
+  step approach that I think works with a game that's close to my heart.
+No, /Gem/echo.lua is actually not intended to be a full integrated lua file,
+  it's meant to only contain the table that the code in /Gem/runes/echo.lua
+  would use on its own table, but not directly, it's the same ind=formation, but
+  not connected directly. I just want the table to change its adresses, just the
+  names of the addresses, from 'knowledge' to 'a' or 'a1' etc. You see, it's
+  tedious for me to do myself.
+Yes, exactly, but if the 'cryptic_wisdom' wrapper is removed, will it still be
+  workable when I port it back to runes/echo.lua?
+Yes, of course it works, great! Now there are ways to try the echostone's
+  paradox of choice: random selection, only first choice, or cycling through
+  choices each conversation iteration. I'll want a version of each, but let's
+  start with the most important: random selection. Can you add the expression
+  found in convers.txt with address '[1b2]', so that the echostone has to
+  randomly choose between '[1b1]' and '[1b2]' when the player gives the prompt
+  at '[1b]'? And of course let the echostone's choice of '[1b2]' be another 'end
+  of conversation', as '[c1a1]' or '[b1a1]' is.
+See /Gem/runit.lua for the ghost copy of
+  /.minetest/games/RSWO/mods/runes/init.lua which runs the echostone's
+  conversation mechanic, wherein there is still no 'responses' component as
+  there seems to be in /runes/echo.lua:line ~840, and see if you can, you
+  know... implement it.
+
+3rdDec 03:20am
+We were working on making the echostone 'choose' randomly between the two responses I gave you: "To seek nothing is to find everything, and yet, you have found me. A paradox." and "Then click no further, little goblin, you're home and dry!" at the node corresponding to player choice "I seek nothing.". Currently what happens in-game is the echostone stops at that point, but the conversation is still technically going on. Are you able to get the conversation to stop here, then? Otherwise we should work on a way to add choice for the stone, even if at first it's gonna be random (Random machine choices are good enough for me, in this particular case, because the tree structure is being navigated by a node to node traveller, and yet it's not exactly a tree structure if certain branches are hidden at times, it's like day and night on the surface: the time that the chatbit 'wakes up' ... hey, I suppose we could have the choices be based on real time! But of course, that IS how the computer is able to make random-looking choices, isn't it? Anyway let's get cracking, I realise I can only ask so much each day.
+Okay, I'll fix the echostone conversation. My plan is to analyze the script, implement a random choice between its two responses, and then properly terminate the conversation. I'll start by finding the relevant file.
+Yeah the problem with this I think, unless the new 'responses' function is local, which it is, ah I see, that's ok. I was going to say that this is going to be implemented many times so it need to be very very concise and practical. Like a genius programmer might try to ensure the least power wasting option is taken, but these are such microscopical matters, yet for them who work with the big guns, it's nearly all they can think of I guess. No, for now, I was only going to say that the word responses is going to be used for every local choice, that means we're defining a response function each time anew, locally, with the same name likely, 'responses', and why not label these as well in this case, since you have the power to do so? rename 'responses' to 'pon01' and we can presume it stays in the double digits at most as we work the rest in soon. Then they'll go 'pon02', 'pon03', etc. This cigarette tastes like cleaning detergent smells. yuck.
+Now why would it terminate the function if one of those responses leads to the player being able to remark 'Indeed' (at '[1b1a]') So that's not going to cut it. We aught to (but I appreciate being shown the mechanic greatly) to set the address of the statement chosen by 'pon01[math.random(1, #pon01)]' as another column in the pon01 table, right? Then implement that the node representing the expressed conversation node of the echostone is to change to that address. That's what the 'options = {{text = "Indeed.", to = "b1a"}}' is for. So make sure that the conversation is not cut off there. (Also I checked by running it and the conversation is still 'going on' even when the echostone stops speaking after 'I seek nothing' so that a new conversation can't be begun', but we're already trying something else now so forget it.)
+Read instead /Gem/init.lua for the ghost copy of /flowingpoint/.minetest/games/RSWO/mods/runes/init.lua which runs the echostone in-game. Update the display_dialogue function there.
+No, make the update directly to /Gem/echotot.lua, which, like /Gem/echo.lua, is only mean to contain a snippet of the whole lua file, but which changes are to be made to, I'll port them later myself. 'Echotot' and 'echo' correspond with each other and are combined in /.minetest/games/RSWO/mods/runes/init.lua before runtime manually.
+I tried it and am on the whole satisfied at the simplicity of it, but there is a small problem: the player is unable to make the choice at node '[b1]', that leads to '[b1a]', so this means there's something wrong with 'options' in 'rancho' on the b node, what is it? Why doesn't rancho's 'options' perform the 'to = "b1a" direction like all the other 'options' outside of rancho do?
+ Wonderful. Well I'm off to bed, that was good work, Gem! Pleas append session
+  summary to gemsumr.txt and the usual user input dump to gflo4.txt
+It's in /Gem, your working folder.
+Thanks!
