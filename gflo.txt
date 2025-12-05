@@ -516,3 +516,102 @@ I tried it and am on the whole satisfied at the simplicity of it, but there is a
   summary to gemsumr.txt and the usual user input dump to gflo4.txt
 It's in /Gem, your working folder.
 Thanks!
+
+dec5
+User Chat Inputs:
+1. Read /Gem/echo.lua and check for syntax errors that might lead to the line at '[b]' not presenting the single option that would lead to '[b1a]'?
+2. Why would 'rancho' be omitted? It is required in some sense for the randomisation of the echostone's outputs to occur. Without it, as in this example, (and correct me if I'm wrong) a sentence was also completely omitted, ('[b2]', applying the labelling strategy whereby machine answers are given numbers, and player choices are given letters added to the addresses of the texts.)
+3. There's a parsing error somewhere in 'prsetestgem.txt' can you find it?
+4. Another parsing error somewhere in prsetestgem.txt
+5. append session summary to gemsu6.txt and chat inputs (on user end) to gflo44.txt
+
+The two files are 'echo.lua' and init.lua' both are on the first level of the
+  working directory '/Gem'. Three files, include 'convers.lua'. Your mission: I
+  will ask you to observe the 'echo table' created in 'echo.lua' for 'init.lua',
+  and how the sentences are coming from 'convers.txt' and by re-parsing:
+  applying the address labels from the square brackets in convers.txt to the
+  table values that correspond to the conversation nodes the player experiences
+  in the game, RSWO, my fork off of luanti. You are asked to try to continue
+  what I have been doing to completion: there are about 100 lines of texts in
+  convers.txt, they must be made to function within the capabilities offered by
+  the 'echo table' system I have going on in 'init.lua'. You may understand the
+  whole page of code, but the mission is simply about inserting those other
+  sentences into the other format.
+Now we can continue our conversation game, using double square brackets to
+  apply contextualised dialogue the way we did previously (see gflo.txt and
+  gemsum01.txt if unsure) Begin at node '[c2a]'.
+Ok. We're going to give a practise run to the conversation building proccess
+  for this game I'll call 'tuk'. We'll play 'tuk' by playing the conversation
+  game and then you're gonna repeat that wonderful proccess of updating you just
+  did using that python script (which I want outputted in its entirety to a txt
+  file 'tukt.txt' for my analysis) at the end, and this command is going to be
+  called 'tuk', I'll say it as a verb, like 'Please tuk the tree' or 'tuk
+  <conversation set file> <working code file>' which in this case was 'tuk
+  convers.txt init.lua' and you know then that that means you take the sentences
+  from convers.txt and add them to the 'echo table' in init.lua so that they'll
+  work when I port them to the game files manually (later I'll let you alter
+  working game files directly).
+if I type '[[]]' here just take it to mean the empty string, which in the
+  convers.txt file means the first one, but because it's something the echostone
+  says and not really the player, you take it to mean this is something you are
+  saying, in other words, it's your move. So you'd say "The shadows lengthen,
+  but the path remains. What do you seek?", and it'd be to me to make the choice
+  from a,b,c,d, or e. If I were to choose '[[d2b3c3c3c2d]]', it's a player made
+  expression that is the conversation's official expression: "I tried to ask
+  around, but, you know, the beards... distracted me.", and since there's not
+  predefined echostone choices built yet for it, you take it to mean you are to
+  construct a single response for the echostone to make. If i instead used
+  '[[d2b3c3c3c2d]]?' then you would make three choices. When i give the command
+  'echorules <filename.txt> -append' it means find the file <filename.txt' if it
+  exists (if not, make one of that name) and print a summary of all known and
+  established rules the player should know in order to play the conversation
+  game, and if there are already rules there, append any new rules we created
+  that session in a manner that preserves the history of previous updates. My
+  'go' then, for this game is this: [[[e2b2]? [[[For this game?] [For node
+  construction?] [It's meant to be hard, but not impossible. Less is more.]
+  a]]]] Because The initial address is an echostone response ('[e2b2]' ends in a
+  number) the question mark suggests construction of playerside choices, and the
+  next bit defines those choices, and the last bit 'a' tells you I choose the
+  first option. Because it leads to no predefined response, you respond with a
+  single response you create (if it had been 'a?' instead you would create three
+  possible choices and choose one of them for the conversation. Any
+  constructions, as usual, get immediately added to the file 'convers.txt' as
+  more indexed statements.
+As you can see, there is a way to build this conversation tree without
+  creative input from the echostone (aka you, gemini) and I ask can you help me
+  make this building process part of the in-game player's toolset, through the
+  chat? That is, during an echostone conversation, if the player instead types
+  using the double square bracket format we are using, that such simple
+  operations (as adding a line to the convers.txt file for example) could be
+  done by the player through the chat command in-game?
+ Yes, but take me slow because it will typically be very prone to failure, in
+  my experience at least things don't work the way you want unless the user is
+  focussed and clear on what he/she wants. Show me.
+That it recognises, through recognising the bracket balance, the closure of
+  build mode. So that aything outside the initial double square bracket is
+  regular chat and potentially a regular commad, like 'say 3'. This would mean
+  that a player can build without interfering with conversation flow.
+ Let '[[[e2b2b]? [[[Nodes come in many shapes and sizes, though they are
+  limited in that you can only have one in any particular location at a time.
+  Some see this as useful for identifying things uniquely, some a hindrance to
+  integration of objects.] [Nodes, as we here like to believe, are actually the
+  stuff of the world about which entities proliferate. But an entity can do more
+  in terms of movement. You are an entity, while I am a node, the echostone.]
+  [Did you ever place a node and think, "What else could I have done to get
+  here?" or "What else could I have done with this?"]]] 3]]' mean three new
+  responses for the echostone (and therefore three new additions to the
+  convers.txt file) and that the echostone actually chooses the third response.
+  To get this to work, we'll try first simply adding those three quoted
+  expressions to the convers.txt file, and this has to be done in-game with this
+  command. So how do we initiate the appending of that?
+Yes.
+ I have tried '[[[c1b]? [[Can you imagine a stranger one?] [Yeah, I was just a
+  water rune, but was crafted into this by use of a gem.]] 3]]' but the result
+  was 'Invalid command: [[[c1b]?', so can you add those options into convers.txt
+  yourself, then explain the error and try to fix it?
+ Yes, I chose '3' because it was the third possible response the echostone
+  could have made if it had added those two to the one already in the system. Go
+  ahead with the fix!
+
+
+
