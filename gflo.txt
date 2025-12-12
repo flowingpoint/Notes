@@ -306,7 +306,7 @@ User made attempt to get dice to randomise on each throw, the randomise blush on
 
 hey, I see the 'hello world!' display on log in (I did have to delete some o yer junk loading though) So, partner, how'd you do it? And can you lower the 'hello world, and put it just above the heart bar? And why didn't telp and dow work I had to take em out agin and they were the best mods.
 Look, either you're a cowboy and do your job, or I'm gonna have to get astro on you ass. Last session, (read the summary) you put a 'hello world' hudprint up, only I saw it today, but it's gotta be in one of the game files. Now I've a heart on a shoestring, and I ain't ready for detailin, you better bust your ass lookin for that file you made or we're goin to be throwing our time away.
-Oh, fount it. Wasn't hard at all. it was 'visible_hud', that's where the 'Hello World' bit is.
+Oh, found it. Wasn't hard at all. it was 'visible_hud', that's where the 'Hello World' bit is.
 Because it's in the actual games folder, /flowingpoint/.minetest/RSWO. Can you put a timer on it so it goes away after 5 seconds?
 it's in /projects/Gem now for ya.
 Print a session summary to gemsum04.txt please, end of session, I'll address those questions later.
@@ -517,6 +517,16 @@ I tried it and am on the whole satisfied at the simplicity of it, but there is a
 It's in /Gem, your working folder.
 Thanks!
 
+Thursday 4th Dec 2025
+Can you identify the object in the simulated image 'gate.png'
+We didn't finish the final integration step last session due to quota cut-off! The file /runes/convers.txt contains 100 lines of indexed human readable strings, but the addresses contain a superfluous '1' at the beginning, can you replace those substrings with the empty string?
+After the replacement, the format is still '[<address>]"<string of human readable text"' on each line.
+Perfect, except for the first line, why '["The shadows...' and not '[]"The shadows...'? Anyway, caryy on it's good.
+We need to get this convers.txt properly parsed into echo.lua, understand? It's just a matter of placing the player's statements (whose addresses end in a number) as options after the prompt and then as their own table elements, and the player choices that come after the 'rancho' echostone's randomised prompts nested one level down but with the same format, and we don't worry about the rancho mechanic because we successfully implemented it in the echotot.lua file.
+I've updated a slight omission in convers.txt. Now try again.
+Just add '[c1b]'"Is that so?" and end the conversation at that, the echostone doesn't respond.
+user chat texts to gflo6s.txt
+
 dec5
 User Chat Inputs:
 1. Read /Gem/echo.lua and check for syntax errors that might lead to the line at '[b]' not presenting the single option that would lead to '[b1a]'?
@@ -613,5 +623,49 @@ Yes.
   could have made if it had added those two to the one already in the system. Go
   ahead with the fix!
 
+Dec 6th
+> We gotta make so the player can add new lines to convers.txt in-game! Do you recall
+  anything from where we were just before we were cut off by the quota limit (which some,
+  might I add, don't even believe in, I guess they believe in ... Santa, a bit better. Hush
+  hush on believing in Santa. Well, I could ask, does Santa believe in you? Don't burn your
+  breeches over it, it's not our mission to find out!) As you know, in your working
+  directory (/Gem) are two files: 'gflo.txt' and 'init.lua'. 3. Also 'gemsum01.txt'. 4,
+  including convers.txt. They are user chat inputs, a portable game file to make the
+  echostone function as a runestone which is always added manually, a more detailed summary
+  of all past interactions I managed to have saved (about 95% of them), and the set of
+  sentences, indexed, for the player and the echostone to use and sometimes choose from,
+  respectively. We had been building an approach to updating 'init.lua' with code that
+  would enable the player to, in the chat command 'say', by use of double brackets
+  introduce off-choice expressions and statements for immediate addition to a seperate file
+  (the 'convers.txt' file), which began by making attempts in a step by step manner with
+  continual rendering feedback to ensure both confidence and focus on results. Where are we
+  then on this?
 
-
+ Next week we're NOT going to be working on code, but on a 'creative writing / theoretical physics' project. I have to map it out and
+  produce an essay over two weeks. I'll want to use mathjax latex for my pdf. Can you print latex math formula if I type them in the latex
+  syntax? Here's an example: [math]\cos{pi()/4}(x+y) + \cos{pi()/4}(x-y) = sqrt[2][\math]. Now I know that's only about 19% latexified. I
+  wasn't sure if '+' and 'equals' needed to be written like '\plus' and '\equals' or not for a tex editor to take it and use it. I have to
+  cut my nails. I know sqrt[] would be something like '\sqrt{}' but I can\t be certain because it's foreign and counter my usual approach
+  to writing math. Can you interpret the expression above that is contained within the [math]..[\math] tex containers and print a visually
+  complete rendering of the expression as it would be in a professional latex-fluent document, with the exact syntax a user would type
+  below it on the same file? What kind of file can you print (pdf, png, jpg, doc, xml, html, gif...)?
+Actually, you can, you have done it before when I asked for a png print of a cellular automata python function. I think you can create a
+  program that can then be run to produce those other file types, a shell script or python script or something like that. Can you identify
+  the characters and symbols in 'Gem/symbols.pdf' and print them all, each and every one, to a text file called 'symbols.txt?
+Dec 11th
+│ > How do I specify that 'rancho's choices should be from a discrete          │
+│   partition over the unit interval, given as a tuple whose integer elements  │
+│   when normalised represent the probability of 'rancho' settling on the      │
+│   option (in lexicographical order) corresponding to it on that level of     │
+│   the conversation tree? (see  
+How do I specify that 'rancho's choices should be from a discrete partition over the unit interval, given as a tuple whose integer elements when normalised represent the probability of 'rancho' settling on the option (in lexicographical order) corresponding to it on that level of the conversation tree? (see gflo.txt, convers.txt, init.lua for user chat input logs, conversation tree index, and portable amendable game file resp.) That is to ask: When a random choice is made by the echostone, let it be based on probabilities given by n-tuples on the same table where the address of the conversation statement of fragment is listed, in the 'echo = {}' table in 'init.lua', for example, like this: (init.lua:Ln90:  "c1b1a = {rancho = {
+            {text = "Maybe we're speaking, maybe we're typing, but words are going which way, and I'm poofed!", is_end = true},
+            {text = "I wanna say no.", is_end = true},
+            {text = "We've a long way to go before you call that 'speaking'", is_end = true}
+        },
+	{ranpro = (2,5,7)}
+	},
+..."
+What's a good book for beginner new age hip hop enthusiasts?
+The tuple (2,5,7) means it chooses 1) with probability (2/(2+5+7=14), 2) with prob. (5/14) and 3)
+  with prob (1/2).
