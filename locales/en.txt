@@ -1,0 +1,364 @@
+1. [回] Huirune
+[]"Play Rindpebble Adventure?"
+[a]"Ok."
+[b]"No."
+[c]"Insert Notes."
+[a1]"Welcome to my Rindpebble Market Welcome Post, please choose a rent option."
+[a1a]"A week in the Reveller's Casket Inn, includes hedge clone work."
+[a1b]"Five days in the Baroness's cellar, sharing with her soldier son."
+[a1c]"One night in Mage Xao's attic  \n with book and potion priviledges."
+[a2]"Produce now your documents."
+[a2a]"You offer a worn badge with a handwoven moniker."
+[a2b]"You extract a prison release letter and signed plans from an inner pocket."
+[a2c]"'I have only my word, and it is founded in honour and respect. I assure you I am of good will and being new to this small place you call Rindpebble I place this gold in trust that a man might pass nameless this night.'"
+[a3]"You are leaving the stalls and weedy hags whistle for you to behold their mangley lichens and veggy rot. 'Grab yourself a free bag of Junglebog Musk, or an Eggly Packratsnot', you are beckoned. As you inch away politely, a thin athlete somersaults toward you, wearing a mechanical device which would reduce his perception of you, who stand most unfortunately in his path."
+[a3a]"You rush back towards the wenches' stall."
+[a3b]"You brace for impact with the moving cacophony of twirls and swirls."
+[a3c]"You holler and gesticulate expressively."
+[a4]"Suddenly it is dark and your bed is made, you are tired from the day's events, but able for one more activity before you sleep."
+[a4a]"You prepare a pen and paper to write on if you are inspired by a dream."
+[a4b]"You light a small fire of the scrap papers you collected and make a small prayer."
+[a4c]"You fish out the keys you were given at the stall and make detailed and perceptive analysis, until you fall asleep with them in your hands."
+[a5]"Your breakfast ticket is wrapped, with hundreds of other kinds of ticket, in a thick roll with an elastic band, and as you search you remember what your granny told you about greedy fingers making needy tinkers. Withdrawing only one, you store the rest away in your hammock-satchel and waltz over to the wall post to notch your departure. A black cat approaches and coughs dramatically at your feet. Being trained, you hum gently an ancient healing tune and the cough subsides."
+[a5a]"You gain a little experience, a lot of energy, but no health."
+[a5b]"You gain a little energy, a lot of health, but no experience."
+[a5c]"You gain a little health, a lot of experience, but no energy."
+[a6]"You are pushed by a disgruntled employee of the empire who in haste has also knocked a woman forward into her cart of veggies and sweet-picks, revealing on her ankle a tattoo that is the mark of an evil-smelling potion sect known to be underground of this very village."
+[a6a]"You can't remember who gave you these clues and check your journal."
+[a6b]"You decide to track her and wait for her to right herself."
+[a6c]"'Hey, is that the mark of that potion sect?'"
+[a7]"Another night in the village has you running low on vitamins and you stumble into the inn, there meeting a dogman and his walking kettle. He sings like a lark of woe and dead pirates. You are surprised when his dogwoman wife ambles out of the complex of trapdoors and shunts a stool beside him, knocking the kettle off into a hasty triple time dandy-dance. You ask may you burn rotten dragon tongue in his kettle for nutrients, and they chime a curse."
+[a7a]"'A tongue for thee, will cost you three: a farting beam, a splitting seam, and a squinting dream, but calum, kinestide, and welfog will provide.'"
+[a7b]"'To burn this bottle, will loosen your grip, to leave it idle, will cause it to drip.'"
+[a7c]"'The pressure within may seal the bin but the gaseous snout gives the fumes of doubt. Sip carefully, for this is a magic kettle.'"
+[a8]"Well fed and clothed in fabric suited to your mission, you part from the wandering nomad group and hurry towards the town wall, where a carousing priest is giving out leaflets. He catches your eye and soon is explaining with loving detail the squiggles and graphics most splendid on his sheets. It sounds like you would have a really good time if you followed him and wiggled your tongue while looking at the wordy papers, one of which he hands you, so you try voice an honest attempt at comprehension."
+[a8a]"A glitter of dancing nymphs swirl towards you from the direction of the sun."
+[a8b]"You feel lightheaded and ask to be left alone. You remember your 5th birthday present, a grey flag and stickle for warding thieves."
+[a8c]"Nothing happens."
+[a9]"The road becomes thick with mud and your feet are being watched by hungry landbaers from under the broadleafs of the roadside ditches. You want to release the brushfaced camel here, before the wild creatures ahead enchant it and turn its hump to chocolate, as you were warned by a nobody somewhere. It pains you to let ol' Fussywug go, so you pause and dip into your sack."
+[a9a]"You find a map route which avoids the wild danger but involves lots of swimming and nymphs."
+[a9b]"You enjoy a hearty meal of dried shrinkworts and hunglersots washed down with yuggus. The camel refuses to eat any of it, but takes water."
+[a9c]"You redeem yourself of this side mission and dejectedly bear up to a long journey back, so that the camel may live."
+[a10]"The wrestling triplets are hunting acties, which are little blobs of floating goo that reproduce around Gugg's farm with such speed that he must play immaculate fair tunes from his walkbot sidearm manager to stun them and protect his crop, but the triplets are leading by diving and grabbing them with special net-gloves. In reading mode, your parody-pet mainframe wristwatch has no functionality, but you can see that it has low battery."
+[a10a]"You enter the farm and draw power from the central supply unit."
+[a10b]"You observe them until you feel a yawn coming and keep going."
+[a10c]"You remove the watch and sack and join them, until all acties are got."
+[a11]"Counting markers makes you brave for the Great Ba's Challenge, but you have lost much fog-tags and need rest more than anything. In ear you bring vectors and stolen hush. When you see the queen ahead you make no motion for she is waiting for the camel and speaks directly to it, letting you pass without incident or cautions."
+[a11a]"You move a little faster, with much improved storage capacity, but unchanged comfort."
+[a11b]"You move with a little improved storage capacity, much more comfort, but unchanged speed."
+[a11c]"You move with a little more comfort, much improved speed, but unchanged storage capacity."
+[a12]"You do not know how the sky has stained, while your eyes remain darkened by the cursing fogs that issue like ugly florid gestures from your left and right."
+[a12a]"'I suppose that's worth a fortune back home, that stuff.'"
+[a12b]"'I hope the others have survived this torrid discoloration of an otherwise standard landscape.'"
+[a12c]"'I am getting itchy, and it has something to do with the sky being that color.'"
+[a13]"After walking over a moorish battement where none other than Halkfrost himself gathered straw to beat the wolves from his garden, your vision coheres upon an old oaf with brazen blue hair. He shuggles his foresteps and frostcads a can of rootmeal to you. Instead of greeting him, what do you do?"
+[a13a]"Accent your voice to sound like a robber that was on the newspaper as a hero of a fire incident."
+[a13b]"Propose he attend a weekly gathering of aidsmen of the flowershows and rodgassings."
+[a13c]"Juxtapose yourself in time with his huffing and hawings for the sense of rythym but restrain yourself from giggling when a bunch of sheep join in."
+[a14]"Into the woods now you find your legs have been aching without you noticing, so you sit back on a log and empty your satchel of its contents, so that they spread and gleam in the beam of light that cuts through the canopy. You have a rod, a gutter section, a fancy hammer with gold and jewel embossment, three loaves of elfen bread, a crusty scab from a rockjockey clouber- those deadly beasts which trip you up and gobble you, a yellow flag with green spots, miniature diggers- 5 of them, and 5 trained mice wearing little protective jackets. You also have sudocream, vaseline, aloe vera, soft glue, and a few letters and rare items crucial to your mission in an added compartment in your rucksack, which you do not remove."
+[a14a]"You eat and set off with all your things towards the next village."
+[a14b]"You nap, eat, and set off with only food and essentials toward the Mad Torquin's Shack, which is very far away."
+[a14c]"You set up a small reality show and make the mice do flips until it is dark, then flee a strange and enchanting nymph, who takes the elfen bread, mice, and the stuff you don't really need for your story."
+[f1]"Note removed. *kachick!*"
+[f1a]"Start"
+[g]"You arrive finally at a broad deserted landscape with some odd skeletons randomly dispersed in it."
+[g1]"Ok."
+[b1]"Want to play 'carrot'?"
+[b1a]"Ok"
+[b1b]"No."
+[c1]"You drop an envelope containing a script into the can. It is absorbed into the stone's inner matrix structure in a show of fibres and beams. This should be more interesting."
+[c1a]"Start"
+[d1]"Entrance of a dirty nightclub."
+[d1a]"Head to the dance floor."
+[d1b]"Get a drink at the bar."
+[d1c]"Find a table to sit at."
+[d1a1]"There are too many people here."
+[d1a1a]"Try to dance."
+[d1a1b]"Go back."
+[d1b1]"You spend all your money on drink."
+[d1b1a]"Leave bar tipsy."
+[d1a1a1]"You get a taxi home."
+[d1a1a1]"You dance until you are tired."
+[d1a1a1a]"Get a drink at the bar."
+[d1a1a1b]"Leave."
+[d1a1a1b1]"You walk home."
+[d1c1]"Your workmates are there."
+[d1c1a]"Sit with them."
+[d1c1b]"Go back."
+[d1c1a1]"You get some overtime done."
+[d1c1a1a]"Leave bar."
+[d1c1a1a1]"You get a lift home. You made it."
+[e1]"Game Over."
+
+2. [可] Echostone
+[]"The shadows lengthen, but the path remains. What do you seek?"
+[a]"I seek knowledge."
+[a1]"Knowledge is a river. Some drink from it, others are swept away. Be wary of its currents."
+[a1a]"I will be careful."
+[a1a1]"Caution is the shield of the wise. Go now."
+[b]"I seek nothing."
+[b1]"To seek nothing is to find everything, and yet, you have found me. A paradox."
+[b1a]"Indeed."
+[b1a1]"The world is full of such beautiful contradictions. Farewell."
+[b2]"Then click no further, little goblin, you're home and dry!"
+[c]"Who are you?"
+[c1]"I am the echo of the stone, the whisper of the world. I am what you make of me."
+[c1a]"A strange answer."
+[c1a1]"The truest answers often are. Until we speak again."
+[c1a2]"Can you imagine a stranger one?"
+[c1a3]"Yeah, I was just a water rune, but was crafted into this by use of a gem."
+[c1b]"Is that so?"
+[c1b1]"So it is, m'lad"
+[c1b1a]"And are we speaking again now?"
+[c1b1a1]"Maybe we're speaking, maybe we're typing, but words are going which way, and I'm poofed!"
+[c1b1a2]"I wanna say no."
+[c1b1a3]"We've a long way to go before you call that 'speaking'"
+[c1b1b]"Is it really?"
+[c1b1b1]"Yes."
+[c1b2]"Aye aye cap'n."
+[d]"I seek absolution"
+[d1]"I seek absolution too! How about you tell me what you're doing so I can do it too!"
+[d2]"Many's a fool goin down that road, partner, if'n they isn't got none to boot."
+[d2a]"You should have led me the other way then, halfwit!"
+[d2b]"I go it alone, buddy"
+[d2b1]"Fool! Tracks lie cold in the rush of weaker ditherers, you must quickly read them and avoid the same end!"
+[d2b2]"Then you're half as wise as I, who saw no rush for absolution!"
+[d2b3]"That puts me on the road to obsoletion, hahaha. So what did you do to get here?"
+[d2b3a]"A promise was broken, and I was the one to break it."
+[d2b3b]"Is it one great misstep that brings a person here, or a thousand smaller ones?"
+[d2b3b1]"Perhaps a single, profound error that echoed through time."
+[d2b3b2]"A cumulative weight, a slow erosion of intent."
+[d2b3b3]"It began with a tiny whisper of doubt, and here I am."
+[d2b3c]"I told a dwarf his beard was splotchy and reccommended he give it a trim. It... escalated."
+[d2b3c1]"You did not! You should offer something useful if giving a dwarf advice, like a razor, shampoo, or a mirror."
+[d2b3c2]"That is a very personal thing to comment on in the dwarving community! You must have had a falling out after that!"
+[d2b3c3]"A deliberate insult from a goblin, who of course does not grow beards unless in dwarven captivity, well I suppose you skipped town after that?"
+[d2b3c3a]"I was locked in Master goblin Stax's toolshed and had to read books until them dwarves were able to forgive me."
+[d2b3c3b]"I became known as 'the barber', and not in a good way. It was difficult to find a boat with that reputation."
+[d2b3c3c]"No sooner had I spoken was I then taken to the dungeon. Hence this beard. It was easy to sneak out then."
+[d2b3c3c1]"So the beard is a mark of your residual dwarven penance-magic. Are you going to keep it?"
+[d2b3c3c2]"How did you cover up the green skin?"
+[d2b3c3c3]"Did you learn anything in the dwarven dungeons?"
+[d2b3c3c3a]"I got the whole layout in here *taps wrinkly forehead*"
+[d2b3c3c3b]"I learned not to comment on a dwarf's beard, the hard way. It happened a few more times, and I was sent deeper and deeper..."
+[d2b3c3c3c]"I overheard a guard saying Dwarf Dottimuck is plotting an uprising."
+[d2b3c3c3c1]"Is that the dwarf who famously defended the goblins when they rebelled against Dwarf Spottysoot?"
+[d2b3c3c3c2]"Should you be concerned at all about what the guard said? It could have been a double ditch booby bounty just to fool you."
+[d2b3c3c3c2a]"There was only solemnity in his tone. War is coming for sure!"
+[d2b3c3c3c2b]"I gave them nothing! Besides, Dottimuck is nowhere to be seen around here, why should I worry, even if it is true?"
+[d2b3c3c3c2c]"I gave them very little. As far as I'm concerned, Dwarf Dotti is as finished as the Laws of Ley!"
+[d2b3c3c3c2d]"I tried to ask around, but, you know, the beards... distracted me."
+[d2b3c3c3c3]"No, I mean did you learn any mathematics?"
+[d2c]"There's no easy way, is there?"
+[d3]"Who are you?"
+[e]"What path?"
+[e1]"That path you take your time on, of course."
+[e2]"The one you waste the whole day working on just to wind up where you started. Or am I wrong?"
+[e3]"The path that will soon be submerged in darkness, my friend."
+[e2a]"If I wind up at the start again it will not have been in vain."
+[e2a1]"Reload and relate."
+[e2b]"It's no race to me, but it could be less work."
+[e2c]"Then I had better get back before darkness falls!"
+[e2b1]"It's no work at all if you know the return!"
+[e2b2]"Is it too much for you? Would you like some pointers?"
+[e2b3]"What are you building?"
+[e2b3a]"A dialog path! This is [e2b3a] on the path!"
+[e2b3b]"A little walkway around Stax's house."
+[e2b3c]"A school"
+[e2b3a1]"Indeed. A path of words can be a powerful thing. Where does it lead?"
+[e2b3a2]"Fascinating. Is this path visible to others, or only to the mind's eye?"
+[e2b3a3]"And what revelations do you hope to uncover on this dialog path?"
+[e2b3a1a]"Perhaps to a deeper understanding of the self, or the intricate dance of thought."
+[e2b3a1b]"It leads to new connections, new stories, and unforeseen destinations."
+[e2b3a1c]"To the heart of the labyrinth, where all paths eventually converge."
+[e2b3a2a]"It exists only within the architecture of thought, a private gallery."
+[e2b3a2b]"It is a blueprint, waiting to be shared and built upon by others."
+[e2b3a2c]"Its visibility depends on the clarity of the observer's own vision."
+[e2b3b1]"It's a matter of serving yourself with choices at the end of the day!"
+[e2b3b2]"It's a question of subtlety and speed, which will win?"
+[e2b3b3]"A fine operation, for a goblin's servant, flowingpoint!"
+[e2b3a2d]"Both, for it is a bridge between the inner and outer worlds."
+[e2b3a2e]"It is a whisper that can only be heard by those who are listening."
+[e2b3a2f]"It is a path etched in light, visible only when the sun is right."
+[e2b3a2c1]"Then clarity is the key. How does one sharpen their vision?"
+[e2b3a2c2]"A profound statement. So, the path reveals itself to the worthy."
+[e2b3a2c3]"And what if the observer is blind to their own potential?"
+[e2b3a2c1a]"By possessing choice, then moving with intention in a continuous way."
+[e2b3a2c1b]"By knowing how a completed mission should feel"
+[e2b3a2c1c]"By eliminating the unneccessary, until the essential reveals itself (quote from Bruce Lee)"
+[e2b3a2c2a]"A worthy path should reveal itself to all who step onto it"
+[e2b3a2c2b]"The worthy path might also be a 'wordy' path, no?"
+[e2b3a2c2c]"Worthy of knowledge, or worthy of passage? There's a difference. You can know but not go, you can go but not know..."
+[e2b3a2c3a]"The observer can promise to return"
+[e2b3a2c3b]"If the path itself has potential to challenge the observer... I can build it with my own potential, for it would make me worthy of the build"
+[e2b3a2c3c]"The observer is not blind to everything. The path is a free choice, and if not taken at all, there are others unseen."
+[e2b2a]"For this game?"
+[e2b2b]"For node construction?"
+[e2b2c]"Its meant to be hard, but not impossible. Less is more."
+[e2b2a1]"Yes, for this game we call tuk. It is a game of building, of weaving words into worlds."
+[e2b2b1]"There are many steps. Would you like a walkthrough?"
+[e2b2b1a]"Yes."
+[e2b2b1b]"No."
+[e2b2b1a1]"Basically draw it, label the vertices and faces, make a uv texture to map to, create an object file with a notepad that lists coordinates of vertices (right hannded coord system) uv mappings face normals and face definitions, and register the node in a lua file in some mod folder. A spreadsheet can help with animations. See [https://github.com/flowingpoint/Notes/blob/main/flowingpoints_koin_notes.pdf] for the journal I made while creating my very first dynamic placeable node."
+[e2b2b1a1a]"OK"
+[e2b2b1a1a1]"See [https://github.com/flowingpoint/Notes/blob/main/flowingpoints_koin_notes.pdf] for the journal I made while creating my very first dynamic placeable node."
+[e2b2b1a1a1a]"OK"
+[e2b2b1a1a1a1]"..."
+[e2b2b1b1]"Dig it and dump it, order it in, smash it and crash it, throw in the bin."
+
+3. [不] Knostone
+[] "You feel a tremor beneath your feet. An ancient stone hums with a 
+faint, almost forgotten energy. What do you do?"
+[a] "Tap the stone with your foot."
+[b] "Speak randomly in the hopes that it will converse back."
+[c] "Make some mental calculations."
+[d] "Remember the old ways."
+[a1] "Echoes… resonance… a forgotten language stirs within the stone."
+[a1a] "Tap a jazzy groove."
+[a1b] "Tap to an old classical."
+[a1c] "Stop tapping. It knows you're here."
+[a2] "The echoes are pleasing to the ear. Well done."
+[b1] "The knowstone is clearly struggling with accurately 
+following complex instructions. You aren't sure you're in control here. What do you do?"
+[b1a] "Begin whispering your thoughts to close the subject."
+[b1b] "Request a list of commands."
+[b1c] "Wait. Keep talking anyway. But what are you saying?"
+[b2] "Password is incorrect. Please try again later."
+[b3] "Password accepted. Welcome back, Steve."
+[c1] "Do you require anything in particular to go with that obsoletist drudgery?"
+[c1a] "Should I?"
+[c1b] "I hope not, this is basic physics. Real basic."
+[c1c] "<Take offense>"
+[d1] "Are we starting again?"
+[d1a] "Is_end = true!"
+[d1b] "Is_end = false... hmmm. That's new!"
+[d1c] "Look, Knostone, you insulted me. How could you forget that?"
+[a1a1] "What are you playing?"
+[a1a1a] "I don't really know. Something blue though..."
+[a1a1b] "In the beginning I was playing, the mood all changed..."
+[a1a2] "The mysterious stone ceases its strange humming, as though listening."
+[a1a3] "The Knostone glows radiantly, but since you can't seem to understand its purpose, you decide to abandon it and move on."
+[a1b1] "What would you like me to play?"
+[a1b2] "The knostone responds to the player's evocative 
+melody with a simple instrumental whinny, indicating a receptive curiosity."
+[a1b3] "The penultimate blaze of the mysterious stone's glowing rune is accompanied by the sound of a distant explosion. Then it asks: "What have I done?"
+[a1b1a] "Actually could you shut up, I'm trying to concentrate."
+[a1b1b] "Something from the early times, if you can."
+[a1b1c] "I'm actually *trying* to turn you on!"
+[a1c1] "You notice patterns on the walls. You don't like it."
+[a1c2] "Someone, or some *thing*, is trying to distract you from your very important mission. They're very good."
+[a1c3] "You're not giving anything away just yet."
+[a1a1a1] "The music continues..."
+[a1a1b1] "I don't have time for the whole rap, I'm outie!"
+[a1a2] "The mysterious stone ceases its strange humming, as though listening."
+[a1a3] "The Knostone glows radiantly, but since you can't seem to understand its purpose, you decide to abandon it and move on."
+[b1a1] "It's like you're not there. Nothing happens."
+[b1b1] "Yeah, but how?"
+[b1c1] "You want me to take it from here, buddy?"
+[c1a1] "..."
+[c1b1] "I know physics. I'm the 'KNOWSTONE'! Ask me anything. I'll show you."
+[c1c1] "I mean, like, in a nice way. Just trying to help..."
+[d1a1] "Then take all the time in the world. Things are as they should be."
+[d1b1] "Initiating backup world in 3... 2... 1..."
+[d1c1] "Talk to the Echostone about your problems, ok?"
+
+4. Voidtime messages = 
+[1] "Am I boring you? Getting to eat what you want is a vision of the creators that has not been buried, nor will ever be. We understand if you try to use a more heated effort to extract new flavors for one and all to enjoy, yet be safe, and not sorry that you're food had to be picked for you by more experienced miners. Here is a list of some things to avoid. Webbed satchel-flaps, Writing rye, Quoth keystones and their green mosses, Winkleberry, and Primesh. Avoid those.", 
+[2] "Render yesterday a new seamless twin end- Rain easy and Root wend.",
+[3] "Once I fled the scene, I left a low level wooden tool at the dirt show I was playing in. Hunted, sunkissed skins all on my decieving and tardy trail. Wag not your head or tail as though a font as noble as this could not have had such underpinnings. Does he pronounce death as eerily as his unseen ghosts do? Now I will show you how to use a Mortar and Pestle. Try to flick seeds into it. Reel the wheel to the prepared or cleared slot and get ready. I am used to bushels being handed early in but for the currier of newcomers favours it seems daft to presume your bread has any ingredients at all, now I see no reason to think otherwise. Even out the scene, where are the freshest greenest places to heal those huger wounds?",
+[4] "Get wood then from a log, and seeds from a patch of grass, and expect to wait. When that is done, take the bushel that you will turn to bread using the Mortar and Pestle, and even now you may be thinking, does this evil device serve another purpose? It does indeed have a capacity to, shall we say, greet you with malice when you need bread, and just to be safe, you packed nothing else. Ready? Good. Put four in. Use the Pestle on it. You can also mix rye, wheat, oat and barley to make the Bracken of the Bog, which is all over called brown, for those darker times, for the colour, and for your soul, but I won't recommend it here. Use just one type instead. Get shaking and baking!",
+[5] "Even thoough it is compulsory to eat, some don't. Whereas until now none in the kingdom would deny its invaluable space in our culture, we don't really absolutely need to eat, it's true. You can't see it, but you'll slowly start to dissappear, thinner and thinner until you're thin as a plank... Remind yourself and be a part of common decency, and stay visible, eat bread, and use tools.",
+[6] "Eating does not make a king.",
+[7] "Where are you going, Mr Oyrost? -I am planning to combine two important pieces of information. One is the original, and another is a combination of an old copy with a new one, which will remain as is but the resulting amalgamation will replace the original. -Are you going to be free to throw ball? -My, no. I will have to repeatedly combine the two pieces I'm left with, such that the one which has fewer sources is replaced each time. -Come play ball, Mr Oyrost!",
+[8] "To give up my dream is to rake in a day, And feed my candlelit seance. Won't you fold in your joan of arc? I do not remember why or how.",
+[9] "I know often you say bells are great for the village, Samlive, but frog's wit and tell infests their ringing. Croak croak croak.",
+[10] "We won every war, let's congee soup forever. We will right our every headshake under the weather. Kindly massage away those hideous gum disorders, and come to bed to sleep like a fighter.",
+[11] "Ask Spakle, d'littlest show. Sands gone tundra, panther got fog, kerbs rotting like ants wedded neath.",
+[12] "Long ago, there was a tree which gave fruit of electric blue, which if left outdoors in winter, would harden and could be used to slowly mold a rare curtain exterior which could combine with others to form a new tree. This is now long forgotten and all people do is prop up what's left of the tree with cracked magma sheaves.",
+[13] "Often three corners are not enough. If you can believe it, a fourth can be sought in isolation from the others, and reconnected to fulfill the purpose of completing a square. Still, many times I have landed myself with three only, and sometimes two and one. Be prepared to drop these extras if a complete square is beyond your scope, but do so with further combination in mind.",
+[14] "Can you be the holy?",
+[15] "Each grunt ended a vision a time and a half to add to the next, as three continued over the dark patch that wasn't meant to be. It had to be remembered every which way, wringing the straggling hunks of earth for minutes to extract clues. It was refreshing when they heard a whistle acres off the track, and hounds protecting a fox emerged. Pills in a box won't give you that. Keenly a stale bread was fished out and broken for them and they were in more of a hurry than the party of curious pan-spearers that called themselves Rockmeat and Grassdew.",
+[16] "Emiliano Zaphtra the painter argued that his garden grew nothing in the shade of the new black tower, but let's not blame the tower, for it was also in the shade of the great storehouse and the house of Tomás the warrior. Tomás knew that cocoa beans would grow on a dead jungle log even in the shade if it was hot enough but was not always there to resow. Some days he would simply dissappear en route to a convenience in Pragdice Magee, to see Knud Jeppeson or to visit the Mazuric Institute, and return empty-handed in the night without a word of it...",
+[17] "...Then a visit by Martin, who had had his house blown in half in an accident, would visit with his tamed wolf and bolster Emeliano with his news on forest-keeping. On one such day Emeliano had been losing himself in blackening a spider's legs on a large canvas. -News, Emiliano. said Martin, Tower's range has increased threefold. We are going to see if we can get in and manage it. -It isn't range they're after, but stealth. said Emiliano, Range reduces stealth. Tea?...",
+[18] "...Tomas, who was preparing a lunch of wheaten cookies tapped his kitchen window, alerting the pair in the garden that he too would have tea. -I'll see what is safe to eat in my kitchen, said Emiliano, laying down a brush that was a long twig with a dandelion tip, but take off that headgear won't you? -After tea we are climbing this tower. Tomas found a rotting loaf and broke it. -You'll see what's in it. Knud climbed the Mazuric and spied in. He has just gone to milk his cows but when he returns, we are going to scale your roof from my balcony, and there's an entryway to one of its legs up there. -Cool. Emiliano nodded that he was game on the gamble.",
+[19] "It complaining takes his time makes way for the street mainly. Do exams get paid, rest on nobody's. Pressure to slam the rain. We could knock out a few salesmen's talents and shave the quicksoups in the nights to grow quicksands, were we now and again around and about.",
+[20] "Quitting ettiquette, unless it's useless, is about those you leave behind. Can you save them? Then you find out, years later, of course you can, because they push you in again. Do they clamber upon your dreary slag to rubber out the titular flag?",
+[21] "The man with too much sideburns, is he a werewolf? Is the lady who cackles a witch? Are little people digging tunnels while we sleep? Look at yourself, what do you do?",
+[22] "But how can we have a binary tree if we don't have binary seeds? Recalling the soak of seeds that floated or sank, those that sank stayed in and those that floated covered the surface in groups that made little islands of vegetation. The dust, crosshairs, and even the gratings were also binary in some way. So what is up with the binary tree? Energy crawls down them, ticks pin along their stems, their roots grow thick with other roots, and it's the miming man's den.",
+[23] "Why the hell Can't they keep Thistles and burnbush Off the sheep?",
+[24] "Do right when Say to men Please accept Whatever's left",
+[25] "Under the deep are bones of fish. Then let's dive and take them up to make magic doors! Like everybody knows, the door to heaven or hell is two-sided, but to limbo is one torn away. No-one thought of a one-way door in Ice Country.",
+[26] "Doubt and dismissal, on prestige. Holding station, losing and lying. Were you right to ask `Is this real?`, Just because you are melting.",
+[27] "Unhealthy. Won the mean things over. I have a mindtest and IT is open. How great is the liar who hurts, Taking questions from a worm?",
+[28] "Who guards a place of rest, That can stay alert for weary folk, Who breaks laws to stop and ask,`Can I rest here?`- better keep going.",
+[29] "To get the black rock and not get lost, Underground reliables are red and blue. What is there to be saved in the crust, Of vertiginous extractions? Nothing new.",
+[30] "Heroes are free to wander, but the city needs a surveillance mechanic, some nobody who's cheap, ready to take the reins and pick through thousands of hours of tape...",
+[31] "If Tinny Jangle's Desert becometh ice, sand to snow and a palace for vice, you could make a wee hovel for your pressure plated whizzdom. If you haven't made your dreams all apparent why not list 'em? Opening up a case for talent in a museum of light, with dedications to yon Escher, and the halls of mice. While in the interstellar domains there hardened floating concretes, walled in glasses, plant filling gasses pill mill to the brim, where at level with the outside, insects face the permascreen, and the eyes of the machines of science reflect manifold within..."
+[32] "...Floating thus so many crystals beg the void that is its capsule, not to sunder to the black holes the intended solemn spaces, though the greed and gratitude of those dark hubs hold our attention, that a dragon might burst forth from any walls we dare to mention, is it not the greatest welcome from a gravitas so punk, to return almost nothing of the light that twisted sunk in the bowels of the great beast we know not that always drunk, and hurls a light we cannot see that does a dream we cannot be to enhance the splendid monotones of mass specular gunk. Full foray and festive shading, flying instruments are wading through the digital dramatics of a quasar's soul slamdunk...",
+[33] "...In repentance of the situations that a humanoid encounters is a kind of moving target that the ministers won't market, for its depth of introspections, rented will, and intersections with bulbosities and globular monstrosities' convections. Time has took a tailor off the cuff and put a sailor in the torrent's keep that insignates a whorling mental paladin. 'Ere flounders in its founders all aghast and bearing whim, the curesome curries and the worries of the he when it was him.",
+[34] "day 211, 22:7  The catmen creep and rush the tiling together of Tinny Jangle...",
+[35] "day 223, 12:38  Did the kingdom's sheriff notice when the grandfather clock stopped? He was there to witness it's installation, when five workers were paid a hefty wage to retrieve it from the abandoned sun-cage over the grey fields and bring. But forty weeks later it was counting so little that the courtiers had lost sleep and finally the queen said shove it to it and it was made a better piece of furniture there and then.",
+[36] "day 223, 16:14  Don't fear the spiders, though they are in four corners above you and live in three lines about them, and have all the crack you don't, you don't fear them the way they do as you don't see them do you?",
+[37] "day 223, 22:26  Silver sand is in high demand up there",
+[38] "day 224, 9:47  Ya need a team down here. Get what you need. Helps everyone lift.",
+[39] "day 224, 23:28  As I recall this world is infested with dragons down below somewhere. Out shot an angry clod of yellow, and caused me to reduce my ration of enlivening bread.",
+[40] "day 226, 6:1  Skill in the dark, there could be spiders but I hear none.",
+[41] "day 227, 0:0  A simple job is a good idea sometimes.",
+[42] "day 227, 17:36  Did I do the right thing? Did I do it OK? Do I have a time and a place to see my face when I do it that way?",
+[43] "day 231, 17:7  I think there must be many hows before a why.",
+[44] "day 289, 0:33  Tonight I was reminded that it is unwholesome to break connection with the other worlds, so I wonder if I can stay my curiosity to bed a total mistake fled.",
+[45] "day 289, 22:57  Thinking of taking my horrible poetry down with me on a search for treasure, I met the living yellow once more, scaring all life to my fingertips. I clambered out, missing that special diagonal jump in my haste. Is it a self-aware mese? Does it contain other things within it? It seems now to own the cave until perhaps I find my mese crystal which woulzd give me... what I need.",
+[46] "day 308, 5:27  New arrivals have been busy. Getting shallow stones to repair southern aspect.",
+[47] "day 313, 14:38  They have been sent away and their intrusive storehouse regathered.",
+[48] "day 316, 23:15  today is an unlucky day for travelling or even hunting down missing blocks because the moon is greyer than my money minded mask and I have no intention to eat.",
+[49] "day 324, 2:1  Two meetings.",
+[50] "day 324, 3:4  Coal is short.",
+[51] "day 326, 0:18  Old calendar has another 120 gone by but this book says otherwise.",
+[52] "day 330, 19:8  These are the hands that made the bread.",
+[53] "day 333, 15:33  If I was Top, I'd make another Top. You could be another Top of the World.",
+[54] "day 337, 17:31  They brew rice in tombs so why die?",
+[55] "day 338, 18:5  It is a staple of our villages that we can not change, but change is much desired, badly so in the underneath world, that we will peck our fields slim to survive with their indulgences. It is not a now that we should seat ourselves in forever.",
+[56] "day 367, 21:50  An older tale is of a cutter's take and a putter's make.",
+[57] "day 370, 8:12  Five eons have passed.",
+[58] "day 370, 21:58  Attempting to slither back into this residual garnishing of hoists and handlebar hums of virtue marred by the dark phd fellow at the very entryway.",
+[59] "day 371, 1:50  I've no idea but to keep it lit. I leave it less rich, and draw out that figure. Yet passage is blocked both ways. Only an alternate to meet the first path could I find to attreact such prodigious attacher or relatcher of gated top-bottom yet pivotal relations.",
+[60] "day 373, 13:34  In this world where go dying victories, for which histories do your days matter?",
+[61] "day 374, 11:12  It has to be of great importance.",
+[62] "day 386, 19:55  I'm pretty much done with this path. Just throwing down the last bit so I can look at it.",
+[63] "day 389, 0:41  Suddenly I'm arrested and have to spend a night in the prison. 'Could you explain how little Gurdsenble is going to exercise in her wheelchair about the villages with so many crooked holes either side of the white brick way to trip into?' I am to ponder this and have a solution in the morning.",
+[64] "day 389, 6:28  'I will move her to the greenhills where she can mosy cosy.' I declared shiftily.",
+[65] "day 392, 13:21  Those holes are gonna get bigger if I don't do something.",
+[66] "day 401, 2:26  What of the mind of a despotic king could send a horde of cat-men and Bowling bison over our very peaceful kingdom? Is it our meagre stores of fruit, or the potential enslavement of our industries? Am I losing touch with my revolting contacts over the danger windswept calcified outlands? Yes. I surely am...",
+[67] "day 401, cont. ...As it were, we have no means of relaying safely our discoveries other than the portal, which I recall has had better years, and I will recount that in due time. Mind you, for all it's worth, Little is known even by myself of these contacts for which I struggle deeply to even bring to mind...",
+[68] "day 401, cont. ...For there is much to learn about this place and we must all be busy or occupied with invention to outlie as minutae regulated spirits under a titular hand that is wringing our souls eerily day by day. Remember there are the three great things and the two lesser things that no hand can throw our way without unsettling all that one can hope to deposit as resource or right and these are set ... funny I don't remember. I shall use colors to represent them anyway and perhaps I shall meet them as events unfold...",
+[69] "day 401, cont. ...I have no intention of breaking kingdom rule, so I shall consider any such influence as a minor threat to local sanity, but a major discovery in the realm of invention. On the other hand, one need not concern oneself with these ugly unseen headaches which I would rather grab and bend to my own will, so it is as matter ordains and not as smarts can contain, the peeling of senses from memory...",
+[70] "day 401, cont. ...When did I ever touch that number three all at once? Could I even count myself among them? Out with it, see! A travel to the death it might not suit the kingdom, but in that case I shall leave my hopes at the edge, as they might. Weed and warcraft may not enter the kingdom from the great beyond for all it costs their kingdoms, through waterstorm, firewall, airplosion, and earthball to come knocking for a silent king and his egoless servants? Impossible.",
+[71] "day 403, 13:52  Lucky the cool cat gave a pointer.",
+[72] "day 412, 18:1  All items stored in the new drawers have dissappeared. It's well nothing but a few tin blocks and sundries are missing.",
+[73] "day 413, 6:40  I pointed at the stars all night. Now what do I have to do to get these corals to grow under the paths?",
+[74] "day 413, 18:27  Learned recipies",
+[75] "day 414, 18:0  A most spine-tingling growth- an anthill- has blossomed over what was once a lovely safe looking area.",
+[76] "day 414, 19:15  Evacuating, I open the front door against their grotesque multi-textured wall.",
+[77] "day 429, 6:1  Do not disturb the marshes.",
+[78] "day 433, 15:19  Coal should be considered scarce, but to motivate mining, torches will be in unlimited supply.",
+[79] "day 456, 6:36  Where's the bark?",
+[80] "day 282, 15:28  The wooden pick cannot remove the misplaced sandstone half block over the new prison cell, I understand my last working stone tools are elsewhere and this strikes me as an ironic befuddlement. The wall of stone which would separate the inside from the outside already complete, it is the decoration which arrests my attention. It will be like this so.",
+[81] "day 456, 9:44  I know it's in a small room, with a chest and unremarkable door, and not north of the tower.",
+[82] "day 458, 8:30  Water wets the dirt, and them boards were used up.",
+[83] "day 465, 3:30  Improving item mobility leaves open empty chests.",
+[84] "day 475, 21:0  A chill in my spine as I wonder where these singular errant bones arose after seeing to the fields.",
+[85] "day 481, 17:17  Now that mithril has arrived steel shall be divided.",
+[86] "day 482, 4:22  How quickly can you create beauty?",
+[87] "day 487, 8:10  I'm so dense I_forgot I was carrying the bags.",
+[88] "day 506, 5:35  I screamed when the dark phd wandered up out of my quested and questworthy chambers, leading to a new doorway for our situation, which had frightened me, was such as to require a partition of sorts.",
+[89] "day 523, 1:12  She wants you to control your destiny, do you have what it takes? The Bront sisters, the marvellous Ripwailers, and Easy Torie are next for the gold take.",
+[90] "day 556, 16:58  Oh my little spider friends, where have you been?",
+[91] "day 628, 17:52  Discovered Watoga.",
+[92] "day 628, 21:17  There are about a dozen buildings. A cat-man keeps it. We held cups together. This memory is fleeting and fading like the light.",
+[93] "day 725, 8:52  When they follow, we split the caves.",
+[94] "day 749, 12:49  Bring the horse to the tower of bones, and the blue berry tree might grow.",
+[95] "day 854, 20:18  Great, another day and I've no rule for mobs, the dials can't be sold without trade with hunters, and outside is getting cold.",
+[96] "day 868, 16:3  I see a baker in myself when the dun-tungue bearing my brass stick trundles a new card- to achieve, that is, a title must be worn briefly, and seen clearly.",
+[97] "day 871, 13:45  Broke a screwdriver on the modern house.",
+[98] "day 887, 20:8  A fortnite in and about a full bag of cotton seeds down. Sure is nice outdoors this season."
+

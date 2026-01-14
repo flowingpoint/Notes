@@ -1,0 +1,365 @@
+1. [回] Huirune
+
+[]« Jouer à Rindpebble Adventure ? »
+[a]« Ok. »
+[b]« Non. »
+[c]« Insérer des notes. »
+[a1]« Bienvenue sur mon message de bienvenue Rindpebble Market, veuillez choisir une option de location. »
+[a1a]« Une semaine à l'auberge Reveller's Casket Inn, comprend le travail de clone de haie. »
+[a1b]« Cinq jours dans la cave de la baronne, en compagnie de son fils soldat. »
+[a1c]« Une nuit dans le grenier du mage Xao  \n avec accès aux livres et aux potions. »
+[a2]« Présentez vos documents. »
+[a2a]« Vous présentez un badge usé avec un surnom tissé à la main. »
+[a2b]« Vous sortez une lettre de libération de prison et des plans signés d'une poche intérieure. »
+[a2c]« Je n'ai que ma parole, et elle est fondée sur l'honneur et le respect. Je vous assure que je suis de bonne volonté et, étant nouveau dans ce petit endroit que vous appelez Rindpebble, je place cet or en dépôt afin qu'un homme puisse passer incognito cette nuit. »
+[a3]« Vous quittez les étals et des vieilles sorcières maigrichonnes vous sifflent pour que vous regardiez leurs lichens abîmés et leurs légumes pourris. « Prenez un sac gratuit de Junglebog Musk ou un Eggly Packratsnot », vous invite-t-on. Alors que vous vous éloignez poliment, un athlète mince fait une pirouette vers vous, portant un dispositif mécanique qui réduirait sa perception de vous, qui vous trouvez malheureusement sur son chemin. »
+[a3a]« Vous vous précipitez vers l'étal des servantes. »
+[a3b]« Vous vous préparez à l'impact avec la cacophonie mouvante des tourbillons et des remous. »
+[a3c]« Vous criez et gesticulez de manière expressive. »
+[a4]« Soudain, il fait noir et votre lit est fait, vous êtes fatigué par les événements de la journée, mais capable d'une dernière activité avant de dormir. »
+[a4a]« Vous préparez un stylo et du papier pour écrire si vous êtes inspiré par un rêve. »
+[a4b]« Vous allumez un petit feu avec les bouts de papier que vous avez ramassés et faites une petite prière. »
+[a4c]« Vous sortez les clés qui vous ont été données à l'étal et faites une analyse détaillée et perspicace, jusqu'à ce que vous vous endormiez avec elles dans les mains. »
+[a5]« Votre ticket de petit-déjeuner est emballé, avec des centaines d'autres types de tickets, dans un rouleau épais maintenu par un élastique, et tandis que vous le cherchez, vous vous souvenez de ce que votre grand-mère vous a dit à propos des doigts avides qui font des bricoleurs dans le besoin. Vous n'en retirez qu'un seul et rangez les autres dans votre sac à dos hamac, puis vous vous dirigez vers le poteau mural pour marquer votre départ. Un chat noir s'approche et tousse bruyamment à vos pieds. Bien entraîné, vous fredonnez doucement un ancien air apaisant et la toux s'apaise. »
+[a5a]« Vous gagnez un peu d'expérience, beaucoup d'énergie, mais pas de santé. »
+[a5b]« Vous gagnez un peu d'énergie, beaucoup de santé, mais pas d'expérience. »
+[a5c]« Vous gagnez un peu de santé, beaucoup d'expérience, mais pas d'énergie. »
+[a6]« Vous êtes bousculé par un employé mécontent de l'empire qui, dans sa précipitation, a également poussé une femme vers l'avant dans son chariot rempli de légumes et de bonbons, révélant sur sa cheville un tatouage qui est la marque d'une secte malodorante connue pour être clandestine dans ce village même. »
+[a6a]« Vous ne vous souvenez pas qui vous a donné ces indices et vous consultez votre journal. »
+[a6b]« Vous décidez de la suivre et d'attendre qu'elle se relève. »
+[a6c]« Hé, est-ce la marque de cette secte de potions ? »
+[a7]« Une autre nuit dans le village vous laisse à court de vitamines et vous trébuchez dans l'auberge, où vous rencontrez un homme-chien et sa bouilloire ambulante. Il chante comme une alouette le malheur et les pirates morts. Vous êtes surpris lorsque sa femme chien-femme sort tranquillement du complexe de trappes et pousse un tabouret à côté de lui, faisant tomber la bouilloire dans une danse dandy précipitée à trois temps. Vous demandez si vous pouvez brûler de la langue de dragon pourrie dans sa bouilloire pour en tirer des nutriments, et ils lancent une malédiction. »
+[a7a] « Une langue pour toi te coûtera trois choses : un rayon de pet, une couture fendue et un rêve louche, mais calum, kinestide et welfog te les fourniront. »
+[a7b] « Brûler cette bouteille relâchera ton emprise, la laisser inutilisée la fera couler. »
+[a7c]« La pression à l'intérieur peut sceller le récipient, mais le bec gazéifique dégage des vapeurs de doute. Buvez avec précaution, car il s'agit d'une bouilloire magique. »
+[a8]« Bien nourri et vêtu d'habits adaptés à votre mission, vous quittez le groupe de nomades errants et vous vous précipitez vers les remparts de la ville, où un prêtre en train de festoyer distribue des tracts. Il attire votre attention et vous explique bientôt avec force détails les gribouillis et les dessins les plus splendides sur ses feuilles. Il semble que vous passeriez un très bon moment si vous le suiviez et remuiez la langue en regardant les papiers remplis de mots, dont il vous tend un exemplaire. Vous essayez donc sincèrement de comprendre. »
+[a8a]« Un tourbillon de nymphes scintillantes virevolte vers vous depuis la direction du soleil. »
+[a8b]« Vous vous sentez étourdi et demandez qu'on vous laisse seul. Vous vous souvenez de votre cadeau d'anniversaire pour vos 5 ans, un drapeau gris et un bâton pour éloigner les voleurs. »
+[a8c]« Il ne se passe rien. »
+[a9]« La route devient boueuse et vos pieds sont observés par des landbaers affamés qui se cachent sous les larges feuilles des fossés au bord de la route. Vous voulez libérer le chameau à face broussailleuse ici, avant que les créatures sauvages devant vous ne l'enchantent et ne transforment sa bosse en chocolat, comme vous l'a averti un inconnu quelque part. Cela vous fait mal de laisser partir le vieux Fussywug, alors vous faites une pause et plongez la main dans votre sac. »
+[a9a]« Vous trouvez un itinéraire qui évite le danger sauvage, mais qui implique beaucoup de nage et de nymphes. »
+[a9b]« Vous savourez un copieux repas composé de shrinkworts séchés et de hunglersots, arrosé de yuggus. Le chameau refuse de manger quoi que ce soit, mais boit de l'eau. »
+[a9c]« Vous vous acquittez de cette mission secondaire et vous vous résignez à un long voyage de retour, afin que le chameau puisse vivre."
+[a10]« Les triplés lutteurs chassent les acties, de petites boules gluantes flottantes qui se reproduisent autour de la ferme de Gugg à une telle vitesse qu'il doit jouer des mélodies impeccables à partir de son gestionnaire d'arme latéral walkbot pour les étourdir et protéger ses récoltes, mais les triplés prennent l'avantage en plongeant et en les attrapant avec des gants-filets spéciaux. En mode lecture, votre montre-bracelet parodie-animal de compagnie n'a aucune fonctionnalité, mais vous pouvez voir que sa batterie est faible. »
+[a10a] « Vous entrez dans la ferme et tirez votre énergie de l'unité d'alimentation centrale. »
+[a10b] « Vous les observez jusqu'à ce que vous sentiez un bâillement monter et vous continuez. »
+[a10c] « Vous retirez votre montre et votre sac et vous vous joignez à eux, jusqu'à ce que tous les acties soient capturés. »
+[a11]« Compter les marqueurs vous rend courageux pour relever le défi du Grand Ba, mais vous avez perdu beaucoup de balises de brouillard et avez plus que tout besoin de repos. Dans votre oreille, vous apportez des vecteurs et un silence volé. Lorsque vous voyez la reine devant vous, vous ne faites aucun geste, car elle attend le chameau et lui parle directement, vous laissant passer sans incident ni mise en garde. »
+[a11a] « Vous vous déplacez un peu plus vite, avec une capacité de stockage nettement améliorée, mais un confort inchangé. »
+[a11b] « Vous vous déplacez avec une capacité de stockage légèrement améliorée, beaucoup plus de confort, mais une vitesse inchangée. »
+[a11c] « Vous vous déplacez avec un peu plus de confort, une vitesse nettement améliorée, mais une capacité de stockage inchangée. »
+[a12]« Vous ne savez pas comment le ciel s'est teinté, tandis que vos yeux restent obscurcis par les brouillards maudits qui s'échappent comme d'horribles gestes florissants de votre gauche et de votre droite. »
+[a12a]« Je suppose que cela vaut une fortune là-bas. »
+[a12b]« J'espère que les autres ont survécu à cette décoloration torride d'un paysage autrement normal. »
+[a12c]« Je commence à avoir des démangeaisons, et cela a quelque chose à voir avec la couleur du ciel. »
+[a13]« Après avoir traversé une lande où nul autre que Halkfrost lui-même ramassait de la paille pour chasser les loups de son jardin, votre regard se pose sur un vieil homme aux cheveux bleus effrontés. Il remue ses pieds et vous lance une boîte de farine de racines. Au lieu de le saluer, que faites-vous ? »
+[a13a]« Vous prenez un accent qui vous fait ressembler à un voleur présenté dans le journal comme le héros d'un incendie. »
+[a13b]« Lui proposer d'assister à une réunion hebdomadaire des aides des expositions florales et des rodgassings. »
+[a13c]« Vous synchroniser avec ses hésitations pour trouver le bon rythme, mais vous retenir de rire quand un troupeau de moutons se joint à lui. »
+[a14]« Dans les bois, tu te rends compte que tes jambes te font mal sans que tu t'en sois aperçu, alors tu t'assois sur une bûche et tu vides ton sac de son contenu, qui se répand et brille dans le faisceau de lumière qui traverse la canopée. Vous avez une canne, un morceau de gouttière, un marteau fantaisie avec des incrustations d'or et de pierres précieuses, trois pains elfiques, une croûte croustillante provenant d'un rockjockey clouber - ces bêtes mortelles qui vous font trébucher et vous dévorent -, un drapeau jaune à pois verts, cinq mini-pelles et cinq souris dressées portant de petites vestes de protection. Vous avez également de la sudocrème, de la vaseline, de l'aloe vera, de la colle douce, ainsi que quelques lettres et objets rares essentiels à votre mission dans un compartiment supplémentaire de votre sac à dos, que vous ne retirez pas.
+[a14a] « Vous mangez et partez avec toutes vos affaires vers le village suivant. »
+[a14b]« Vous faites une sieste, mangez et partez avec seulement de la nourriture et l'essentiel vers la cabane de Mad Torquin, qui est très loin. »
+[a14c]« Vous organisez une petite émission de téléréalité et faites faire des pirouettes aux souris jusqu'à la tombée de la nuit, puis vous fuyez une nymphe étrange et envoûtante, qui prend le pain elfique, les souris et les objets dont vous n'avez pas vraiment besoin pour votre histoire. »
+[f1]« Note supprimée. *kachick !* »
+[f1a]« Démarrer »
+[g]« Vous arrivez enfin dans un vaste paysage désertique où sont dispersés au hasard d'étranges squelettes. »
+[g1]« D'accord. »
+[b1]« Tu veux jouer à « carotte » ? »
+[b1a]« D'accord. »
+[b1b]« Non. »
+[c1]« Tu jettes une enveloppe contenant un script dans la poubelle. Elle est absorbée dans la structure interne de la pierre dans un spectacle de fibres et de faisceaux. Cela devrait être plus intéressant. »
+[c1a]« Commence. »
+[d1]« Entrée d'une boîte de nuit miteuse. »
+[d1a]« Dirige-toi vers la piste de danse. »
+[d1b]« Prends un verre au bar. »
+[d1c]« Trouve une table où t'asseoir. »
+[d1a1]« Il y a trop de monde ici. »
+[d1a1a]« Essaie de danser. »
+[d1a1b]« Retournez-y. »
+[d1b1]« Vous dépensez tout votre argent en boissons. »
+[d1b1a]« Quittez le bar en état d'ébriété. »
+[d1a1a1]« Vous prenez un taxi pour rentrer chez vous. »
+[d1a1a1]« Vous dansez jusqu'à épuisement. »
+[d1a1a1a]« Prenez un verre au bar. »
+[d1a1a1b] « Pars. »
+[d1a1a1b1] « Tu rentres chez toi à pied. »
+[d1c1] « Tes collègues sont là. »
+[d1c1a] « Assieds-toi avec eux. »
+[d1c1b] « Retourne-y. »
+[d1c1a1] « Tu fais des heures supplémentaires. »
+[d1c1a1a] « Quittez le bar. »
+[d1c1a1a1] « Vous rentrez chez vous en voiture. Vous avez réussi. »
+[e1] « Game Over. »
+
+2. [可] Echostone
+[]« Les ombres s'allongent, mais le chemin reste. Que cherches-tu ? »
+[a]« Je cherche la connaissance. »
+[a1]« La connaissance est une rivière. Certains s'en abreuvent, d'autres sont emportés. Méfie-toi de ses courants. »
+[a1a]« Je ferai attention. »
+[a1a1]« La prudence est le bouclier des sages. Va maintenant. »
+[b]« Je ne cherche rien. »
+[b1]« Ne rien chercher, c'est tout trouver, et pourtant, tu m'as trouvé. Un paradoxe. »
+[b1a]« En effet. »
+[b1a1] « Le monde est plein de ces belles contradictions. Adieu. »
+[b2] « Alors ne clique plus, petit lutin, tu es sauvé ! »
+[c] « Qui es-tu ? »
+[c1] « Je suis l'écho de la pierre, le murmure du monde. Je suis ce que tu fais de moi. »
+[c1a] « Une réponse étrange. »
+[c1a1]« Les réponses les plus vraies le sont souvent. Jusqu'à ce que nous nous reparlions. »
+[c1a2]« Peux-tu imaginer une réponse plus étrange ? »
+[c1a3]« Oui, je n'étais qu'une rune d'eau, mais j'ai été transformé en cela à l'aide d'une gemme. »
+[c1b]« Vraiment ? »
+[c1b1]« Tout à fait, mon garçon. »
+[c1b1a]« Et sommes-nous en train de parler à nouveau ? »
+[c1b1a1]« Peut-être que nous parlons, peut-être que nous tapons, mais les mots vont dans tous les sens, et je suis épuisé ! »
+[c1b1a2]« Je dirais que non. »
+[c1b1a3] « Nous avons encore un long chemin à parcourir avant que vous puissiez appeler cela « parler ». »
+[c1b1b] « Vraiment ? »
+[c1b1b1] « Oui. »
+[c1b2] « À vos ordres, capitaine. »
+[d] « Je cherche l'absolution. »
+[d1]« Moi aussi, je cherche l'absolution ! Dis-moi ce que tu fais pour que je puisse le faire aussi ! »
+[d2]« Beaucoup d'imbéciles empruntent cette voie, mon pote, s'ils n'ont rien d'autre à faire. »
+[d2a] « Tu aurais dû me mener dans l'autre direction, imbécile ! »
+[d2b] « Je fais cavalier seul, mon pote. »
+[d2b1] « Imbécile ! Les traces sont froides dans la précipitation des indécis les plus faibles, tu dois les lire rapidement et éviter le même sort ! »
+[d2b2] « Alors tu es deux fois moins sage que moi, qui n'ai vu aucune urgence à obtenir l'absolution ! »
+[d2b3] « Cela me met sur la voie de l'obsolescence, ha ha ha. Alors, qu'as-tu fait pour arriver ici ? »
+[d2b3a] « Une promesse a été rompue, et c'est moi qui l'ai rompue. »
+[d2b3b]« Est-ce une seule grande erreur qui amène une personne ici, ou mille petites erreurs ? »
+[d2b3b1]« Peut-être une seule erreur profonde qui a résonné à travers le temps. »
+[d2b3b2]« Un poids cumulatif, une lente érosion de l'intention. »
+[d2b3b3]« Cela a commencé par un petit murmure de doute, et me voilà. »
+[d2b3c] « J'ai dit à un nain que sa barbe était tachetée et je lui ai recommandé de la tailler. Ça... a dégénéré. »
+[d2b3c1] « Tu n'as pas osé ! Si tu donnes un conseil à un nain, tu devrais lui offrir quelque chose d'utile, comme un rasoir, du shampoing ou un miroir. »
+[d2b3c2] « C'est une remarque très personnelle dans la communauté des nains ! Vous avez dû vous disputer après ça ! »
+[d2b3c3] « Une insulte délibérée de la part d'un gobelin, qui bien sûr ne pousse pas de barbe à moins d'être captif des nains. Je suppose que vous avez quitté la ville après ça ? »
+[d2b3c3a] « J'ai été enfermé dans la remise à outils du maître gobelin Stax et j'ai dû lire des livres jusqu'à ce que les nains me pardonnent. »
+[d2b3c3b]« Je suis devenu connu sous le nom de « barbier », et pas dans le bon sens du terme. Il était difficile de trouver un bateau avec cette réputation. »
+[d2b3c3c]« À peine avais-je fini de parler que j'ai été emmené au donjon. D'où cette barbe. Il était alors facile de s'échapper. »
+[d2b3c3c1]« Donc, cette barbe est une marque de votre pénitence magique naine résiduelle. Allez-vous la garder ? »
+[d2b3c3c2] « Comment avez-vous dissimulé votre peau verte ? »
+[d2b3c3c3] « Avez-vous appris quelque chose dans les cachots nains ? »
+[d2b3c3c3a] « J'ai tout le plan ici *tapote son front ridé* »
+[d2b3c3c3b]« J'ai appris à ne pas faire de commentaires sur la barbe d'un nain, à mes dépens. Cela s'est reproduit plusieurs fois, et j'ai été envoyé de plus en plus profondément... »
+[d2b3c3c3c]« J'ai entendu un garde dire que le nain Dottimuck préparait une révolte. »
+[d2b3c3c3c1]« Est-ce le nain qui a défendu les gobelins lorsqu'ils se sont rebellés contre le nain Spottysoot ? »
+[d2b3c3c3c2] « Devriez-vous vous inquiéter de ce qu'a dit le garde ? Il s'agissait peut-être d'un piège pour vous tromper. »
+[d2b3c3c3c2a] « Il n'y avait que de la solennité dans son ton. La guerre est imminente, c'est certain ! »
+[d2b3c3c3c2b] « Je ne leur ai rien donné ! De plus, Dottimuck est introuvable dans les environs, pourquoi devrais-je m'inquiéter, même si c'était vrai ? »
+[d2b3c3c3c2c] « Je leur ai donné très peu. En ce qui me concerne, le nain Dotti est aussi fini que les lois de Ley ! »
+[d2b3c3c3c2d]« J'ai essayé de demander autour de moi, mais, tu sais, les barbes... m'ont distrait. »
+[d2b3c3c3c3]« Non, je veux dire, as-tu appris les mathématiques ? »
+[d2c]« Il n'y a pas de moyen facile, n'est-ce pas ? »
+[d3]« Qui es-tu ? »
+[e]« Quel chemin ? »
+[e1] « Le chemin que tu prends ton temps, bien sûr. »
+[e2] « Celui sur lequel tu passes toute la journée à travailler pour finir là où tu as commencé. Ou est-ce que je me trompe ? »
+[e3] « Le chemin qui sera bientôt plongé dans l'obscurité, mon ami. »
+[e2a] « Si je me retrouve à nouveau au début, cela n'aura pas été vain. »
+[e2a1]« Recharge et raconte. »
+[e2b]« Ce n'est pas une course pour moi, mais ça pourrait être moins laborieux. »
+[e2c]« Alors je ferais mieux de rentrer avant la tombée de la nuit ! »
+[e2b1]« Ce n'est pas du tout laborieux si tu connais le chemin du retour ! »
+[e2b2]« C'est trop pour toi ? Tu veux quelques conseils ? »
+[e2b3]« Que construisez-vous ? »
+[e2b3a]« Un chemin de dialogue ! Voici [e2b3a] sur le chemin ! »
+[e2b3b]« Une petite allée autour de la maison de Stax. »
+[e2b3c]« Une école. »
+[e2b3a1]« En effet. Un chemin de mots peut être très puissant. Où mène-t-il ? »
+[e2b3a2] « Fascinant. Ce chemin est-il visible par les autres ou seulement par l'œil de l'esprit ? »
+[e2b3a3] « Et quelles révélations espères-tu découvrir sur ce chemin de dialogue ? »
+[e2b3a1a] « Peut-être une compréhension plus profonde de soi-même ou de la danse complexe des pensées. »
+[e2b3a1b]« Cela mène à de nouvelles connexions, de nouvelles histoires et des destinations imprévues. »
+[e2b3a1c]« Au cœur du labyrinthe, où tous les chemins finissent par converger. »
+[e2b3a2a]« Cela n'existe que dans l'architecture de la pensée, une galerie privée. »
+[e2b3a2b]« C'est un plan, qui attend d'être partagé et développé par d'autres. »
+[e2b3a2c]« Sa visibilité dépend de la clarté de la vision de l'observateur. »
+[e2b3b1]« En fin de compte, il s'agit de vous servir en vous offrant des choix ! »
+[e2b3b2]« C'est une question de subtilité et de rapidité, qui l'emportera ? »
+[e2b3b3]« Une opération délicate, pour un serviteur de gobelin, flowingpoint ! »
+[e2b3a2d]« Les deux, car c'est un pont entre le monde intérieur et le monde extérieur. »
+[e2b3a2e]« C'est un murmure que seuls ceux qui écoutent peuvent entendre. »
+[e2b3a2f]« C'est un chemin gravé dans la lumière, visible uniquement lorsque le soleil est au bon endroit. »
+[e2b3a2c1]« Alors la clarté est la clé. Comment aiguiser sa vision ? »
+[e2b3a2c2]« Une déclaration profonde. Ainsi, le chemin se révèle à ceux qui en sont dignes. »
+[e2b3a2c3]« Et si l'observateur est aveugle à son propre potentiel ? »
+[e2b3a2c1a] « En ayant le choix, puis en agissant de manière intentionnelle et continue. »
+[e2b3a2c1b] « En sachant ce que l'on ressent lorsqu'une mission est accomplie. »
+[e2b3a2c1c] « En éliminant le superflu, jusqu'à ce que l'essentiel se révèle (citation de Bruce Lee). »
+[e2b3a2c2a]« Un chemin digne d'intérêt devrait se révéler à tous ceux qui s'y engagent. »
+[e2b3a2c2b]« Le chemin digne d'intérêt pourrait aussi être un chemin « verbeux », n'est-ce pas ? »
+[e2b3a2c2c]« Digne d'intérêt pour la connaissance ou digne d'intérêt pour le passage ? Il y a une différence. On peut savoir sans aller, on peut aller sans savoir... »
+[e2b3a2c3a]« L'observateur peut promettre de revenir. »
+[e2b3a2c3b]« Si le chemin lui-même a le potentiel de défier l'observateur... Je peux le construire avec mon propre potentiel, car cela me rendrait digne de le construire. »
+[e2b3a2c3c]« L'observateur n'est pas aveugle à tout. Le chemin est un libre choix, et s'il n'est pas emprunté, il en existe d'autres invisibles. »
+[e2b2a]« Pour ce jeu ? »
+[e2b2b]« Pour la construction de nœuds ? »
+[e2b2c]« C'est censé être difficile, mais pas impossible. Moins, c'est mieux. »
+[e2b2a1]« Oui, pour ce jeu que nous appelons tuk. C'est un jeu de construction, où l'on tisse des mots pour créer des mondes. »
+[e2b2b1]« Il y a plusieurs étapes. Voulez-vous un guide ? »
+[e2b2b1a]« Oui. »
+[e2b2b1b]« Non. »
+[e2b2b1a1]« En gros, dessinez-le, nommez les sommets et les faces, créez une texture UV à mapper, créez un fichier objet avec un bloc-notes qui répertorie les coordonnées des sommets (système de coordonnées droitier), les mappages UV, les normales des faces et les définitions des faces, puis enregistrez le nœud dans un fichier lua dans un dossier mod. Un tableur peut vous aider pour les animations. Consultez [https://github.com/flowingpoint/Notes/blob/main/flowingpoints_koin_notes.pdf] pour voir le journal que j'ai créé lors de la création de mon tout premier nœud dynamique placable. »
+[e2b2b1a1a]« OK »
+[e2b2b1a1a1]« Voir [https://github.com/flowingpoint/Notes/blob/main/flowingpoints_koin_notes.pdf] pour le journal que j'ai rédigé lors de la création de mon tout premier nœud dynamique placable. »
+[e2b2b1a1a1a]« OK »
+[e2b2b1a1a1a1]« ... »
+[e2b2b1b1]« Creusez et videz, commandez, écrasez et détruisez, jetez à la poubelle. »
+
+3. [不] Knostone
+[] « Vous sentez un tremblement sous vos pieds. Une pierre ancienne vibre d'une 
+énergie faible, presque oubliée. Que faites-vous ? »
+[a] « Vous tapez sur la pierre avec votre pied. »
+[b] « Vous parlez au hasard dans l'espoir qu'elle vous réponde. »
+[c] « Vous faites quelques calculs mentaux. »
+[d] « Vous vous souvenez des anciennes coutumes. »
+[a1] « Des échos... une résonance... une langue oubliée s'éveille dans la pierre. »
+[a1a] « Tapez un rythme jazzy. »
+[a1b] « Tapez un rythme classique ancien. »
+[a1c] « Arrêtez de taper. Elle sait que vous êtes là. »
+[a2] « Les échos sont agréables à l'oreille. Bien joué. »
+[b1] « La pierre intelligente a clairement du mal à suivre avec précision 
+des instructions complexes. Vous n'êtes pas sûr d'avoir le contrôle ici. Que faites-vous ? »
+[b1a] « Commencez à murmurer vos pensées pour clore le sujet. »
+[b1b] « Demandez une liste de commandes. »
+[b1c] « Attendez. Continuez à parler quand même. Mais que dites-vous ? »
+[b2] « Mot de passe incorrect. Veuillez réessayer plus tard. »
+[b3] « Mot de passe accepté. Bon retour, Steve. »
+[c1] « Avez-vous besoin de quelque chose en particulier pour accompagner cette corvée obsolète ? »
+[c1a] « Devrais-je ? »
+[c1b] « J'espère que non, c'est de la physique élémentaire. Vraiment élémentaire. »
+[c1c] « <Se vexer> »
+[d1] « On recommence ? »
+[d1a] « Is_end = true ! »
+[d1b] « Is_end = faux... hmmm. C'est nouveau ! »
+[d1c] « Écoute, Knostone, tu m'as insulté. Comment as-tu pu oublier ça ? »
+[a1a1] « À quoi joues-tu ? »
+[a1a1a] « Je ne sais pas vraiment. Quelque chose de bleu, cependant... »
+[a1a1b] « Au début, je jouais, mais l'ambiance a complètement changé... »
+[a1a2] « La pierre mystérieuse cesse son étrange bourdonnement, comme si elle écoutait. »
+[a1a3] « La pierre Knostone brille de mille feux, mais comme vous ne semblez pas comprendre son utilité, vous décidez de l'abandonner et de passer à autre chose. »
+[a1b1] « Que voulez-vous que je joue ? »
+[a1b2] « La pierre Knostone répond à la mélodie évocatrice du musicien 
+par un simple hennissement instrumental, signe d'une curiosité réceptive. »
+[a1b3] « La flamme avant-dernière de la rune lumineuse de la pierre mystérieuse s'accompagne du bruit d'une explosion lointaine. Puis elle demande : « Qu'ai-je fait ? »
+[a1b1a] « En fait, tu pourrais te taire, j'essaie de me concentrer. »
+[a1b1b] « Quelque chose des temps anciens, si tu peux. »
+[a1b1c] « En fait, j'essaie de t'exciter ! »
+[a1c1] « Tu remarques des motifs sur les murs. Tu n'aimes pas ça. »
+[a1c2] « Quelqu'un, ou quelque chose, essaie de te distraire de ta mission très importante. Ils sont très doués. »
+[a1c3] « Tu ne dévoiles encore rien. »
+[a1a1a1] « La musique continue... »
+[a1a1b1] « Je n'ai pas le temps pour tout le rap, je me tire ! »
+[a1a2] « La pierre mystérieuse cesse son étrange bourdonnement, comme si elle écoutait. »
+[a1a3] « La pierre de Knostone brille de mille feux, mais comme vous ne semblez pas comprendre son utilité, vous décidez de l'abandonner et de passer à autre chose. »
+[b1a1] « C'est comme si vous n'étiez pas là. Il ne se passe rien. »
+[b1b1] « Oui, mais comment ? »
+[b1c1] « Tu veux que je m'en occupe, mon pote ? »
+[c1a1] « ... »
+[c1b1] « Je connais la physique. Je suis le « KNOWSTONE » ! Demande-moi n'importe quoi. Je te montrerai. »
+[c1c1] « Je veux dire, gentiment. J'essaie juste d'aider... »
+[d1a1] « Alors prends tout le temps qu'il te faut. Tout est comme il se doit. »
+[d1b1] « Lancement du monde de sauvegarde dans 3... 2... 1... »
+[d1c1] « Parle à l'Echostone de tes problèmes, d'accord ? »
+
+4. Messages Voidtime = 
+[1] « Je vous ennuie ? Pouvoir manger ce que l'on veut est une vision des créateurs qui n'a pas été enterrée et ne le sera jamais. Nous comprenons que vous essayiez de déployer des efforts plus intenses pour extraire de nouvelles saveurs que tout le monde pourra apprécier, mais soyez prudent et ne regrettez pas que votre nourriture ait dû être choisie pour vous par des mineurs plus expérimentés. Voici une liste de choses à éviter. Les rabats de sacoche palmés, l'écriture de seigle, les clés de voûte et leurs mousses vertes, les baies de Winkleberry et les Primesh. Évitez-les. », 
+[2] « Faites d'hier un nouveau jumeau sans couture - Pluie facile et Racine sinueuse. »,
+[3] « Une fois que j'ai fui les lieux, j'ai laissé un outil en bois de bas niveau dans le spectacle de terre dans lequel je jouais. Des peaux chassées et ensoleillées sur mes traces trompeuses et tardives. Ne secouez pas la tête ou la queue comme si une police aussi noble que celle-ci ne pouvait pas avoir de telles fondations. Prononce-t-il la mort de manière aussi effrayante que ses fantômes invisibles ? Je vais maintenant vous montrer comment utiliser un mortier et un pilon. Essayez d'y faire tomber des graines. Tournez la roue jusqu'à la fente préparée ou dégagée et préparez-vous. J'ai l'habitude que les boisseaux soient remis tôt, mais pour les nouveaux venus, il semble idiot de supposer que votre pain contient des ingrédients, et je ne vois aucune raison de penser autrement. Même sur place, où se trouvent les endroits les plus frais et les plus verts pour soigner ces blessures plus graves ? »,
+[4] « Allez chercher du bois dans une bûche et des graines dans un coin d'herbe, puis attendez. Une fois que c'est fait, prenez le boisseau que vous transformerez en pain à l'aide du mortier et du pilon. Vous vous demandez peut-être si cet instrument diabolique a une autre utilité ? Il a en effet la capacité, disons, de vous accueillir avec malice lorsque vous avez besoin de pain, et par mesure de sécurité, vous n'avez rien emporté d'autre. Prêt ? Bien. Mettez-en quatre dedans. Utilisez le pilon dessus. Vous pouvez également mélanger du seigle, du blé, de l'avoine et de l'orge pour faire le Bracken of the Bog, qui est appelé brun partout, pour les temps plus sombres, pour la couleur et pour votre âme, mais je ne le recommande pas ici. Utilisez plutôt un seul type. Secouez et faites cuire ! »,
+[5] « Même s'il est obligatoire de manger, certains ne le font pas. Alors que jusqu'à présent, personne dans le royaume ne nierait sa place inestimable dans notre culture, il est vrai que nous n'avons pas absolument besoin de manger. Vous ne le voyez pas, mais vous commencerez lentement à disparaître, à devenir de plus en plus mince jusqu'à être maigre comme un clou... Rappelez-vous cela et faites preuve de décence, restez visible, mangez du pain et utilisez des outils. »,
+[6] « Manger ne fait pas un roi. »,
+[7] « Où allez-vous, M. Oyrost ? - Je prévois de combiner deux informations importantes. L'une est l'original, et l'autre est une combinaison d'une ancienne copie et d'une nouvelle, qui restera telle quelle, mais le résultat de la fusion remplacera l'original. - Allez-vous être libre de lancer la balle ? - Non, je vais devoir combiner à plusieurs reprises les deux pièces qui me restent,
+[7] « Où allez-vous, M. Oyrost ? — Je prévois de combiner deux informations importantes. L'une est l'original, et l'autre est une combinaison d'une ancienne copie et d'une nouvelle, qui restera telle quelle, mais le résultat de la fusion remplacera l'original. - Allez-vous être libre pour jouer au ballon ? - Oh non. Je vais devoir combiner à plusieurs reprises les deux éléments qui me restent, de manière à remplacer à chaque fois celui qui comporte le moins de sources. - Venez jouer au ballon, M. Oyrost ! »,
+[8] « Renoncer à mon rêve, c'est récolter une journée et nourrir ma séance à la lueur des bougies. Ne voulez-vous pas plier votre Jeanne d'Arc ? Je ne me souviens pas pourquoi ni comment. »,
+[9] « Je sais que vous dites souvent que les cloches sont formidables pour le village, Samlive, mais l'esprit des grenouilles infeste leur sonnerie. Croak croak croak. »,
+[10] « Nous avons gagné toutes les guerres, mangeons de la soupe de congee pour toujours. Nous corrigerons chaque hochement de tête sous le mauvais temps. Massez gentiment ces horribles troubles des gencives, et venez vous coucher pour dormir comme un combattant. »,
+[11] « Demandez à Spakle, le plus petit spectacle. Le sable est devenu toundra, la panthère a pris le brouillard, les bordures pourrissent comme des fourmis mariées sous terre. »,
+[12] « Il y a longtemps, il y avait un arbre qui donnait des fruits bleu électrique qui, laissés à l'extérieur en hiver, durcissaient et pouvaient être utilisés pour mouler lentement un rideau extérieur rare qui pouvait se combiner avec d'autres pour former un nouvel arbre. Cela est maintenant oublié depuis longtemps et tout ce que les gens font, c'est soutenir ce qui reste de l'arbre avec des gerbes de magma fissurées. »,
+[13] « Souvent, trois coins ne suffisent pas. Si vous pouvez le croire, un quatrième peut être recherché indépendamment des autres, puis reconnecté pour remplir l'objectif de compléter un carré. Pourtant, je me suis souvent retrouvé avec seulement trois, voire parfois deux et un. Soyez prêt à abandonner ces éléments supplémentaires si un carré complet est hors de votre portée, mais faites-le en gardant à l'esprit d'autres combinaisons possibles. »,
+[14] « Pouvez-vous être le saint ? »,
+[15] « Chaque grognement mettait fin à une vision une fois et demie pour s'ajouter à la suivante, alors que trois se poursuivaient sur la tache sombre qui n'était pas censée être là. Il fallait s'en souvenir de toutes les manières possibles, en tordant les morceaux de terre éparpillés pendant des minutes pour en extraire des indices. Ce fut rafraîchissant lorsqu'ils entendirent un sifflement à quelques mètres de la piste et que des chiens protégeant un renard apparurent. Les pilules dans une boîte ne vous donneront pas cela. Avec enthousiasme, un morceau de pain rassis fut pêché et rompu pour eux, et ils étaient plus pressés que le groupe de curieux lanceurs de paniers qui se faisaient appeler Rockmeat et Grassdew. »,
+[16] « Emiliano Zaphtra le peintre a affirmé que rien ne poussait dans son jardin à l’ombre de la nouvelle tour noire, mais ne blâmons pas la tour, car elle se trouvait aussi à l’ombre du grand entrepôt et de la maison de Tomás le guerrier. Tomás savait que des fèves de cacao poussaient sur un tronc mort de la jungle, même à l’ombre, si la chaleur était suffisante, mais il n’était pas toujours là pour les replanter. Parfois, il disparaissait tout simplement en route pour une course à Pragdice Magee, pour voir Knud Jeppeson ou pour visiter l’Institut Mazuric, et il revenait les mains vides et sans un mot... »,
+[17] « ...Puis, Martin, dont la maison avait été soufflée en deux par un accident, rendait visite à Emiliano avec son loup apprivoisé et lui apportait des nouvelles sur la gestion de la forêt. Un jour comme celui-là, Emiliano était en train de noircir les pattes d’une araignée sur une grande toile. – Des nouvelles, Emiliano, dit Martin, La portée de la tour a triplé. Nous allons voir si nous pouvons y entrer et la contrôler. – Ils ne cherchent pas la portée, mais la discrétion. La portée réduit la discrétion. Du thé ?... »,
+[18] « Tomas, qui préparait un déjeuner de biscuits au blé, frappa à la fenêtre de la cuisine, signalant ainsi à la paire qui se trouvait dans le jardin qu’il allait prendre le thé. – Je vais voir ce que je peux manger dans ma cuisine, dit Emiliano, en posant un pinceau fait d’une longue brindille terminée par une tige de pissenlit, mais enlève ton chapeau, s’il te plaît. – Après le thé, nous allons grimper dans cette tour. Tomas trouva une miche de pain pourrie et la brisa. – Tu verras ce qu’il y a dedans. Knud grimpa sur le Mazuric et jeta un coup d’œil à l’intérieur. Il vient de traire ses vaches, mais quand il reviendra, nous allons escalader ton toit depuis mon balcon, et il y a une entrée sur l’une de ses jambes. – Super. Emiliano hocha la tête pour indiquer qu’il était prêt à relever le défi. »,
+[19] « Le fait de se plaindre prend du temps et se résume essentiellement à la rue. Les examens sont payés, mais pas les pauses. La pression pour faire tomber la pluie. On pourrait éliminer quelques talents de vendeurs et faire fondre les soupes instantanées la nuit pour en faire des sables mouvants, si nous nous en donnions le temps. »,
+[20] « L’abandon de l’étiquette, à moins qu’il ne soit inutile, concerne ceux que l’on laisse derrière soi. Peut-on les sauver ? On découvre ensuite, des années plus tard, bien sûr qu’on peut le faire, parce qu’ils nous poussent à recommencer. S’agitent-ils sur vos cendres grises pour imprimer le drapeau du titre ? Regardez-vous, que faites-vous ? »,
+[21] « L’homme aux favoris trop longs est-il un loup-garou ? La femme qui crie est-elle une sorcière ? Les petits hommes creusent-ils des tunnels pendant que nous dormons ? Regardez-vous, que faites-vous ? »,
+[22] « Mais comment peut-il y avoir un arbre binaire si nous n’avons pas de graines binaires ? En se rappelant les graines qui flottaient ou coulaient, celles qui coulaient sont restées à l’intérieur et celles qui flottaient ont recouvert la surface en formant des groupes qui ont créé de petits îlots de végétation. La poussière, les croix et même les grilles étaient également binaires d’une certaine façon. Alors, qu’est-ce qui se cache derrière l’arbre binaire ? L’énergie s’y déplace, les tiques grimpent le long de ses branches, ses racines s’entrelacent avec d’autres racines et c’est la tanière du mime »,
+[23] « Pourquoi diable ne peuvent-ils pas empêcher les chardons et les buissons de ronce de s’attaquer aux moutons ? »,
+[24] « Fais ce que tu veux quand tu dis aux gens de te laisser faire ce que tu veux de ce qui reste »,
+[25] « Sous la mer, il y a des os de poissons. Alors, plongeons et remontons-les pour en faire des portes magiques ! Comme tout le monde le sait, la porte du paradis ou de l’enfer est à deux battants, mais celle du limbo est à un seul battant. Personne n’a pensé à une porte à sens unique dans le pays de glace. »,
+[26] « Le doute et le rejet, sur la réputation. Se maintenir à son poste, perdre et mentir. Avez-vous raison de vous demander « Est-ce réel ? », Juste parce que vous fondrez ? »,
+[27] « Malsain. Il a gagné les choses les plus méchantes. J’ai un test de personnalité et il est ouvert. Quelle grande âme ce menteur qui fait du mal, Qui répond aux questions d’un ver ? »,
+[28] « Qui garde un lieu de repos, Qui peut rester vigilant pour les gens fatigués, Qui enfreint les lois pour s’arrêter et demander « Puis-je me reposer ici ? » – Il vaut mieux continuer à avancer. »,
+[29] « Pour obtenir la roche noire et ne pas se perdre, les sous-sols fiables sont rouges et bleus. Que peut-on sauver dans la croûte, De ces extractions vertigineuses ? Rien de nouveau. »,
+[30] « Les héros sont libres de se promener, mais la ville a besoin d’un mécanicien de surveillance, d’un petit gars pas cher, prêt à prendre les rênes et à trier des milliers d’heures de bande vidéo... »,
+[31] « Si le désert de Tinny Jangle devient glace, le sable neige et un palais pour le vice, vous pourriez construire une petite hutte pour votre génie sous pression. Si vous n’avez pas encore fait de vos rêves une réalité, pourquoi ne pas les énumérer ? Ouvrir un dossier pour le talent dans un musée de la lumière, avec des dédicaces à Escher et des salles de souris. Dans les domaines interstellaires, il y a des bétons flottants solidifiés, des vitres qui enferment, des gaz qui remplissent les plantes, des pilules de machines qui débordent, où, au même niveau que l’extérieur, les insectes font face à la permascreen, et les yeux des machines de la science se reflètent à l’infini... »,
+[32] « ...Les cristaux flottants ainsi, envahissent le vide de leur capsule, pour ne pas séparer les espaces solennels prévus des trous noirs, bien que l’avidité et la gratitude de ces centres obscurs retiennent notre attention, de sorte qu’un dragon pourrait surgir de n’importe quel mur que nous osons mentionner, n’est-ce pas la plus grande bienvenue d’une gravitas si punk, de ne rendre presque rien de la lumière qui s’est enfoncée dans les entrailles de la grande bête que nous ne connaissons pas, et qui est toujours ivre, et qui projette une lumière que nous ne pouvons pas voir, qui réalise un rêve que nous ne pouvons pas être, pour rehausser les monotones splendides de la masse de boue spéculaire. La pleine déferlante et les ombres festives, les instruments volants se frayent un chemin à travers les drames numériques de l’âme d’un quasar... »,
+[33] « ...Dans la repentance des situations que rencontre un humanoïde, il y a une sorte de cible mouvante que les ministres ne commercialiseront pas, en raison de la profondeur de ses introspections, de sa volonté empruntée, et de ses intersections avec les convections des bulbosités et des monstruosités sphériques. Le temps a enlevé un tailleur à son métier et l’a placé dans la garde du torrent qui signale un paladin mental tourbillonnant. Avant que les fondateurs ne s’effondrent tous, stupéfaits et ébahis, les remèdes et les soucis du lui-même quand il était lui-même... »,
+[34] « jour 211, 22 :07 Les hommes-chats se faufilent et se précipitent pour assembler Tinny Jangle... »,
+[35] « Jour 223, 12h38 Le shérif du royaume a-t-il remarqué que la pendule à grand-père s’était arrêtée ? Il était là pour en témoigner l’installation, quand cinq ouvriers ont été payés une somme importante pour la récupérer de la cage solaire abandonnée au-dessus des champs gris et la ramener. Mais quarante semaines plus tard, elle comptait si peu que les courtisans avaient perdu le sommeil et finalement la reine a dit de la jeter et elle est devenue un meuble plus utile sur le champ. »,
+[36] « Jour 223, 16h14 Ne craignez pas les araignées, même si elles sont dans quatre coins au-dessus de vous et vivent en trois rangées autour d’elles, et qu’elles ont toutes les failles que vous n’avez pas, vous ne les craignez pas comme elles le font, car vous ne les voyez pas, n’est-ce pas ? »,
+[37] « Jour 223, 22h26 Le sable d’argent est très demandé là-haut »,
+[38] « Jour 224, 9h47 Il faut une équipe ici. Prenez ce dont vous avez besoin. Ça aide tout le monde à soulever. »,
+[39] « Jour 224, 23h28 Je me souviens que ce monde est infesté de dragons quelque part en bas. Une boule de terre jaune en colère a jailli et m’a fait réduire ma ration de pain vivifiant. »,
+[40] « Jour 226, 6h1 Compétence dans l’obscurité, il pourrait y avoir des araignées mais je n’en entends pas. »,
+[41] « Jour 227, 0h0 Un travail simple est parfois une bonne idée. »,
+[42] « Jour 227, 17h36 Ai-je fait la bonne chose ? L’ai-je bien faite ? Ai-je le temps et le lieu de voir mon visage quand je fais les choses ainsi ? »,
+[43] « Jour 231, 17h07 Je crois qu’il doit y avoir beaucoup de « comment » avant un « pourquoi ». »,
+[44] « Jour 289, 0 :33 Ce soir, j’ai été rappelé à l’ordre, il est malsain de rompre le lien avec les autres mondes, alors je me demande si je ne fais pas une erreur totale en laissant ma curiosité me guider. »,
+[45] « Jour 289, 22 :57 Je pensais emporter mes horribles poèmes avec moi dans ma quête de trésor, j’ai rencontré le jaune vivant une fois de plus, effrayant toute vie jusqu’à mes doigts. Je suis sorti en manquant cette saut diagonal si important dans ma hâte. Est-ce un mois conscient de soi ? Contient-il d’autres choses en son sein ? Il semble maintenant posséder la grotte jusqu’à ce que je trouve ma pierre de mois qui me donnerait... ce dont j’ai besoin. »,
+[46] « Jour 308, 5 :27 Les nouveaux arrivants ont été occupés. Ils ont réparé les pierres de surface du côté sud. »,
+[47] « Jour 313, 14 :38 Ils ont été renvoyés et leur entrepôt envahissant a été réaménagé. »,
+[48] « Jour 316, 23 :15 Aujourd’hui est un jour malchanceux pour voyager ou même pour chercher des blocs manquants, car la lune est plus grise que mon masque d’homme d’affaires et je n’ai aucune intention de manger. »,
+[49] « Jour 324, 2 :1 Deux réunions. »,
+[50] « Jour 324, 3 :4 Le charbon est rare. »,
+[51] « Jour 326, 0 :18 L’ancien calendrier a encore 120 jours de retard, mais ce livre dit le contraire. »,
+[52] « Jour 330, 19 :8 Ce sont les mains qui ont fait le pain. »,
+[53] « Jour 333, 15 :33 Si j’étais le chef, je ferais un autre chef. Tu pourrais être un autre chef du monde. »,
+[54] « Jour 337, 17 :31 Ils brassent du riz dans les tombes, alors pourquoi mourir ? »,
+[55] « jour 338, 18 :5 Il est dans la nature de nos villages que nous ne puissions pas changer, mais le changement est très souhaité, et c’est encore plus vrai dans le monde d’en bas, où nous allons devoir labourer nos champs à la pelle pour survivre avec leurs indulgences. Ce n’est pas pour aujourd’hui que nous devrions nous asseoir pour toujours. »,
+[56] « jour 367, 21 :50 Une vieille histoire parle d’un couteau qui coupe et d’une cuillère qui remue. »,
+[57] « jour 370, 8 :12 Cinq ères se sont écoulées. »,
+[58] « jour 370, 21 :58 J’essaie de me faufiler dans cette garniture résiduelle de poignées de levier et de bruits de guidon de vélo, entachée par le sombre collègue de doctorat à l’entrée même. »,
+[59] « jour 371, 1 :50 Je n’en ai aucune idée, mais je dois continuer à l’éclairer. Je le laisse moins riche et je tire cette figure. Pourtant, le passage est bloqué dans les deux sens. Je ne peux trouver qu’un chemin alternatif pour rencontrer le premier chemin, afin d’attirer ce prodigieux attacheur ou détacheur de relations de haut en bas, mais cruciales. »,
+[60] « jour 373, 13 :34 Dans ce monde où les victoires sont vouées à mourir, à quoi servent vos journées, selon les histoires ? »,
+[61] « jour 374, 11 :12 Il doit être d’une grande importance. »,
+[62] « jour 386, 19 :55 J’en ai fini avec ce chemin. Je ne fais que déposer le dernier élément pour pouvoir l’examiner. »,
+[63] « jour 389, 0 :41 Soudain, je suis arrêté et je dois passer une nuit en prison. 'Pourriez-vous expliquer comment Gurdsenble va pouvoir faire du vélo dans sa chaise roulante, dans les villages, avec tous ces trous déformés de part et d’autre du chemin de briques blanches, qui risquent de la faire tomber ?' Je dois réfléchir à cela et trouver une solution le matin. »,
+[64] « Jour 389, 6 :28 « Je vais la déplacer dans les collines verdoyantes où elle pourra se sentir plus à l’aise. » J’ai déclaré d’une voix hésitante »,
+[65] « Jour 392, 13 :21 Ces trous vont s’agrandir si je ne fais rien. »,
+[66] « Jour 401, 2 :26 Qu’est-ce que l’esprit d’un roi despotique peut bien vouloir faire pour envoyer une horde de chats-hommes et de bisons de bowling sur notre paisible royaume ? S’agit-il de nos maigres réserves de fruits, ou de la menace d’asservir nos industries ? Est-ce que je perds le contact avec mes contacts révoltés dans les contrées désolées et calcaires balayées par les vents ? Oui, je le perds... »,
+[67] « Jour 401, suite ...En fait, nous n’avons aucun moyen de transmettre nos découvertes en toute sécurité, à part le portail, qui a connu de meilleurs jours, comme je le rappelle, et je le dirai en temps et lieu. Quoi qu’il en soit, je ne sais pas grand-chose de ces contacts, et je me bats pour les garder en mémoire... »,
+[68] « Jour 401, suite ...Il y a beaucoup à apprendre sur cet endroit et nous devons tous être occupés ou inventer des choses pour ne pas être considérés comme des esprits mineurs soumis à une autorité qui nous épuise jour après jour. N’oubliez pas qu’il y a les trois grandes choses et les deux choses moins importantes que personne ne peut nous envoyer sans bouleverser tout ce que l’on peut espérer déposer comme ressource ou droit, et que ces choses sont... Je ne me souviens pas, mais je vais quand même utiliser des couleurs pour les représenter et peut-être les rencontrer en tant qu’événements... »,
+[69] « Jour 401, suite... Je n’ai pas l’intention de transgresser les lois du royaume, aussi considérerai-je toute influence de ce genre comme une menace mineure pour la santé mentale de la population locale, mais comme une découverte majeure dans le domaine de l’invention. D’un autre côté, il n’est pas nécessaire de s’inquiéter de ces maux invisibles et insidieux que je préfère saisir et soumettre à ma volonté, donc selon le cours des choses et non selon les prévisions, le détachement des sens de la mémoire... »,
+[70] « Jour 401, suite... Quand ai-je déjà touché ce nombre trois d’un seul coup ? Puis-je même me compter parmi eux ? Ouvrons-la, voilà ! Une expédition à la mort, elle n’est peut-être pas adaptée au royaume, mais dans ce cas, je laisserai mes espoirs à la périphérie, comme ils le pourraient. Les envahisseurs de l’autre monde, les envahisseurs de la guerre et de la drogue, ne peuvent pas pénétrer dans le royaume, malgré les pertes qu’ils occasionnent à leurs propres royaumes, à travers les tempêtes, les murs de feu, les explosions aériennes et les boules de terre qui viennent frapper à la porte du royaume pour réclamer un roi silencieux et ses serviteurs sans ego ? C’est impossible. »,
+[71] « Jour 403, 13 :52 Heureusement, le chat cool m’a donné un indice. »,
+[72] « Jour 412, 18 :1 Tous les objets rangés dans les nouveaux tiroirs ont disparu. Il ne manque que quelques blocs de métal et des bibelots. »,
+[73] « Jour 413, 6 :40 J’ai pointé les étoiles toute la nuit. Maintenant, que dois-je faire pour que ces coraux poussent sous les chemins ? »,
+[74] « Jour 413, 18 :27 J’ai appris des recettes »,
+[75] « Jour 414, 18 :0 Une croissance des plus effrayantes – un nid de fourmis – s’est développée sur ce qui était autrefois un endroit charmant et sûr. »,
+[76] « jour 414, 19 :15 J’évacue, j’ouvre la porte d’entrée contre leur mur grotesque à multiples textures. »,
+[77] « jour 429, 6 :1 Ne dérangez pas les marais. »,
+[78] « jour 433, 15 :19 Le charbon doit être considéré comme une denrée rare, mais pour motiver l’exploitation minière, les torches seront en quantité illimitée. »,
+[79] « jour 456, 6 :36 Où est l’écorce ? »,
+[80] « jour 282, 15 :28 La pelle en bois ne peut pas enlever le bloc de grès mal placé au-dessus de la nouvelle cellule de prison, je comprends que mes derniers outils en pierre sont ailleurs et cela me semble être une confusion ironique. Le mur de pierre qui sépare l’intérieur de l’extérieur est déjà terminé, c’est la décoration qui retient mon attention. Ce sera comme ça. »,
+[81] « jour 456, 9 :44 Je sais que c’est dans une petite pièce, avec un coffre et une porte banale, et que ce n’est pas au nord de la tour. »,
+[82] « jour 458, 8 :30 L’eau mouille la terre, et les planches sont épuisées. »,
+[83] « jour 465, 3 :30 Améliorer la mobilité des objets laisse des coffres vides. »,
+[84] « jour 475, 21 :0 Mon dos est glacé, je me demande d’où viennent ces os égarés après avoir vu les champs. »,
+[85] « jour 481, 17 :17 Maintenant que le mithril est arrivé, le fer sera divisé. »,
+[86] « jour 482, 4 :22 À quelle vitesse pouvez-vous créer de la beauté ? »,
+[87] « jour 487, 8 :10 Je suis tellement bête que j’ai oublié que j’avais les sacs sur moi. »,
+[88] « jour 506, 5 :35 J’ai crié lorsque le phd sombre est sorti de ma chambre de quête et de mes chambres de quête potentielle, ouvrant une nouvelle porte pour notre situation, ce qui m’a effrayée au point de devoir la compartimenter d’une certaine façon. »,
+[89] « jour 523, 1 :12 Elle veut que vous contrôliez votre destin, avez-vous ce qu’il faut ? Les sœurs Bront, les merveilleuses Ripwailers et Easy Torie sont les prochains à se disputer l’or. »,
+[90] « jour 556, 16 :58 Oh mes petites amies araignées, où étiez-vous ? »,
+[91] « jour 628, 17 :52 J’ai découvert Watoga. »,
+[92] « jour 628, 21 :17 Il y a une douzaine de bâtiments. Un homme-chat en est le gardien. Nous avons tenu des tasses ensemble. Ce souvenir est éphémère et s’estompe comme la lumière. »,
+[93] « jour 725, 8 :52 Lorsqu’ils suivent, nous nous séparons dans les grottes. »,
+[94] « jour 749, 12 :49 Amenez le cheval à la tour des os, et l’arbre aux baies bleues pourrait pousser. »,
+[95] « jour 854, 20 :18 Super, un autre jour et je n’ai aucune règle pour les mobs, les cadrans ne peuvent pas être vendus sans échange avec des chasseurs, et il fait froid dehors. »,
+[96] « jour 868, 16 :3 Je vois un boulanger en moi lorsque le bâton de cuivre que je porte sur la hanche fait rouler une nouvelle carte à réaliser, c’est-à-dire qu’un titre doit être porté brièvement et vu clairement. »,
+[97] « jour 871, 13 :45 J’ai cassé un tournevis sur la maison moderne. »,
+[98] « jour 887, 20 :8 Une partie de Fortnite dans un sac plein de graines de coton. C’est vraiment agréable à l’extérieur cette saison. »

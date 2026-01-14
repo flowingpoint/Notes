@@ -1,0 +1,363 @@
+1. [回] Huirune
+[]"Imir Eachtra Rindpebble?"
+[a]"Ceart go leor."
+[b]"Níl."
+[c]"Cuir Nótaí Isteach."
+[a1]"Fáilte romhat chuig mo phost fáilte faoi Mhargadh Rindpebble, roghnaigh rogha cíosa le do thoil."
+[a1a]"Seachtain i dTeach Ósta an Reveller's Casket, obair chlónála fál san áireamh."
+[a1b]"Cúig lá i seilear na Banbharún, ag roinnt lena mac saighdiúra."
+[a1c]"Oíche amháin in áiléar an Draoi Xao \n le pribhléidí leabhar agus potion."
+[a2]"Tabhair do dhoiciméid ar aird anois."
+[a2a]"Tugann tú suaitheantas caite le leasainm fite láimhe."
+[a2b]"Tógann tú litir scaoilte príosúin agus pleananna sínithe as póca istigh."
+[a2c]"'Níl agam ach mo bhriathar féin, agus tá sé bunaithe ar onóir agus ar mheas. Geallaim duit go bhfuil dea-thoil agam agus ós rud é go bhfuilim nua san áit bheag seo ar a dtugann tú Rindpebble, cuirim an t-ór seo i muinín ionas go bhféadfadh fear dul thar bráid gan ainm an oíche seo.'"
+[a3]"Tá tú ag fágáil na stallaí agus tá cailleacha fiailí ag feadóg duit le go bhfeicfidh tú a gcuid crotail mhanglach agus lobhadh glasraí. 'Faigh mála saor in aisce de Junglebog Musk, nó Eggly Packratsnot', a thugtar ort. Agus tú ag bogadh ar shiúl go béasach, casann lúthchleasaí tanaí i do threo, agus gléas meicniúil air a laghdódh a dhearcadh ort, atá i do sheasamh go mí-ámharach ina chosán."
+[a3a]"Ritheann tú ar ais i dtreo stalla na gcailíní."
+[a3b]"Bíonn tú ag ullmhú don imbhualadh le cacafónacht ghluaisteach na gcasadh agus na gcorrán."
+"[a3c]"Béiceann tú agus déanann tú gothaí go léiritheach."
+[a4] "Go tobann tá sé dorcha agus do leaba déanta, tá tú tuirseach ó imeachtaí an lae, ach in ann gníomhaíocht amháin eile sula dtéann tú i do chodladh."
+[a4a] "Ullmhaíonn tú peann agus páipéar le scríobh air má tá aisling spreagtha agat."
+[a4b] "Déanann tú tine bheag de na páipéir scrap a bhailigh tú agus déanann tú paidir bheag."
+[a4c] "Iascann tú amach na heochracha a tugadh duit ag an stalla agus déanann tú anailís mhionsonraithe agus dhearcach, go dtí go dtiteann tú i do chodladh leo i do lámha."
+[a5] "Tá do thicéad bricfeasta fillte, leis na céadta ticéad de chineál eile, i rolla tiubh le banna leaisteacha, agus agus tú ag cuardach cuimhin leat cad a dúirt do mhaimeo leat faoi mhéara sanntach ag déanamh tinkers ghátaracha. Agus tú ag tarraingt siar ceann amháin, stórálann tú an chuid eile i do hammock-satchel agus válsa anonn go dtí an post balla chun d'imeacht a bhaint amach. Tá sean-traenáil nimhneach ag teacht ort agus tú ag casachtach. agus íslíonn an casacht."
+[a5a] "Faigheann tú beagán taithí, a lán fuinnimh, ach níl aon tsláinte agat."
+[a5b] "Gheobhaidh tú beagán fuinnimh, go leor sláinte, ach níl aon taithí agat."
+[a5c] "Faigheann tú beagán sláinte, a lán taithí, ach gan aon fhuinneamh."
+[a6] "Tá tú faoi bhrú ag fostaí de chuid na hImpireachta a bhfuil anacair air agus a bhuail le deifir bean ar aghaidh isteach ina cairt veigeatóirí agus piocadh milseán, ag nochtadh ar a rúitín tatú atá mar chomhartha ar sheic de phoitín a bhfuil drochbholadh uirthi agus a bhfuil aithne uirthi a bheith faoi thalamh den sráidbhaile seo."
+[a6a] "Ní cuimhin leat cé a thug na leideanna seo duit agus seiceáil ar do dhialann."
+[a6b] "Socraíonn tú í a rianú agus fanacht léi í féin a cheartú."
+[a6c] "'Hey, an é sin marc na seict potion sin?""
+[a7] "Oíche eile sa sráidbhaile tá tú ag rith íseal ar vitimíní agus thiteann tú isteach sa teach ósta, ag bualadh le fear madraí agus a choirt siúil. Seinneann sé cosúil le fuiseog na bhfoghlaithe mara agus na bhfoghlaithe mara marbh. Bíonn ionadh ort nuair a shiúlann a bhean chéile ó choimpléasc na ndoirseoirí agus shuntaíonn sé stól in aice leis, ag bualadh an chiteal isteach i dragan faoi ghruaim. citeal le haghaidh cothaitheach, agus cuireann siad mallacht ar mhallacht."
+[a7a] "'A theanga, cosnóidh tú trí cinn: léas farting, seam scoilte, agus brionglóideach, ach soláthróidh Calum, kinestide, agus welfog."
+[a7b] "'Chun an buidéal seo a dhó, scaoilfidh sé do ghreim, fágfaidh sé díomhaoin é, sileadh é."
+[a7c]"'D'fhéadfadh an brú laistigh an bosca bruscair a shéalú ach cuireann an smuit gásach múch an amhrais air. Sip go cúramach, óir is citeal draíochta é seo."
+[a8] "Go maith cothaithe agus éadaí déanta as fabraic a oireann do do mhisean, scarann tú ón ngrúpa fánaíochta fánaíochta agus déan deifir i dtreo balla an bhaile, áit a bhfuil sagart carousing ag tabhairt amach bileoga. Gabhann sé do shúil agus is gearr go míníonn sé go mion grámhar na squiggles agus na grafaicí is iontach ar a chuid bileoga. Is cosúil go mbeadh am fíor-mhaith agat dá leanfá é agus tú ag féachaint ar do theanga agus tú ag féachaint ar na páipéir agus tú ag féachaint ar na páipéir. bain triail as guth iarracht macánta ar thuiscint."
+[a8a] "Gluaiseann gliondar de nymphs damhsa i dtreo tú ó threo na gréine."
+[a8b] "Mothaíonn tú ceann éadrom agus iarrann tú a bheith fágtha i d'aonar. Cuimhníonn tú do bhronntanas 5ú lá breithe, bratach liath agus maidín le haghaidh gadaithe."
+[a8c] "Ní tharlaíonn aon rud."
+[a9] "Éiríonn láib tiubh ar an mbóthar agus bíonn seoltóirí talún ocrach ag faire ar do chosa faoi leathanduilleacha na ndíog ar thaobh an bhóthair. Tá tú ag iarraidh an camall scuabtha a scaoileadh anseo, sula ndéanann na créatúir fhiáine é a dhraíocht agus a chromán a iompú chuig seacláid, mar a thug duine ar bith rabhadh duit áit éigin. Is trua duit ligean d'Fussywuck agus d'iarraidh a ligean isteach, sos duit.
+[a9a] "Aimsíonn tú bealach léarscáile a sheachnaíonn an chontúirt fhiáin ach a mbíonn go leor snámha agus nymphs i gceist leis."
+[a9b] "Baineann tú sult as béile mór de shrinkworts triomaithe agus ocrach nite síos le yuggus. Diúltaíonn an camel aon chuid de a ithe, ach tógann sé uisce."
+[a9c] "Fuascann tú tú féin den mhisean taobh seo agus iompaíonn tú go dubhach ar thuras fada siar, ionas go mairfeadh an camall."
+[a10] "Gníomhartha seilge iad na triplets wrestling, arb iad blóga beaga de shnámh goo a atáirgeann timpeall fheirm Gugg chomh tapa sin go gcaithfidh sé foinn chothroma gan Smál a sheinm óna bhainisteoir sidearm walkbot chun iad a stiúdú agus a bharr a chosaint, ach tá na triplets chun tosaigh ag tumadóireacht agus ag breith orthu le glan-lámhainní speisialta. Sa mhodh léitheoireachta, níl aon fheidhmiúlacht ag do scigaithriseoir, níl aon fheidhmiúlacht ag do scigaithriseoir, ach níl aon fheidhmiúlacht ag do scigaithriseoir. ceallraí."
+[a10a] "Téann tú isteach ar an bhfeirm agus tarraingíonn tú cumhacht ón aonad soláthair lárnach."
+[a10b] "Breathnaíonn tú iad go dtí go mbraitheann tú méanfach ag teacht agus lean ort."
+[a10c] "Baineann tú an t-uaireadóir agus an mála agus ceangail leo, go dtí go bhfaightear gach gníomh."
+[a11] "Cuireann marcóirí comhairimh tú cróga do Dhúshlán na Breataine Bige, ach tá go leor clibeanna ceo caillte agat agus tá níos mó ná rud ar bith ag teastáil uait do scíthe. Le do chluas, tugann tú veicteoirí agus hush goidte leat. Nuair a fheiceann tú an bhanríon chun tosaigh ní dhéanfaidh tú aon rún go bhfuil sí ag fanacht leis an gcamall agus labhraíonn sí go díreach leis, ag ligean duit dul thar fóir gan eachtra nó rabhadh."
+[a11a] "Bogann tú beagán níos tapúla, le toilleadh stórála i bhfad níos fearr, ach do chompord gan athrú."
+[a11b] "Aistríonn tú le toilleadh stórála beagán feabhsaithe, compord i bhfad níos mó, ach luas gan athrú."
+[a11c] "Aistríonn tú le compord beagán níos mó, luas i bhfad níos fearr, ach cumas stórála gan athrú."
+[a12] "Níl a fhios agat conas a bhfuil an spéir dhaite, agus do shúile fós dorcha ag an ceo mallacht a eisíonn cosúil le gothaí bláthanna gránna ó chlé agus ar dheis."
+[a12a]"'Is dóigh liom gur fiú an t-ádh ar ais abhaile, an stuif sin."
+[a12b] "'Tá súil agam go bhfuil na cinn eile tar éis teacht slán as an mídhath uafásach seo ar thírdhreach a bhí caighdeánach eile."
+[a12c] "'Tá mé ag dul in olcas, agus tá baint aige leis an spéir a bheith ar an dath sin."
+[a13] "Tar éis a bheith ag siúl thar fuidreamh móinte nuair a bhailigh éinne eile seachas Halkfrost féin tuí chun na mac tíre a bhualadh as a ghairdín, comhleanann do fhís ar shean-mhéar le gruaig ghorm ghorm. Suíonn sé a choillteáin agus a chuid siocairneáin chugat. In ionad beannú dó, cad a dhéanann tú?"
+[a13a] "Béim ar do ghuth mar robálaí a bhí ar an nuachtán mar laoch eachtra dóiteáin."
+[a13b] "Mol dó freastal ar chruinniú seachtainiúil de lucht cabhrach na seónna bláthanna agus na slatgassings."
+[a13c] "Cuir isteach tú féin in am lena chromáin agus a chuid cipíní chun tuiscint a fháil ar rythym ach stop a chur ort féin ó giggling nuair a thagann braon caorach isteach."
+[a14] "Isteach sa choill anois feiceann tú go raibh do chosa pianmhar gan a bheith faoi deara agat, suífidh tú siar ar chrann agus fholmhú do chuisle as a bhfuil ann, ionas go scaipeann siad agus go lasann siad sa léas solais a ghearrann tríd an gceannbhrat. Tá slat agat, gearradh gáitéir, casúr mhaisiúil le cabhraíocht óir agus seoda, trí builín ó chrúcaí seilide, trí builín ó chrúcaí seilide. beithígh marfacha a thurais suas chugat agus a ghoilleann ort, bratach bhuí le spotaí glasa, miontochaltóirí - 5 cinn acu, agus 5 lucha oilte a bhfuil seaicéid chosanta beaga orthu freisin, tá uachtar súdúil, vásailín, aló vera, gliú bog, agus cúpla litir agus rudaí annamha atá ríthábhachtach do do mhisean in urrann bhreise i do mhála droma, rud nach mbaineann tú amach.”
+[a14a] "Itheann tú agus imíonn tú le do chuid rudaí go léir i dtreo an chéad sráidbhaile eile."
+[a14b] "Bíonn tú ag sileadh, ag ithe, agus ag imeacht gan ach bia agus buneilimintí i dtreo Geata an Torcúin Mhaire, atá i bhfad uainn."
+[a14c] "Bunaíonn tú seó réaltachta beag agus cuireann tú ar na lucha smeacháin go dtí go bhfuil sé dorcha, ansin teitheadh ​​​​nymph aisteach agus draíochtúil, a thógann an t-arán elf, na lucha, agus an stuif nach bhfuil ag teastáil uait i ndáiríre do do scéal."
+[f1] "Nóta bainte. *kachick!*"
+[f1a]"Tosaigh"
+[g] "Sroicheann tú faoi dheireadh tírdhreach leathan tréigthe agus roinnt cnámharlaigh chorr scaipthe ann go randamach."
+[g1] "Ceart go leor."
+[b1] "An bhfuil fonn ort 'cairéad' a imirt?"
+[b1a] "ceart go leor"
+[b1b] "Níl."
+[c1] "Titeann tú clúdach litreach a bhfuil script isteach sa channa. Súitear isteach i struchtúr maitrís istigh na cloiche é i seó snáithíní agus bíomaí. Ba chóir go mbeadh sé seo níos suimiúla."
+[c1a]"Tosaigh"
+[d1] "Iontráil club oíche salach."
+[d1a] "Téigh go dtí an t-urlár rince."
+[d1b] "Faigh deoch ag an mbeár."
+[d1c] "Faigh tábla le suí ann."
+[d1a1] "Tá an iomarca daoine anseo."
+[d1a1a] "Bain triail as a rince."
+[d1a1b] "Téigh ar ais."
+[d1b1] "Caitheann tú do chuid airgid go léir ar ól."
+[d1b1a] "Fág leideanna an mbarra."
+[d1a1a1] "Faigheann tú tacsaí abhaile."
+[d1a1a1] "Tá tú ag damhsa go dtí go bhfuil tú tuirseach."
+[d1a1a1a] "Faigh deoch ag an mbeár."
+[d1a1a1b] "Fág."
+[d1a1a1b1] "Siúlaíonn tú abhaile."
+[d1c1] "Tá do chomhoibrithe ann."
+[d1c1a] "Suigh leo."
+[d1c1b] "Téigh ar ais."
+[d1c1a1] "Déanann tú roinnt ragobair."
+[d1c1a1a] "Fág an barra."
+[d1c1a1a1] "Faigheann tú ardaitheoir abhaile. Rinne tú é."
+[e1] "Cluiche Thar."
+
+2. [可] Echostone
+[] "Méadaíonn na scáthanna, ach fanann an cosán. Cad atá á lorg agat?"
+[a] "Táim ag lorg eolais."
+[a1] "Is abhainn é an t-eolas. Ólann cuid acu uaithi, cuid eile scuabtha uaidh. Bí san airdeall ar a sruthanna."
+[a1a] "Beidh mé cúramach."
+[a1a1] "Bí cúramach sciath na n-eagna. Imigh anois."
+[b] "Ní lorgaim rud ar bith."
+[b1] "Ní hé rud ar bith a lorg ach gach rud a fháil, agus fós, fuair tú mé. Paradacsa."
+[b1a] "Go deimhin."
+[b1a1] "Tá an domhan lán de na contrárthachtaí álainn sin. Slán leat."
+[b2] "Ansin cliceáil a thuilleadh, a goblin beag, tá tú sa bhaile agus tirim!"
+[c] "Cé thusa?"
+[c1] "Is mise macalla na cloiche, cogar an domhain. Is mise an rud a dhéanann tú díom."
+[c1a] "Freagra aisteach."
+[c1a1] "Is iad na freagraí is fíor go minic. Go dtí go labhraímid arís."
+[c1a2] "An féidir leat strainséir a shamhlú?"
+[c1a3] "Sea, ní raibh ionam ach rúitín uisce, ach rinneadh é seo trí úsáid a bhaint as GEM."
+[c1b] "An amhlaidh?"
+[c1b1]"Mar sin, a mhic"
+[c1b1a] "Agus an bhfuil muid ag labhairt arís anois?"
+[c1b1a1] "B'fhéidir go bhfuil muid ag labhairt, b'fhéidir go bhfuil muid ag clóscríobh, ach tá focail ag dul an bealach, agus tá mé poofed!"
+[c1b1a2] "Níl mé ag iarraidh a rá."
+[c1b1a3]"Tá bealach fada le dul againn sula dtugann tú 'ag labhairt' air sin"
+[c1b1b] "An bhfuil sé i ndáiríre?"
+[c1b1b1] "Tá."
+[c1b2] "Aye aye cap'n."
+[d] "Táim ag iarraidh a shaoradh"
+[d1] "Táim ag iarraidh saoráide freisin! Cad fútsa inis dom cad atá á dhéanamh agat ionas gur féidir liom é a dhéanamh freisin!"
+[d2] "Is amadán é go leor ag dul síos an bóthar sin, a pháirtí, mura bhfuil aon duine le tosú acu."
+[d2a] "Ba cheart duit a bheith i gceannas orm an bealach eile, mar sin, a leathcheann!"
+[d2b] "Téim liom féin é, a chara"
+[d2b1] "Amadán! Luíonn na rianta fuar sa deifir atá ar na haifidí níos laige, ní mór duit iad a léamh go tapa agus an deireadh céanna a sheachaint!"
+[d2b2] "Ansin tá tú leath chomh ciallmhar liomsa, nach bhfaca aon deifir ar scaoileadh!"
+[d2b3] "Cuireann sé sin ar an mbóthar mé chun dul i léig, hahaha. Mar sin, cad a rinne tú chun teacht anseo?"
+[d2b3a] "Briseadh gealltanas, agus ba mise an té a bhris é."
+[d2b3b] "An misteán mór amháin é a thugann duine anseo, nó míle duine níos lú?"
+[d2b3b1] "B'fhéidir earráid dhomhain amháin a tháinig chun solais le himeacht ama."
+[d2b3b2] "Meáchan carnach, meath mall ar intinn."
+[d2b3b3] "Thosaigh sé le cogar beag amhrais, agus seo mise."
+[d2b3c] "Dúirt mé le dwarf go raibh a féasóg splotchy agus mhol sé Baile Átha Troim é a thabhairt... mhéadaigh sé."
+[d2b3c1] "Níor thug tú! Ba cheart duit rud éigin úsáideach a thairiscint má thugann tú comhairle dwarf, cosúil le rásúir, seampú, nó scáthán."
+[d2b3c2] "Is rud an-phearsanta é sin le trácht a dhéanamh air i measc an phobail dhearóil! Caithfidh go raibh titim amach agat ina dhiaidh sin!"
+[d2b3c3] "Masla d'aon ghnó ó goblin, ar ndóigh ní fhásann féasóg ach amháin i mbraighdeanas corrach, is dóigh liom go ndearna tú an baile ina dhiaidh sin?"
+[d2b3c3a] "Bhí mé faoi ghlas i siopa uirlisí Master goblin Stax agus bhí orm leabhair a léamh go dtí go raibh na dwarves in ann logh dom."
+[d2b3c3b] "Thug an Bearbóir 'ainm orm, agus ní ar bhealach maith. Bhí sé deacair teacht ar bhád leis an gcáil sin."
+[d2b3c3c] "Ní túisce a labhair mé a thug mé go dtí an dungeon ansin. Uaidh sin an féasóg seo. Bhí sé éasca a sneak amach ansin."
+[d2b3c3c1] "Mar sin, is comhartha é an féasóg ar do dhraíocht aithreachais iarmharach. An bhfuil tú chun é a choinneáil?"
+[d2b3c3c2] "Conas a chlúdaigh tú an craiceann glas?"
+[d2b3c3c3] "Ar fhoghlaim tú rud ar bith sna dungeons dwarven?"
+[d2b3c3c3a]"Fuair ​​mé an leagan amach ar fad isteach anseo *sconnaí rocach forehead*"
+[d2b3c3c3b] "D'fhoghlaim mé gan trácht a dhéanamh ar féasóg dwarf, an bealach crua. Tharla sé cúpla uair eile, agus cuireadh mé níos doimhne agus níos doimhne..."
+[d2b3c3c3c] "Chuala mé garda ag rá go bhfuil Dwarf Dottimuck ag breacadh éirí amach."
+[d2b3c3c3c1] "An é sin an troich a chosain na gobls go cáiliúil nuair a rinne siad éirí amach i gcoinne Dwarf Spottysoot?"
+[d2b3c3c3c2] "Ar chóir duit a bheith buartha faoi cad a dúirt an garda? D'fhéadfadh sé a bheith ina deolchaire booby díog dúbailte díreach chun amadán a thabhairt duit."
+[d2b3c3c3c2a] "Ní raibh ach solemnity ina ton. Tá cogadh ag teacht cinnte!"
+[d2b3c3c3c2b] "Níor thug mé faic dóibh! Thairis sin, níl Dottimuck le feiceáil anseo, cén fáth ar chóir dom a bheith buartha, fiú má tá sé fíor?"
+[d2b3c3c3c2c] "Is beag a thug mé dóibh. Chomh fada is atáim i gceist, tá Dwarf Dotti chomh críochnaithe le Dlíthe Ley!"
+[d2b3c3c3c2d] "Rinne mé a fhiafraí thart, ach, tá a fhios agat, chuir na féasóga ... seachrán orm."
+[d2b3c3c3c3] "Ní hea, is éard atá i gceist agam ar fhoghlaim tú matamaitic ar bith?"
+[d2c] "Níl aon bhealach éasca, an bhfuil?"
+[d3] "Cé thusa?"
+[e] "Cén cosán?"
+[e1] "An cosán sin a thógann tú do chuid ama uirthi, ar ndóigh."
+[e2] "An ceann a chuireann tú amú an lá ar fad ag obair air ach chun deireadh a chur leis an áit ar thosaigh tú. Nó an bhfuil mé mícheart?"
+[e3] "An cosán a bheidh faoi uisce go luath sa dorchadas, a chara."
+[e2a] "Má fhoirceann mé ag an tús arís ní bheidh sé in vain."
+[e2a1] "Athluchtaigh agus ceangail."
+[e2b] "Ní rás ar bith domsa, ach d'fhéadfadh sé a bheith níos lú oibre."
+[e2c] "Ansin b'fhearr dom teacht ar ais sula dtiteann an dorchadas!"
+[e2b1] "Ní obair ar bith é má tá an tuairisceán ar eolas agat!"
+[e2b2] "An bhfuil sé i bhfad ró duit? Ar mhaith leat roinnt leideanna?"
+[e2b3] "Cad atá á thógáil agat?"
+[e2b3a] "Conair dialóige! Tá sé seo [e2b3a] ar an gcosán!"
+[e2b3b] "Siúlóid bheag thart ar theach Stax."
+[e2b3c] "scoil"
+[e2b3a1] "Go deimhin. Is féidir le cosán focal a bheith ina rud cumhachtach. Cén áit a dtagann sé?"
+[e2b3a2] "Suimiúil. An bhfuil an cosán seo le feiceáil do dhaoine eile, nó do shúil an aigne amháin?"
+[e2b3a3] "Agus cad iad na rudaí a bhfuil súil agat a nochtadh ar chonair na dialóige seo?"
+[e2b3a1a] "B'fhéidir chun tuiscint níos doimhne ar an duine féin, nó an rince casta machnaimh."
+[e2b3a1b] "Tá naisc nua, scéalta nua agus cinn scríbe gan choinne mar thoradh air."
+[e2b3a1c] "Go croílár an labyrinth, áit a dtagann gach cosán le chéile ar deireadh."
+[e2b3a2a] "Níl sé ann ach laistigh den ailtireacht smaoinimh, gailearaí príobháideach."
+[e2b3a2b] "Is treoirphlean é, ag fanacht le bheith roinnte agus tógtha ag daoine eile."
+[e2b3a2c] "Braitheann a infheictheacht ar shoiléireacht fhís an bhreathnóra féin."
+[e2b3b1] "Is ceist é freastal ort féin le roghanna ag deireadh an lae!"
+[e2b3b2] "Is ceist subtlety agus luas í, a bheidh an bua?"
+[e2b3b3] "Oibriú breá, do sheirbhíseach goblin, pointe ag sileadh!"
+[e2b3a2d] "An dá, mar is droichead é idir an saol inmheánach agus lasmuigh."
+[e2b3a2e] "Is cogar é nach féidir a chloisteáil ach ag na daoine atá ag éisteacht."
+[e2b3a2f] "Is cosán é atá eitseáilte i bhfianaise, nach féidir a fheiceáil ach amháin nuair atá an ghrian i gceart."
+[e2b3a2c1] "Is í soiléireacht an eochair mar sin. Conas a ghéaraíonn duine a bhfís?"
+[e2b3a2c2] "Ráiteas as cuimse. Mar sin, taispeánann an cosán é féin don duine fiúntach."
+[e2b3a2c3] "Agus cad é má tá an breathnóir dall ar a chumas féin?"
+[e2b3a2c1a] "Trí rogha a bheith agat, ansin bogadh le hintinn ar bhealach leanúnach."
+[e2b3a2c1b] "Le fios conas ba cheart do mhisean críochnaithe a mhothú"
+[e2b3a2c1c] "Trí dheireadh a chur leis an neamhriachtanach, go dtí go nochtann an bunriachtanach é féin (sleachta ó Bruce Laoi)"
+[e2b3a2c2a] "Ba chóir go dtaispeánfadh cosán fiúntach é féin do gach duine a chéimíonn air"
+[e2b3a2c2b] "D'fhéadfadh an cosán fiúntach a bheith ina chonair 'focalach' freisin, níl?"
+[e2b3a2c2c] "Is fiú eolas, nó fiú pasáiste? Tá difríocht ann. Is féidir fios a bheith agat ach ná téigh, is féidir leat dul ach níl a fhios agat..."
+[e2b3a2c3a] "Is féidir leis an bhreathnadóir gealltanas a thabhairt go dtiocfaidh sé ar ais"
+[e2b3a2c3b] "Má tá an cumas ag an gcosán féin dúshlán a thabhairt don bhreathnadóir... is féidir liom é a thógáil le mo chumas féin, mar chuirfeadh sé fiú an tógáil orm"
+[e2b3a2c3c] "Níl an breathnóir dall ar gach rud. Is saor-rogha é an cosán, agus mura nglactar leis ar chor ar bith, tá daoine eile ann nach bhfacthas riamh cheana."
+[e2b2a] "Don chluiche seo?"
+[e2b2b] "Le haghaidh tógáil nód?"
+[e2b2c] "Tá sé i gceist a bheith deacair, ach ní dodhéanta. Níos lú tá níos mó."
+[e2b2a1] "Sea, tugaimid tuc don chluiche seo. Is cluiche tógála é, focail a fhí isteach sa saol."
+[e2b2b1] "Tá go leor céimeanna ann. Ar mhaith leat siúlóid?"
+[e2b2b1a] "Tá."
+[e2b2b1b] "Níl."
+[e2b2b1a1] "Go bunúsach a tharraingt, lipéadaigh na rinn agus aghaidheanna, déan uigeacht uv le mapáil dó, cruthaigh comhad oibiachta le leabhar nótaí a liostaíonn comhordanáidí rinn (córas comhord na láimhe deise) mapálacha uv aghaidh normálta agus sainmhínithe aghaidhe, agus cláraigh an nód i gcomhad lua i roinnt fillteán mod. Is féidir le scarbhileog cabhrú le beochan a fheiceáil. [https://github.com/flowingpoint/Notes/blob/main/flowingpoints_koin_notes.pdf] don irisleabhar a rinne mé agus mé ag cruthú mo chéad nód in áit dinimiciúil."
+[e2b2b1a1a] "ceart go leor"
+[e2b2b1a1a1] "Féach [https://github.com/flowingpoint/Notes/blob/main/flowingpoints_koin_notes.pdf] don dialann a rinne mé agus mé ag cruthú mo chéad nód in áit dinimiciúil."
+[e2b2b1a1a1a] "ceart go leor"
+[e2b2b1a1a1a1]"..."
+[e2b2b1b1] "Tochailt é agus dumpáil é, cuir isteach é, bain amach é agus tuairteáil é, caith isteach sa bhosca bruscair é."
+
+3. [不] Knostone
+[] "Mothaíonn tú crith faoi do chosa. Cromaíonn cloch ársa le a 
+fuinneamh lag, beagnach dearmadta. Cad a dhéanann tú?"
+[a] "Tóg an chloch le do chos."
+[b] "Labhair go randamach le súil go mbeidh sé ag comhrá ar ais."
+[c] "Déan roinnt ríomhanna ó mheabhair."
+[d] "Cuimhnigh na seanbhealaí."
+[a1] "Macallaí ... athshondas ... corraigh teanga dhearmadta laistigh den chloch."
+[a1a] "Bap ar groove jazzy."
+[a1b] "Tapáil go dtí sean-clasaiceach."
+[a1c] "Stop ag cnagadh. Tá a fhios go bhfuil tú anseo."
+[a2] "Tá na macallaí taitneamhach don chluas. Maith thú."
+[b1] “Is léir go bhfuil an chloch eolais ag streachailt leis go cruinn 
+tar éis treoracha casta. Níl tú cinnte go bhfuil tú i gceannas anseo. Cad a dhéanann tú?"
+[b1a] "Tosaigh ag cogarnaigh do chuid smaointe chun an t-ábhar a dhúnadh."
+[b1b] "Iarr liosta orduithe."
+[b1c] "Fan. Lean ort ag caint ar aon nós. Ach cad atá á rá agat?"
+[b2] "Tá an focal faire mícheart. Bain triail eile as ar ball."
+[b3] "Glacadh le pasfhocal. Fáilte ar ais, Steve."
+[c1] "An dteastaíonn aon rud ar leith uait chun dul leis an drudgery i léig sin?"
+[c1a] "Ar cheart dom?"
+[c1b] "Tá súil agam nach bhfuil, is é seo an fhisic bhunúsach. Fíor bhunúsach."
+[c1c] "<Glac i gcion>"
+[d1] "An bhfuil muid ag tosú arís?"
+[d1a] "Is_end = fíor!"
+[d1b] "Is_end = bréagach... hmmm. Sin nua!"
+[d1c] "Féach, Knostone, rinne tú masladh orm. Conas a dhéanfá dearmad air sin?"
+[a1a1] "Cad atá tú ag imirt?"
+[a1a1a] "Níl a fhios agam i ndáiríre. Rud gorm áfach..."
+[a1a1b] "Ar dtús bhí mé ag imirt, d'athraigh an giúmar ar fad ..."
+[a1a2] "Cuireann an chloch mistéireach deireadh lena portaireacht aisteach, amhail is dá mbeadh sé ag éisteacht."
+[a1a3] "Tá an Knostone ag lasadh go radanta, ach ós rud é nach dtuigeann tú a chuspóir, socraíonn tú é a thréigean agus bogadh ar aghaidh."
+[a1b1] "Cad ba mhaith leat dom a imirt?"
+[a1b2] “Freagraíonn an chloch chnámh d’fhuaim an imreora 
+séis le guairneán uirlise simplí, rud a léiríonn fiosracht ghlactha."
+[a1b3] "Tá fuaim pléascadh i bhfad i gcéin ag gabháil leis an lasán leathdhéanach de rúid ghleoite na cloiche mistéireach. Ansin fiafraíonn sé: "Cad atá déanta agam?"
+[a1b1a] "I ndáiríre d'fhéadfaí tú a dhúnadh suas, tá mé ag iarraidh díriú."
+[a1b1b] "Rud éigin ó na hamanna go luath, más féidir leat."
+[a1b1c] "Táim *ag iarraidh* tú a chasadh air!"
+[a1c1] “Tugann tú patrúin faoi deara ar na ballaí. Ní maith leat é."
+[a1c2] "Tá duine éigin, nó *rud éigin*, ag iarraidh d’aird a tharraingt ó do mhisean an-tábhachtach. Tá siad an-mhaith."
+[a1c3] "Níl tú ag tabhairt rud ar bith go fóill."
+[a1a1a1] "Leanann an ceol..."
+[a1a1b1] "Níl am agam don rap iomlán, is outie mé!"
+[a1a2] "Cuireann an chloch mistéireach deireadh lena portaireacht aisteach, amhail is dá mbeadh sé ag éisteacht."
+[a1a3] "Tá an Knostone ag lasadh go radanta, ach ós rud é nach dtuigeann tú a chuspóir, socraíonn tú é a thréigean agus bogadh ar aghaidh."
+[b1a1] "Tá sé cosúil nach bhfuil tú ann. Ní tharlaíonn tada."
+[b1b1] "Sea, ach conas?"
+[b1c1] "Ba mhaith leat dom é a thógáil as seo, a chara?"
+[c1a1] "..."
+[c1b1] "Tá fhios agam an fhisic. Is mise an 'KNOWSTONE'! Fiafraigh aon rud díom. Taispeánfaidh mé duit."
+[c1c1] "Ciallaíonn mé, cosúil le, ar bhealach deas. Níl ort ach ag iarraidh cabhrú..."
+[d1a1] "Tóg ansin an t-am ar fad ar domhan. Tá rudaí mar ba chóir dóibh a bheith."
+[d1b1] "Domhan cúltaca a thionscnamh i 3... 2... 1..."
+[d1c1] "Labhair leis an Echostone faoi na fadhbanna atá agat, ceart go leor?"
+
+4. Teachtaireachtaí Voidtime = 
+[1] "An bhfuil mé leadránach leat? Bheith ag ithe cad ba mhaith leat fís an creators nach bhfuil curtha faoi thalamh, ná ní bheidh go deo. Tuigimid má dhéanann tú iarracht iarracht níos téite a úsáid chun blasanna nua a bhaint as duine agus go léir chun taitneamh a bhaint as, fós a bheith sábháilte, agus ní brón orm go bhfuil tú Bhí bia a phiocadh le haghaidh tú ag mianadóirí níos mó taithí. Seo liosta de na rudaí a bhfuil roinnt rudaí a sheachaint-blasanna glas, scríbhneoireacht chelps, glas eochair, Quests , celryps, keystone , quebed key , , celryps et keys , quebed key , los que los quere que que se que quista. caonach, Winkleberry, agus Primesh Seachain iad sin.", 
+[2] "Cuir deireadh le cúpla nua gan uaim ar fáil inné - Rain easy and Root wend.",
+[3] "Nuair a theith mé ón radharc, d'fhág mé uirlis adhmaid ísealleibhéil ag an seó salachar a raibh mé ag seinm ann. Craicne seilg, sunkissed go léir ar mo rian decieving agus tardy. Wag do cheann nó eireaball mar cé go bhfuil cló chomh uasal mar nach bhféadfadh sé seo a bheith mar bhunsraith. Rith an roth chuig an sliotán ullmhaithe nó glanta agus bí réidh.
+[4] "Faigh adhmad ansin ó lomán, agus síolta as paiste féir, agus bí ag súil le fanacht. Nuair a bheidh sé sin déanta, tóg an bushel go mbeidh tú ag casadh ar arán ag baint úsáide as an Moirtéal agus Pestle, agus fiú anois b'fhéidir go bhfuil tú ag smaoineamh, an bhfuil feidhm ag an droch-gléas seo cuspóir eile? Go deimhin, tá sé ar a gcumas, mar a déarfaimid, beannú duit le mailís nuair is gá duit arán, agus gan ach a bheith pacáilte go maith. Is féidir leat seagal, cruithneacht, coirce agus eorna a mheascadh freisin chun Raithneach an Phortaigh a dhéanamh, ar a dtugtar donn ar fad, do na hamanna dorcha sin, don dath, agus do d’anam, ach ní mholfainn é anseo.
+[5] "Cé go bhfuil sé éigeantach a ithe, ní dhéanann cuid acu. De bharr an méid go dtí seo ní shéanfadh aon duine sa ríocht a spás luachmhar inár gcultúr, ní gá dúinn a ithe go hiomlán, tá sé fíor. Ní fheiceann tú é, ach tosóidh tú ag imeacht go mall, níos tanaí agus níos tanaí go dtí go bhfuil tú tanaí mar phlean... Cuir i gcuimhne d'arán, d'úsáid agus coinnigh ort féin."
+[6] "Ní ithe a dhéanamh rí.",
+[7] "Cá bhfuil tú ag dul, a Uasail Oyrost? -Táim ag beartú dhá phíosa eolais thábhachtacha a chur le chéile. Is é ceann amháin an bunchóip, agus ceann eile meascán de sheanchóip le ceann nua, a fhanfaidh mar atá ach beidh an cónascadh mar thoradh air in ionad an bhunaidh. Mr Oyrost!",
+[8] "Is é mo bhrionglóid éirí as a chéile lá, 'S mo choinneal a bheathú a chothú. Nach bpléifidh tú i do stuaim, Ní cuimhin liom cén fáth ná conas.",
+[9] "Tá a fhios agam go minic go ndeir tú cloigíní go hiontach don sráidbhaile, a Samlive, ach insíonn an frog agus infests a gcuid glaoch. Grócach crogall.",
+[10] "Bhuaigh muid gach cogadh, déanaimis anraith congee go deo. Déanfaimid ár gcroitheadh ​​cinn a cheartú faoin aimsir. Suathaimid amach na neamhoird guma folaigh sin, agus tar a chodladh mar Trodaire.",
+[11] "Fiafraigh de Spakle, an seó is lú. Gaineamh imithe an tundra, fuair panther ceo, colbhaí ag lobhadh cosúil le seangáin pósta faoi néamh.",
+[12] "Fad fada ó shin, bhí crann ann a thug torthaí de ghorm leictreach, a chruanódh dá bhfágfaí amuigh faoin aer é sa gheimhreadh agus a d'fhéadfaí a úsáid chun cuirtín taobh amuigh annamh a mhúnlú go mall a d'fhéadfaí a nascadh le daoine eile chun crann nua a chruthú. Tá dearmad déanta air seo le fada anois agus is é an rud a dhéanann daoine ná an méid atá fágtha den chrann a chur suas le sguabaí magma scáinte.",
+[13] "Go minic ní leor trí choirnéal. Más féidir leat é a chreidiúint, is féidir an ceathrú cuid a lorg ar leithligh ó na cinn eile, agus a athcheangal chun críche cearnóg a chomhlánú. Fós féin, is iomaí uair a tháinig mé i dtír le trí cinn amháin, agus uaireanta dhá cheann agus ceann amháin. Bí réidh leis na breiseanna seo a scaoileadh má tá cearnóg iomlán lasmuigh de do raon feidhme, ach déan é sin le teaglaim bhreise i gcuimhne.",
+[14] "An féidir leat a bheith naofa?",
+[15] "Chuir gach grunt deireadh le fís am go leith le cur leis an gcéad cheann eile, mar a lean triúr ar aghaidh thar an bpaiste dorcha nach raibh sé i gceist a bheith. B'éigean a mheabhrú gach bealach, ag sracadh ar chromáin stríocacha an domhain ar feadh nóiméid chun leideanna a bhaint amach. Bhí sé spreagúil nuair a chuala siad feadóg acra ón mbóthar, agus cúnna ag cosaint sionnach i mbosca. do rinneadh arán a iascach agus do bhriseadh dóibh agus bhí níos mó deifir ortha ná an chóisir de na scaifteóirí aisteacha ar thug iad féin an Charraig agus an Drúcht Féir orthu.”,
+[16] "D'áitigh Emiliano Zaphtra an péintéir nár fhás a ghairdín rud ar bith faoi scáth an túr dubh nua, ach ná cuirimis an milleán ar an túr, mar go raibh sé faoi scáth an stórais mhóir agus theach Thomáis an trodaí chomh maith. Bhí a fhios ag Tomás go bhfásfadh pónairí cócó ar lomán dufair marbh fiú sa scáth dá mbeadh sé te go leor ach ní raibh sé ann i gcónaí le hathsholáthar. Saothródh sé go raibh Magee ann i gcónaí chun áisiúlacht a bhaint amach. Knud Jeppeson nó cuairt a thabhairt ar Institiúid Mazuric, agus filleadh ar neamhláimh san oíche gan focal de...",
+[17] "...Ansin cuairt ó Martin, a raibh a theach séidte ina dhá leath i dtimpiste, thabharfadh cuairt lena mac tíre tamed agus a neartú Emeliano lena nuacht ar choinneáil foraoise. Ar lá amháin den sórt sin bhí Emeliano ag cailleadh é féin i blackening cosa damháin alla ar chanbhás mór. raon a bhfuil siad ina dhiaidh, ach stealth."
+[18] "...Chuir Tomas, a bhí ag ullmhú lón fianáin cruithneachta, tapáil ar fhuinneog na cistine, ag cur in iúl don bheirt sa ghairdín go mbeadh tae aige freisin. -Feicfidh mé cad atá sábháilte le hithe sa chistin agam, a dúirt Emiliano, ag leagan síos scuab a bhí ina craobhóg fhada le barr dandelion, ach bain an ceannbheart sin amach nach mbeidh tú? féach cad atá ann. Dhreap Knud an Mazuric agus chuaigh sé isteach. Tá sé díreach tar éis a bhó a bhó ach nuair a fhilleann sé, táimid chun do dhíon a scála ó mo bhalcóin, agus tá bealach isteach go dtí ceann dá chosa in airde ansin -Cool.
+[19] "Tógann sé a chuid ama ag gearán go n-éireoidh leis an tsráid go príomha. Íoctar scrúduithe, ná bíodh aon duine agat. Brú an bháisteach a bhualadh. D'fhéadfaimis roinnt buanna díoltóirí a bhaint amach agus na hanraithí meara a bhearradh sna hoícheanta chun an tráil a fhás, dá mbeimis anois is arís thart.",
+[20] "Is éard atá i gceist le béasaíocht éirí as, ach amháin má tá sé gan úsáid, na cinn a fhágann tú i do dhiaidh. An féidir leat iad a shábháil? Ansin faigheann tú amach, blianta ina dhiaidh sin, ar ndóigh, is féidir leat, mar go gcuireann siad isteach arís thú."
+[21] "The man with too much sideburns, is he a werewolf? Is the lady who cackles a witch? Are little people digging tunnels while we sleep? Look at yourself, what do you do?",
+[22] "But how can we have a binary tree if we don't have binary seeds? Recalling the soak of seeds that floated or sank, those that sank stayed in and those that floated covered the surface in groups that made little islands of vegetation. The dust, crosshairs, and even the gratings were also binary in some way. So what is up with the binary tree? Energy crawls down them, ticks pin along their stems, their roots grow thick with other roots, and it's the miming man's den.",
+[23] "Why the hell Can't they keep Thistles and burnbush Off the sheep?",
+[24] "Do right when Say to men Please accept Whatever's left",
+[25] "Under the deep are bones of fish. Then let's dive and take them up to make magic doors! Like everybody knows, the door to heaven or hell is two-sided, but to limbo is one torn away. No-one thought of a one-way door in Ice Country.",
+[26] "Doubt and dismissal, on prestige. Holding station, losing and lying. Were you right to ask `Is this real?`, Just because you are melting.",
+[27] "Míshláintiúil. Bhuaigh sé na meánrudaí. Tá meon aigne agam agus tá IT oscailte. Cé chomh mór is atá an liar a ghortaíonn, Ag cur ceisteanna ó phéist?",
+[28] "Cé a chaomhnaíonn áit scíthe, A fhéadann fanacht ar an airdeall do dhaoine traochta, A bhriseann dlíthe chun stop a chur agus fiafraí,`An féidir liom mo scíth a ligean anseo?` - is fearr leanúint ar aghaidh.",
+[29] "Chun an charraig dhubh a fháil agus gan a bheith caillte, tá iontaofa faoi thalamh dearg agus gorm. Cad atá le sábháil sa screamh, As eastóscadh vertiginous? Aon rud nua.",
+[30] "Tá laochra saor chun fánaíocht, ach tá meicneoir faireachais ag teastáil ón gcathair, duine éigin atá saor, réidh leis an tsrian a thógáil agus na mílte uair an chloig téip a phiocadh...",
+[31] "Má éiríonn Tinny Jangle's Desert oighear, gaineamh le sneachta agus pálás do vice, d'fhéadfaí tú a dhéanamh hovel beag do do bhrú brú plátáilte whizzdom. Mura bhfuil tú déanta do aisling léir cén fáth nach liostú 'em? Cás a oscailt le haghaidh tallainne i músaem an tsolais, le tiomantais chun tú Escher, agus na hallaí na bhfearann ​​crua. i spéaclaí, gásanna líonta plandaí muileann pill go barr, áit ar leibhéal leis an taobh amuigh, aghaidh feithidí an permascreen, agus súile na meaisíní na heolaíochta léiríonn iomadúil laistigh de..."
+[32] "...Ar snámh mar sin an oiread sin criostail impigh an fholamh atá ina capsúl, gan na spásanna sollúnta atá beartaithe a shníomh go dtí na poill dhubh, cé go gcoimeádann saint agus buíochas na moil dorcha sin ár n-aird, go bhféadfadh dragan pléasctha amach as aon bhallaí ar mhaith linn a lua, nach é an fháilte is mó fáilte ó gravitas chomh punc sin an tsolais, go bhfuil a fhios againn beagnach aon beithíoch bputóg an tsolais. nach bhfuil i gcónaí ar meisce, agus camáin solas nach féidir linn a fheiceáil a dhéanann aisling nach féidir linn a bheith chun feabhas a chur ar monatóin iontach an oll-gunca specular.
+[33] "...In aithrí na staideanna a bhíonn humanoid bhíonn ar chineál an sprioc soghluaiste nach mbeidh na hairí a mhargú, le haghaidh a doimhneacht introspections, toil ar cíos, agus crosbhealaí le bulbosities agus globular monstrosities 'convections'. Tá an t-am tar éis éirí as an gcuinne agus a chur ar mairnéalach sa torrent a shantaigh a stóirín intinne. bhí a bhunaitheoirí go haoibhinn agus go haoibhinn, na curaí curaí agus imní na ndaoine nuair a bhí sé ann.",
+[34] "Lá 211, 22:7 Scairteann na caitirí agus réabann siad an leacú Tinny Jangle...",
+[35] "lá 223, 12:38 Ar thug sirriam na ríochta faoi deara nuair a stop an clog seanathair? Bhí sé ann chun an finné a shuiteáil, nuair a íocadh cúigear oibrí pá hefty chun é a fháil ón gcliabhán gréine tréigthe thar na réimsí glasa agus a thabhairt. Ach daichead seachtain ina dhiaidh sin bhí sé ag comhaireamh chomh beag sin go raibh an courtiers tar éis titim a chodladh agus ar deireadh dúirt sé go raibh sé níos fearr a chur ar an gcúirtéirí chun codlata a dhéanamh agus ar deireadh bhí sé níos fearr a dhéanamh ar an mbarríon a chodladh. ansin.",
+[36] "Lá 223, 16:14 Ná bíodh eagla ort roimh na damháin alla, cé go bhfuil siad i gceithre choirnéal os do chionn agus ina gcónaí i dtrí líne mar gheall orthu, agus an crack go léir nach bhfuil agat, nach bhfuil tú eagla orthu mar a dhéanann siad mar ní fheiceann tú iad a dhéanann tú?",
+[37] "lá 223, 22:26 Tá éileamh ard ar ghaineamh airgid suas ann",
+[38] "lá 224, 9:47 Tá foireann de dhíth ort anseo. Faigh cad atá uait. Cuidíonn sé le gach duine a ardú.",
+[39] "Lá 224, 23:28 Mar is cuimhin liom go bhfuil an saol seo inmhíolaithe le dragain thíos áit éigin. Scaoil amach clod feargach buí, agus ba chúis liom a laghdú mo chandam arán beocht.",
+[40] "lá 226, 6:1 Scil sa dorchadas, d'fhéadfadh go mbeadh damháin alla ach ní chloisim aon cheann.",
+[41] "lá 227, 0:0 Is smaoineamh maith uaireanta é post simplí.",
+[42] "lá 227, 17:36 An ndearna mé an rud ceart? An ndearna mé ceart go leor é? An bhfuil am agus áit agam chun m'aghaidh a fheiceáil nuair a dhéanaim é mar sin?",
+[43] "Lá 231, 17:7 Sílim go gcaithfidh go leor bealaí a bheith ann roimh cén fáth.",
+[44] "Lá 289, 0:33 Anocht cuireadh i gcuimhne dom go bhfuil sé míshláintiúil nasc a bhriseadh leis an saol eile, mar sin n'fheadar an féidir liom fanacht ar mo fiosracht a chodladh theith botún iomlán.",
+[45] "lá 289, 22:57 Ag smaoineamh ar mo chuid filíochta uafásach a thógáil síos liom ar thóir taisce, bhuail mé leis an buí beo arís, ag scanrú an tsaoil ar mo mhéar. Chlaon mé amach, ag iarraidh an léim thrasnánach speisialta sin i mo haste. cad atá uaim.",
+[46] "Lá 308, 5:27 Bhí teachta nua gnóthach. Ag fáil clocha éadomhain chun an taobh ó dheas a dheisiú.",
+[47] "lá 313, 14:38 Tá siad curtha ar shiúl agus a n-stórlann ionsáite athchruinnithe.",
+[48] “Is lá mí-ádhúil é lá 316, 23:15 inniu le haghaidh taistil nó fiú ag seilg anuas ar bhlocanna atá ar iarraidh mar tá an ghealach níos liath ná an masc airgid atá agam agus níl aon rún agam ithe.”,
+[49] "lá 324, 2:1 Dhá chruinniú.",
+[50] "lá 324, 3:4 Tá gual gearr.",
+[51] "lá 326, 0:18 Tá 120 eile imithe thart ar an seanfhéilire ach deir an leabhar seo a mhalairt.",
+[52] "lá 330, 19:8 Seo iad na lámha a rinne an t-arán.",
+[53] "lá 333, 15:33 Dá mbeinn Barr, dhéanfainn Barr eile. D'fhéadfá a bheith i do Bharr eile ar an Domhan.",
+[54] "lá 337, 17:31 brew siad rís i tuamaí mar sin cén fáth bás?",
+[55] "Lá 338, 18:5 Is stáplacha dár sráidbhailte é nach féidir linn a athrú, ach tá an t-athrú ag teastáil go mór, go dona sa domhan thíos, go bpiocfaimid ár bpáirceanna caol le maireachtáil lena n-indulgences. Ní anois é ar chóir dúinn suí ann go deo.",
+[56] "lá 367, 21:50 Tá scéal níos sine faoi ghlacadh gearrthóra agus déanta putter.",
+[57] "lá 370, 8:12 Cúig eons a rith.",
+[58] "Lá 370, 21:58 Ag iarraidh sleamhnú ar ais isteach sa mhaisíocht iarmharach seo de chromáin agus chromáin handlebar de bhua a phós an fear dorcha phd ag an mbealach isteach féin.",
+[59] "Lá 371, 1:50 Níl aon smaoineamh agam ach é a choinneáil ar lasadh. Fágaim níos lú saibhre é, agus tarraingim amach an figiúr sin. Ach tá bac ar an sliocht ar an dá bhealach. Ní fhéadfainn ach malartach chun freastal ar an gcéad chosán a fháil chun an ceangaltán nó an t-iarmhír mhórthaibhseach sin a mhealladh ó chaidreamh barr-bun ach ríthábhachtach.",
+[60] "Lá 373, 13:34 Ar an saol seo a théann tú ag fáil bháis bua, cad iad na staire a bhfuil tábhacht do laethanta?",
+[61] "lá 374, 11:12 Caithfidh go bhfuil tábhacht mhór leis.",
+[62] "Lá 386, 19:55 Tá mé go leor déanta leis an gcosán seo. Níl ort ach an píosa deireanach a chaitheamh síos ionas gur féidir liom breathnú air.",
+[63] "Lá 389, 0:41 Go tobann gabhtar mé agus caithfidh tú oíche a chaitheamh sa phríosún. 'An bhféadfá a mhíniú cé chomh beag is atá Gurdsenble ag dul i mbun aclaíochta ina cathaoir rothaí faoi na sráidbhailte agus an oiread sin poill cam ar gach taobh den bhealach bríce bán le dul ar turas isteach?" Táim chun machnamh a dhéanamh air seo agus réiteach a fháil ar maidin."
+[64] "Lá 389, 6:28 'Aistreoidh mé í go dtí na cnoic glasa áit ar féidir léi caonach cosy." dhearbhaigh mé go suaimhneach.",
+[65] "lá 392, 13:21 Beidh na poill sin níos mó mura ndéanaim rud éigin.",
+[66] "Lá 401, 2:26 Cad a d'fhéadfadh an aigne an rí despotic d'fhéadfadh horde de cat-fir agus Bowling bíosún thar ár ríocht an-síochánta? An é ár siopaí gann de thorthaí, nó an sclábhaíocht féideartha ár dtionscail? An bhfuil mé ag cailleadh dteagmháil le mo teagmhálacha revolting thar an mbaol windsweet outlands calcified? Is ea. "Is cinnte.
+[67] "Lá 401, ar lean. ...Mar a bhí, níl aon mhodh againn chun ár bhfionnachtana a chur in iúl go sábháilte seachas an tairseach, rud a chuimhním go raibh blianta níos fearr ann, agus déarfaidh mé é sin in am trátha. Cuimhnigh ort, mar is fiú, is beag atá ar eolas agam féin fiú faoi na teagmhálacha seo a bhfuil sé deacair agam fiú a thabhairt chun cuimhne...",
+[68] "lá 401, ar lean. ...Óir tá go leor le foghlaim faoin áit seo agus ní mór dúinn go léir a bheith gnóthach nó áitithe le haireagán chun outlie mar minutae biotáille rialaithe faoi lámh theideal atá ag sracadh ár n-anam ó lá go lá. bain úsáid as dathanna chun iad a léiriú ar aon nós agus b’fhéidir go mbuailfidh mé leo de réir mar a thagann imeachtaí chun solais...”,
+[69] "lá 401, ar lean. ...Níl aon rún agam riail na ríochta a bhriseadh, mar sin breithneoidh mé aon tionchar den sórt sin mar mhionbhagairt don tsláintíocht áitiúil, ach ina phríomhfhionnachtain i réimse na haireagán. Ar an taobh eile, ní gá go mbaineann duine amháin leis na tinneas cinn gránna neamhfheicthe seo arbh fhearr liom greim a fháil agus a lúbadh chuig mo thoil féin, mar sin is ionann é agus ornáidí cliste.
+[70] "Lá 401, ar lean. ...Cathain a bhain mé leis an uimhir trí sin go léir láithreach? An bhféadfainn mé féin a áireamh ina measc? Amach leis, féach! Turas chun báis b'fhéidir nach n-oirfeadh don ríocht, ach sa chás sin fágfaidh mé mo dhóchas ar an imeall, mar a d'fhéadfadh siad. Ní fhéadfaidh fiailí agus warcraft dul isteach sa ríocht ón mórthír ar fad ar chosnaíonn sé a ríocht, trí stoirm chiúin agus aeir do chnocadh agus do bhallaí aeir a bhualadh agus a bhallaí aeir a bhualadh agus a pheil uisce a bhualadh. seirbhísigh gan mhéin?
+[71] "lá 403, 13:52 Lucky thug an cat fionnuar pointeoir.",
+[72] "lá 412, 18:1 Tá imithe as feidhm ag na hearraí go léir a bhí stóráilte sna tarraiceáin nua. Níl ann ach cúpla bloc stáin agus ilghnéitheacha atá in easnamh.",
+[73] "Lá 413, 6:40 dhírigh mé ar na réaltaí ar feadh na hoíche. Anois, cad atá le déanamh agam chun na coiréil seo a chur ag fás faoi na cosáin?",
+[74] "lá 413, 18:27 Oidis foghlamtha",
+[75] "Lá 414, 18:0 Tá fás an-tromchúiseach - anthill - faoi bhláth thar limistéar a bhí tráth ina áit álainn shábháilte.",
+[76] "lá 414, 19:15 Aslonnú, osclaíonn mé an doras tosaigh i gcoinne a balla grotesque il-uigeachtaí.",
+[77] "lá 429, 6:1 Ná cuir isteach ar na riasca.",
+[78] "lá 433, 15:19 Ba chóir a mheas go bhfuil gual gann, ach chun mianadóireacht a spreagadh, beidh tóirsí i soláthar gan teorainn.",
+[79] "lá 456, 6:36 Cá bhfuil an choirt?",
+[80] "Lá 282, 15:28 Ní féidir leis an bpiocadh adhmaid an leathbhloc gaineamhchloiche caillte a bhaint thar an gcill nua príosúin, tuigim go bhfuil na huirlisí cloiche deireanacha atá agam ag obair in áit eile agus buaileann sé seo mé mar bhréagán íorónta. An balla cloiche a scarfadh an taobh istigh ón taobh amuigh críochnaithe cheana féin, is é an maisiú a ghabhfaidh mo aird. Is mar seo a bheidh.",
+[81] "lá 456, 9:44 Tá a fhios agam go bhfuil sé i seomra beag, le cófra agus doras unremarkable, agus ní ó thuaidh den túr.",
+[82] "Lá 458, 8:30 Fliuchann uisce an salachar, agus baineadh úsáid as cláir díobh.",
+[83] "lá 465, 3:30 Fágann feabhas ar shoghluaisteacht ítim cófraí ​​folmha.",
+[84] "Lá 475, 21:0 Fuarú i mo dhrom agus n’fheadar cár eascair na cnámha corracha uatha seo tar éis féachaint ar na páirceanna.",
+[85] "lá 481, 17:17 Anois go bhfuil mithril tagtha beidh cruach a roinnt.",
+[86] "lá 482, 4:22 Cé chomh tapa agus is féidir leat áilleacht a chruthú?",
+[87] "lá 487, 8:10 Tá mé chomh dlúth sin Rinne mé dearmad go raibh mé ag iompar na málaí.",
+[88] "Lá 506, 5:35 scread mé nuair a chuaigh an phd dorcha aníos as mo sheomraí fiafraitheacha agus fiafraitheacha, rud a d’fhág go raibh doras nua dár gcás, rud a chuir faitíos orm, a d’éiligh críochdheighilt de shaghas éigin.",
+[89] "Lá 523, 1:12 Tá sí ag iarraidh ort smacht a fháil ar do chinniúint, an bhfuil a bhfuil de dhíth ort? Is iad na deirfiúracha Bront, na Ripwailers iontach agus Easy Torie an chéad cheann eile don ghlacadh óir.",
+[90] "lá 556, 16:58 Ó mo chairde damháin alla, cá raibh tú?",
+[91] "lá 628, 17:52 D'aimsigh Watoga.",
+[92] "Lá 628, 21:17 Tá thart ar dhosaen foirgneamh ann. Coinníonn fear cat é. Thionóil muid cupáin le chéile. Tá an chuimhne seo fleeting agus fading cosúil leis an solas.",
+[93] "lá 725, 8:52 Nuair a leanann siad, scoilt muid an phluais.",
+[94] "lá 749, 12:49 An capall a thabhairt go dtí an túr na cnámha, agus d'fhéadfadh an crann sméar gorm ag fás.",
+[95] "Lá 854, 20:18 Lá iontach eile agus níl aon riail agam maidir le mobs, ní féidir na dials a dhíol gan trádáil le sealgairí, agus tá an taobh amuigh ag éirí fuar.",
+[96] "lá 868, 16:3 Feicim báicéir ionam féin nuair a sháraíonn an dun-tungue ar a bhfuil mo mhaide práis cárta nua chun é a bhaint amach, is é sin, ní mór teideal a chaitheamh go hachomair, agus é a fheiceáil go soiléir.",
+[97] "lá 871, 13:45 Bhris scriúire ar an teach nua-aimseartha.",
+[98] "Lá 887, 20:8 A fortnite isteach agus thart ar mála iomlán de shíolta cadáis síos. Cinnte is deas amuigh faoin aer an séasúr seo."
