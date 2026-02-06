@@ -1,0 +1,333 @@
+15:55 22/12/25 removed 
+        if s.name == "noter:book_open"	then 
+        minetest.add_particlespawner({
+		amount = 3,
+		time = 1,
+		glow = 14,
+		pos = minetest.env:get_node(self.object:getpos()),
+		pos = {x=pos.x, y=pos.y, z=pos.z},
+		minvel = {x=-0.2, y=-1, z=-0.2},
+		maxvel = {x=0.2, y=1, z=0.2},
+		minacc = {x=-1, y=0.2, z=-1},
+		maxacc = {x=1, y=0.7, z=1},
+		exptime = {min=2, max=2},
+		collisiondetection = true,
+		collision_removal = false,
+		texpool = {{name = 'magicalities_note.png', blend='alpha', scale_tween={{x=(math.random(10,20)/5),y=(math.random(10,20)/5)},{x=(math.random(20,30)/5),y=(math.random(20,30)/5)}}}}})end
+from po.lua, since magicalities_note.png isn't even in the texture folder.
+
+
+I've a mad but useful idea: hold shift when digging a node to have it replace the active inventory slot item, and have the item that was there added to the end of the contiguosly filled slot list, this would be useful in building. I'll ask gemini. (16:10) Nope, quota still not reset. (16:24)
+
+29/12/25 9:56 Took this from runes/init.lua:
+-- Function to handle in-game conversation building
+function echo.build_and_append(instruction, player_name)
+    -- V3: Parse, append, update live state, and respond.
+
+    -- 1. Parse the instruction
+    local base_node = instruction:match("%[([%w%d]+)%?%]")
+    local choices_str = instruction:match("%[%[(.+)%]%]")
+    local selection_num_str = instruction:match("%]%s*(%d+)%s*$")
+
+    if not base_node or not choices_str or not selection_num_str then
+        minetest.chat_send_player(player_name, "Error: Invalid build syntax for player choice creation.")
+        return
+    end
+
+    local selection_num = tonumber(selection_num_str)
+    if not selection_num then
+        minetest.chat_send_player(player_name, "Error: Invalid selection number.")
+        return
+    end
+
+    -- 2. Extract choices
+    local choices = {}
+    for choice in choices_str:gmatch("%[([^%[%]]+)%]") do
+        table.insert(choices, choice)
+    end
+
+    if #choices == 0 then
+        minetest.chat_send_player(player_name, "Error: No choices found in build syntax.")
+        return
+    end
+
+    if selection_num < 1 or selection_num > #choices then
+        minetest.chat_send_player(player_name, "Error: Selection number is out of bounds.")
+        return
+    end
+
+    -- 3. Open file for appending
+    local file, err = io.open("convers.txt", "a")
+    if not file then
+        minetest.chat_send_player(player_name, "Error: Could not open convers.txt for writing.")
+        return
+    end
+
+    -- 4. Prepare and write new player choices
+    local new_nodes_for_memory = {}
+    local new_options_for_base = {}
+
+    for i, choice_text in ipairs(choices) do
+        local new_node_id = base_node .. i
+        local formatted_text = string.gsub(choice_text, "\"", "\\\"")
+        local line = string.format("[%s]\"%s\"\n", new_node_id, formatted_text)
+        file:write(line)
+
+        -- Prepare data for in-memory update
+        table.insert(new_nodes_for_memory, {id = new_node_id, text = choice_text})
+        table.insert(new_options_for_base, {text = choice_text, to = new_node_id})
+    end
+
+    -- 5. Generate and write echostone's response
+    local selected_player_node_id = base_node .. selection_num
+    local echostone_response_text = "A thoughtful choice. That path opens new questions..."
+    local echostone_response_id = selected_player_node_id .. "1"
+
+    local formatted_echo_text = string.gsub(echostone_response_text, "\"", "\\\"")
+    local echo_line = string.format("[%s]\"%s\"\n", echostone_response_id, formatted_echo_text)
+    file:write(echo_line)
+    file:close()
+
+    -- 6. Update in-memory dialogue table
+    if not echo.dialogue.cryptic_wisdom[base_node] then
+        minetest.chat_send_player(player_name, "Error: Base node " .. base_node .. " not found in memory.")
+        return
+    end
+    
+    -- Add options to the node the player was on
+    echo.dialogue.cryptic_wisdom[base_node].options = new_options_for_base
+    -- The base node is no longer an end point
+    echo.dialogue.cryptic_wisdom[base_node].is_end = nil 
+
+    -- Add the new player choice nodes themselves
+    for _, node_data in ipairs(new_nodes_for_memory) do
+        echo.dialogue.cryptic_wisdom[node_data.id] = {text = node_data.text}
+    end
+
+    -- Add the new echostone response node that follows the player's choice
+    echo.dialogue.cryptic_wisdom[echostone_response_id] = {text = echostone_response_text, is_end = true}
+
+    -- 7. Display the new state to the player
+    local player = minetest.get_player_by_name(player_name)
+    if player then
+        -- We transition to the new echostone response we just created, as if the player had selected it.
+        display_dialogue(player, "cryptic_wisdom", echostone_response_id)
+    end
+    
+    minetest.chat_send_player(player_name, "Appended " .. #choices .. " choices and 1 response. Conversation advanced.")
+end
+
+19:33pm 28/01/26 Fireplace, weed: [2/25] Listening to 'Wednesday at 11_14_10 am.mp3'.
+5th Feb 2026 10:30am weed: [1/6] Humming. 
+
+21:54pm 5th Feb 2026
+Right. Trying to inpart sensible facility to the choosing keypresser down the line, I attempt to draw practicle resource from 'a bunch of files' relating to what I assume is the set of functions, how they're structured, and the exact phrasing or 'syntax' of such effectations as ... just the next step. But what is the next step in terms of projects? Feels like I could be opening a longstanding subject of egalistic restraints, or am I too dramatic? This is about two things: using resources suddenly made available relevant to the entire socio-techno-strata as a whole, and seeking resources in my particular greenlit repertoire of savings that are missed. What's missing in the one is found in the other, but it's like searching for yellow paint inside of a banana- the whole thing is made of the thing I only want a drop of. 
+Now let's look at it. 22:06
+22:26pm Long list of dofiles in the main 'edit_mode', reading 'fs_notes', page and half- 55 odd lines.. Much dependance on 'your land' (if that's what 'yl' refers to in the mods). I guess trace the consequence chain from input to output of a basic function (not so much a 'thing you do' as an actor in game, but rather a 'what happens on the screen', because it's about, I mean, when you actually think about it, it's probably not here, but I'm sure all that's needed is a bit of focus to identify what it's about, because it could be a few things, but since I don't have anything like gemini at hand currently, I'm being practical and having a look at what's there already, which isn't a nightmare really. See there's a few things I will admit that I want: 8-dir sprites, full quests, number = choice (convo), voices, unique statue versions (like signs, could be set on the redstar node), and that's a bit of a master breakdown of the 'echostone' project, in terms of maybe a week and a half of work. I mean progress is defineable on each sub-category of resource analysis and tool happenstance. All subvenient to the talk and chalk, the sketch n slave, the wayside wayswaying, the death rattle drive of makeupman's hive. So on to another cup of tea. 22:41
+
+removed '
+xdecor.xbg = default.gui_bg .. default.gui_bg_img .. default.gui_slots' from 'xdecor/handlers/registration' but have been reloading with updates in a different non-working folder by mistake.
+23:12 abandoning xdecor, was only using it for the item frame, so I could quickly remove all the extra items on the inventory (about 20), and find out how all the mob sprites dissappeared from it (a mystery). But, really, the resolution would involve integration for a time, to get to know the basic system in play: does animation integrate well with actual gameplay, as a modding approach, so that I could celebrate their achievements also, as a question? Hmmm, but it's not so much that I'm smart, just that I 'know'. In any case, dropping xdecor approach, perhaps even having it in 'Order' at all. See I built a feeble chat just to have a go, to feel the shape of the HUD, so to speak, and I'm just 'ready to change' it, rather than actually play with it, which would be the more natural naive approach to a thing like this, but on a night like tonight, raining heavily, dad back from brainscan, two weeks smoking weed, XD, but the unholy dread, not so much a raw emotion as a 'pointed thing'. So we have a few hours tomorrow to get it done.
+I'll do the thing. 23:22 Just noticed order had been using standard rather than internal mod folder (/mods rather than /games), but they're out again now. 23:33 they came from there, yes, and it seemed to choose the standard /mod before game-specific mods. Think I'll tidy it up by removing the 3 inv items from the inventory that aren't the signpost, and giving the signpost a ready to use look, on the last page (pg 9), but since we're using the standard /mod folder, which also is read by the main game mt, those changes I make will depreciate the advantage of, and you'd know this already, having an alternate space to test it that is also a creative one with a history, so buttons to that, I should consider backing it up, but remember the winning approach is to actually create a mod, not just pare down, so, actually, it's not to create one, the only thing I can think of trying to do that actually fits is making the multiple choice a mere numberpad press rather than requiring entering the chat terminal, which would involve a sequence of visual considerations which would of course interfere with deep contemplation, which might be an evaluating factor in any project goals involving player-used symbolic expression. I mean, I could also wait for another shot with the help of an agent that I can ask: "We're going to look at changing a user input from being a command in terminal (with context) to a number from 1 to 9 on the keypad, the input being related to what must be described as a 'choice' within the realm of exchanging statements and expressions with the redstar unique signpostlike. The thing it will be if it is to be only that, which it isn't. Because then I'll want ... more, I think.
+So (23:46) The inv items. Yes, just to move them to a later page.
+Actually, you want a trapdoor like the 'lid', and maybe even a matching gate set. Thought of this earlier, why didn't I? Ladder is still pretty complicated looking, will I make them more like windows? 00:35, designed lid that works on different levels, with sketch, and notice the dofile for lid.lua is struck out, so it's already tidy. ETA: 45mins later
+13:29pm 6th Feb 2026
+Changing
+{-0.4375,-0.5,-0.4687, 0.4375, -0.375,-0.4061},
+{-0.4375,-0.3125,-0.4687, 0.4375, -0.1875,-0.4061},
+{-0.4375,-0.125,-0.4687, 0.4375, 0,-0.4061},
+{-0.4375,0.0625,-0.4687, 0.4375, 0.1875,-0.4061},
+{-0.4375,0.25,-0.4687, 0.4375, 0.375,-0.4061},
+{-0.5,-0.5,-0.499, -0.4375,0.5,-0.375},
+{0.4375,-0.5,-0.499, 0.5,0.5,-0.375},
+
+TO:
+
+minetest.register_node("tool:lid2_open", {
+	description = "Lid 2 Open",
+	paramtype = "light",
+	paramtype2 = "facedir",
+	tiles = {"kopper.png"},
+	inventory_image = "rungs.png^dice_2.png",
+	wield_image = "rungs.png",
+	groups = {cracky=1, oddly_breakable_by_hand=1,not_in_creative_inventory=1},
+	drop = "tool:lid2_open",
+	drawtype = "nodebox",
+	sunlight_propagates = true,
+	climbable = true,
+	node_box = {type="fixed",fixed={
+{-0.4375,-0.4375,0.4688, 0.4375,-0.3125,0.5314},
+{-0.4375,-0.1875,0.4688, 0.4375,-0.0625,0.5314},
+{-0.4375,0.0625,0.4688, 0.4375,0.1875,0.5314},
+{-0.4375,0.3125,0.4688, 0.4375,0.4375,0.5314},
+{-0.5,-0.5,0.4385, -0.4375,0.5,0.5625},
+{0.4375,-0.5,0.4385, 0.5,0.5,0.5625},
+{-7/16,-5/16,6/16, 7/16,-3/16,7/16},
+{-7/16,-5/16,7/16, -6/16,-3/16,9/16},
+{6/16,-5/16,7/16, 7/16,-3/16,9/16},
+{-7/16,-9/16,9/16, -6/16,7/16,11/16},
+{6/16,-9/16,9/16, 7/16,7/16,11/16},
+{-7/16,3/16,6/16, 7/16,5/16,7/16},
+{-7/16,3/16,7/16, -6/16,5/16,9/16},
+{6/16,3/16,7/16, 7/16,5/16,9/16},
+{-3/16,-9/16,9/16, -2/16,7/16,11/16},
+{-6/16,-81/160,9/16, -3/16,-7/16,11/16},
+{-6/16,-6/16,9/16, -3/16,-5/16,11/16},
+{-6/16,-4/16,9/16, -3/16,-3/16,11/16},
+{-6/16,-2/16,9/16, -3/16,-1/16,11/16},
+{-6/16,0/16,9/16, -3/16,1/16,11/16},
+{-6/16,2/16,9/16, -3/16,3/16,11/16},
+{-6/16,4/16,9/16, -3/16,5/16,11/16},
+{-6/16,6/16,9/16, -3/16,7/16,11/16},
+{2/16,-9/16,9/16, 3/16,7/16,11/16},
+{3/16,-81/160,9/16, 6/16,-7/16,11/16},
+{3/16,-6/16,9/16, 6/16,-5/16,11/16},
+{3/16,-4/16,9/16, 6/16,-3/16,11/16},
+{3/16,-2/16,9/16, 6/16,-1/16,11/16},
+{3/16,0/16,9/16, 6/16,1/16,11/16},
+{3/16,2/16,9/16, 6/16,3/16,11/16},
+{3/16,4/16,9/16, 6/16,5/16,11/16},
+{3/16,6/16,9/16, 6/16,7/16,11/16}}},
+	on_rightclick = function(pos, node, clicker, pointed_thing)
+		minetest.set_node(pos, {name = "tool:lid2_closed", param2 = node.param2})
+	end,
+	})
+
+minetest.register_node("tool:lid2_closed", {
+	description = "Lid 2 Closed",
+	paramtype = "light",
+	paramtype2 = "facedir",
+	tiles = {"kopper.png"},
+	inventory_image = "rungs.png^dice_4.png",
+	wield_image = "rungs.png",
+	groups = {cracky=1, oddly_breakable_by_hand=1,not_in_creative_inventory=1},
+	drop = "tool:lid2_closed",
+	drawtype = "nodebox",
+	sunlight_propagates = true,
+	climbable = true,
+	node_box = {type="fixed",fixed={
+{-0.4375, -0.5313, -0.4475, 0.4375, -0.4687, -0.3125},
+{-0.4375, -0.5313, -0.1875, 0.4375, -0.4687, -0.0625},
+{-0.4375, -0.5313, 0.0625, 0.4375, -0.4687, 0.1875},
+{-0.4375, -0.5313, 0.3125, 0.4375, -0.4687, 0.4375},
+{-0.5,-0.5625,-0.51, -0.4375,-0.4375,0.5},
+{0.4375,-0.5625,-0.51, 0.5,-0.4375,0.5},
+{-7/16,-5/16,6/16, 7/16,-3/16,7/16},
+{-7/16,-5/16,7/16, -6/16,-3/16,9/16},
+{6/16,-5/16,7/16, 7/16,-3/16,9/16},
+{-7/16,-9/16,9/16, -6/16,7/16,11/16},
+{6/16,-9/16,9/16, 7/16,7/16,11/16},
+{-7/16,3/16,6/16, 7/16,5/16,7/16},
+{-7/16,3/16,7/16, -6/16,5/16,9/16},
+{6/16,3/16,7/16, 7/16,5/16,9/16},
+{-3/16,-9/16,9/16, -2/16,7/16,11/16},
+{-6/16,-81/160,9/16, -3/16,-7/16,11/16},
+{-6/16,-6/16,9/16, -3/16,-5/16,11/16},
+{-6/16,-4/16,9/16, -3/16,-3/16,11/16},
+{-6/16,-2/16,9/16, -3/16,-1/16,11/16},
+{-6/16,0/16,9/16, -3/16,1/16,11/16},
+{-6/16,2/16,9/16, -3/16,3/16,11/16},
+{-6/16,4/16,9/16, -3/16,5/16,11/16},
+{-6/16,6/16,9/16, -3/16,7/16,11/16},
+{2/16,-9/16,9/16, 3/16,7/16,11/16},
+{3/16,-81/160,9/16, 6/16,-7/16,11/16},
+{3/16,-6/16,9/16, 6/16,-5/16,11/16},
+{3/16,-4/16,9/16, 6/16,-3/16,11/16},
+{3/16,-2/16,9/16, 6/16,-1/16,11/16},
+{3/16,0/16,9/16, 6/16,1/16,11/16},
+{3/16,2/16,9/16, 6/16,3/16,11/16},
+{3/16,4/16,9/16, 6/16,5/16,11/16},
+{3/16,6/16,9/16, 6/16,7/16,11/16}}},
+	on_rightclick = function(pos, node, clicker, pointed_thing)
+		minetest.set_node(pos, {name = "tool:lid2_open", param2 = node.param2})
+	end,
+	})
+
+minetest.register_node("tool:lid2_closed", {
+	description = "Lid 2 Closed",
+	paramtype = "light",
+	paramtype2 = "facedir",
+	tiles = {"kopper.png"},
+	inventory_image = "rungs.png^dice_4.png",
+	wield_image = "rungs.png",
+	groups = {cracky=1, oddly_breakable_by_hand=1,not_in_creative_inventory=1},
+	drop = "tool:lid2_closed",
+	drawtype = "nodebox",
+	sunlight_propagates = true,
+	climbable = true,
+	node_box = {type="fixed",fixed={
+{-0.4375, -0.5313, -0.4475, 0.4375, -0.4687, -0.3125},
+{-0.4375, -0.5313, -0.1875, 0.4375, -0.4687, -0.0625},
+{-0.4375, -0.5313, 0.0625, 0.4375, -0.4687, 0.1875},
+{-0.4375, -0.5313, 0.3125, 0.4375, -0.4687, 0.4375},
+{-0.5,-0.5625,-0.51, -0.4375,-0.4375,0.5},
+{0.4375,-0.5625,-0.51, 0.5,-0.4375,0.5},
+{-7/16,-5/16,6/16, 7/16,-3/16,7/16},
+{-7/16,-5/16,7/16, -6/16,-3/16,9/16},
+{6/16,-5/16,7/16, 7/16,-3/16,9/16},
+{-7/16,-9/16,9/16, -6/16,7/16,11/16},
+{6/16,-9/16,9/16, 7/16,7/16,11/16},
+{-7/16,3/16,6/16, 7/16,5/16,7/16},
+{-7/16,3/16,7/16, -6/16,5/16,9/16},
+{6/16,3/16,7/16, 7/16,5/16,9/16},
+{-3/16,-9/16,9/16, -2/16,7/16,11/16},
+{-6/16,-81/160,9/16, -3/16,-7/16,11/16},
+{-6/16,-6/16,9/16, -3/16,-5/16,11/16},
+{-6/16,-4/16,9/16, -3/16,-3/16,11/16},
+{-6/16,-2/16,9/16, -3/16,-1/16,11/16},
+{-6/16,0/16,9/16, -3/16,1/16,11/16},
+{-6/16,2/16,9/16, -3/16,3/16,11/16},
+{-6/16,4/16,9/16, -3/16,5/16,11/16},
+{-6/16,6/16,9/16, -3/16,7/16,11/16},
+{2/16,-9/16,9/16, 3/16,7/16,11/16},
+{3/16,-81/160,9/16, 6/16,-7/16,11/16},
+{3/16,-6/16,9/16, 6/16,-5/16,11/16},
+{3/16,-4/16,9/16, 6/16,-3/16,11/16},
+{3/16,-2/16,9/16, 6/16,-1/16,11/16},
+{3/16,0/16,9/16, 6/16,1/16,11/16},
+{3/16,2/16,9/16, 6/16,3/16,11/16},
+{3/16,4/16,9/16, 6/16,5/16,11/16},
+{3/16,6/16,9/16, 6/16,7/16,11/16}}},
+	on_rightclick = function(pos, node, clicker, pointed_thing)
+		minetest.set_node(pos, {name = "tool:lid2_open", param2 = node.param2})
+	end,
+	})
+
+
+
+13:53 Should have that digging the ladder-with-lid drops the lid, then the ladder upon further digging. and r.clicking the ladder, with the lid in active inv slot, turns it into ladder-with-lid and the two types depends on the types of lid used, and it goes out of the inv when used.Should have that. Ok, Just setting basic toggles and free 'lids' (x2) ETA 25mins.
+
+kind of a name clash: I want to give the name 'lid' to the standalone trapdoor (lid), and that gives me the opportunity to find something to describe a ladder with a lid, what is it? It's like a metal valve or cordion, we have 'ladder', 'lid', and it's both. How about 'letter' because it 'lets'? Or 'let', like 'lid' and 'lad' or 'lett' for 'let them pass', 'ladd' for 'ladder', 'lidd' for 'liddy disc cover', or just without the double letters?
+lolc
+{-0.4375, -0.5313, -0.51, 0.4375, -0.4687, -0.375},
+{-0.4375, -0.5313, -0.3125, 0.4375, -0.4687, -0.1875},
+{-0.4375, -0.5313, -0.125, 0.4375, -0.4687, 0},
+{-0.4375, -0.5313, 0.0625, 0.4375, -0.4687, 0.1875},
+{-0.4375, -0.5313, 0.25, 0.4375, -0.4687, 0.375},
+{-0.51,-0.5625,-0.51, -0.4375,-0.4375,0.5},
+{0.4375,-0.5625,-0.51, 0.51,-0.4375,0.5}
+
+lolo
+{-0.4375,-0.5,-0.4687, 0.4375, -0.375,-0.4061},
+{-0.4375,-0.3125,-0.4687, 0.4375, -0.1875,-0.4061},
+{-0.4375,-0.125,-0.4687, 0.4375, 0,-0.4061},
+{-0.4375,0.0625,-0.4687, 0.4375, 0.1875,-0.4061},
+{-0.4375,0.25,-0.4687, 0.4375, 0.375,-0.4061},
+{-0.51,-0.5,-0.499, -0.4375,0.5,-0.375},
+{0.4375,-0.5,-0.499, 0.51,0.5,-0.375},
+
+{-0.4375,-0.4375,0.4063, 0.4375,-0.3125,0.4689},
+{-0.4375,-0.1875,0.4063, 0.4375,-0.0625,0.4689},
+{-0.4375,0.0625,0.4063, 0.4375,0.1875,0.4689},
+{-0.4375,0.3125,0.4063, 0.4375,0.4375,0.4689},
+{-0.51,-0.5,0.376, -0.4375,0.5,0.5},
+{0.4375,-0.5,0.376, 0.51,0.5,0.5},
+
+15:23 done gonna remove three items from inv.
+15:31 These are: 
+'NPC (owned by flowingpoint)' - the spawn egg
+'Place this sign and then right click it to start interface (owned by flowingpoint)' - the sign that is to remain while decoding.
+'Punch a suitable animal (white or red sheep, cow) with this tool to talk to it.' - the lasso
+'Talking NPC. Place somewhere and right click in order to talk to him.' with a player skin as inv item image.
+
+So the 1st, 3rd and 4th go. But if they go in Order they go in TJ, (RSWO and Luanti) so I should make the other one now and simply omit to use the others. Why? Because I might as well try to get as much use out of it as possible, while I can still sort of do things around here. 15:38pm 6/2/26
