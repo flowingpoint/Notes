@@ -331,3 +331,13 @@ lolo
 'Talking NPC. Place somewhere and right click in order to talk to him.' with a player skin as inv item image.
 
 So the 1st, 3rd and 4th go. But if they go in Order they go in TJ, (RSWO and Luanti) so I should make the other one now and simply omit to use the others. Why? Because I might as well try to get as much use out of it as possible, while I can still sort of do things around here. 15:38pm 6/2/26
+
+13:19 7th Feb Been trying for new AI agents, downloading Claude, nearly got a counter, should cut nails, tried half a dozen models there...
+
+Change suggestion: when po's propped the 3x3 region should operate the abm so that only as yet unflorified or unrublicated nodes are the sample space. So you wouldn't be waiting ages for the last one to fill. Minor really.
+
+I know it's obvious but it 'wasn't in the budget', that's in echostones have multiple convos operating. I've noticed that leaving convo zone and re-entering is tantamount to a refresh of the stone, and have only observed 'huirune' thus far for this. Trying to get a helper ai. 15:35 7th Feb 2026
+
+16:12 https://claude.ai/chat/23a07637-619b-4a8a-a359-a6ab378d9751 working fine
+
+20:54 Got free trial for a week with 'https://www.yeschat.ai/app/chat/9522fa82c6df4bb296276b980acc3468' using sunshineshane2 google account. Also have created two other accounts with miniapps (fw):xbxc4d..B, which offers 100 daily credits but I used 195 in one chat input pasting in the convo tree section of runes/init.lua. Maybe it was just those two. And yeschat runs out, but should be good later. Reverted to previous state, the buttons linger at the end a bit, otherwise fine.
