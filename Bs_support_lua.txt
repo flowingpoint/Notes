@@ -1,0 +1,141 @@
+In lua, for luanti, what is dig_immediate, is this the correct spelling, and how does default bookshelf work? can you print me in a concise form, a basic mechanism to store items that are endowed with the 'groups = book' (what are they called… elements, list items, table items? The parts of the node reg list like 'drawtype, groups, drop, paramtype, use_texture_alpha, etc...) part of nodereg. A workable complete lua file to implement in-game please.
+
+Hey! It’s great to see you diving back into Luanti (formerly Minetest) modding. I hope your weekend is going well—it's a perfect time to get some code running.
+To answer your first question: Yes, dig_immediate is the correct spelling. It is a specific key used within the groups table of a node definition to determine how fast a node is destroyed, regardless of the tool being used.
+1. Understanding dig_immediate
+In Luanti, these properties within the minetest.register_node function are called fields or attributes of the node definition table.
+| Value | Meaning |
+|---|---|
+| dig_immediate = 2 | The node is removed instantly (like torches or tall grass). |
+| dig_immediate = 3 | The node takes a very short time to dig (0.5 seconds), often used for things like "instant" glass or special creative blocks. |
+2. How the Default Bookshelf Works
+The default:bookshelf is essentially a "container" node, but it has a specific logic:
+ * Formspecs: It uses a UI (formspec) to show an inventory grid.
+ * Metadata: It stores the items in a NodeMetaRef inventory.
+ * Texture Swapping: In the standard game, the bookshelf changes its visual appearance (from empty to full) by swapping the node entirely based on how many books are inside.
+3. Implementation: The "Book Collector" Node
+Below is a complete, concise init.lua file. This creates a node that only accepts items belonging to the group:book.
+-- Register the Collector Node
+minetest.register_node("mymod:book_holder", {
+    description = "Storage for Books Only",
+    tiles = {"default_wood.png"},
+    groups = {choppy = 3, dig_immediate = 2}, -- Your requested dig_immediate!
+    
+    -- Initialize the inventory when placed
+    on_construct = function(pos)
+        local meta = minetest.get_meta(pos)
+        local inv = meta:get_inventory()
+        inv:set_size("main", 8) -- 8 slots
+        meta:set_string("formspec", 
+            "size[8,5]" ..
+            "list[context;main;0,0;8,1;]" ..
+            "list[current_player;main;0,1.5;8,4;]"
+        )
+    end,
+
+    -- The "Magic": Only allow items in the 'book' group
+    allow_metadata_inventory_put = function(pos, listname, index, stack, player)
+        if minetest.get_item_group(stack:get_name(), "book") > 0 then
+            return stack:get_count() -- Allow it
+        end
+        return 0 -- Reject everything else
+    end,
+    
+    -- Drop contents when broken
+    can_dig = function(pos, player)
+        local inv = minetest.get_meta(pos):get_inventory()
+        return inv:is_empty("main")
+    end,
+})
+
+Key Technical Details:
+ * Fields: The parts like drawtype, groups, and tiles are table fields.
+ * Logic: The allow_metadata_inventory_put function is the "gatekeeper." It checks if the item being added has groups = {book=1} (or higher) in its own definition.
+ * Group Check: minetest.get_item_group(name, "book") returns a number. If it's 0, it's not a book.
+Would you like me to add a function that changes the node's texture automatically as you add more books to the inventory?
+
+Yes, I will personally create three to 5 alternate bookshelf models to swap in when more books are added. I intend it eventually to accept into the bookshelf my book called noter:book if i rightclick the node with noter:book active in inventory, and to withdraw it is rightclick without active item in hand, whereupon a formspec displays a simple text list of the books within, and corresponding buttons, and if they can be made to appear as little images which correspond to each book individually somehow that'd be useful- it'd mean books don't even have to be named, they can be recognised.
+
+Next thing to do is tidy it up to run as is, I'll add it into the end of the init.lua that's in the 'creative' folder of the minimal development test RSWO, [https://github.com/flowingpoint/RSWO.git] I do. I want it to have the node registered and on the creative menu, store AND retrieve books up to 5 or 6 in amount. And when you leave the formspec (it should be a really basic row of standard inventory slots in a bar shape when you store or retrieve that works with the usual inventory.) it updates the node to the one of a set called 'bs00-bs05' where I'll have obj files and textures called same that can work with it in relevant folders. So try and make it ready to work.
+
+That sounds like a fun weekend project! Since you're integrating this into the RSWO minimal development test, keeping the code clean and modular is key.
+In Luanti terminology, the parts of the nodereg like drawtype and paramtype are officially called fields or attributes of the Node Definition Table.
+To make this work with your bs00 through bs05 models, we need a "state-switcher" logic. When the inventory is closed, the code will count the books and swap the node to the matching model.
+The "Dynamic Bookshelf" Implementation
+Add this to the end of your init.lua. This assumes you have your .obj files named bs00.obj, bs01.obj, etc., in your models/ folder.
+-- Helper function to update the model based on book count
+local function update_bookshelf_model(pos)
+    local meta = minetest.get_meta(pos)
+    local inv = meta:get_inventory()
+    local count = 0
+    
+    -- Count total items in the shelf
+    for i = 1, inv:get_size("main") do
+        local stack = inv:get_stack("main", i)
+        if not stack:is_empty() then
+            count = count + 1
+        end
+    end
+
+    -- Clamp count to 5 (since you have bs00 to bs05)
+    if count > 5 then count = 5 end
+    
+    -- Swap the node to the matching model name
+    local node = minetest.get_node(pos)
+    local new_name = "creative:bs0" .. count
+    if node.name ~= new_name then
+        minetest.swap_node(pos, {name = new_name, param2 = node.param2})
+    end
+end
+
+-- Register the 6 versions (0 to 5 books)
+for i = 0, 5 do
+    minetest.register_node("creative:bs0" .. i, {
+        description = "Dynamic Bookshelf (" .. i .. "/5)",
+        drawtype = "mesh",
+        mesh = "bs0" .. i .. ".obj",
+        tiles = {"bs0" .. i .. "_texture.png"}, -- Adjust to your texture names
+        paramtype = "light",
+        paramtype2 = "facedir",
+        groups = {choppy = 3, dig_immediate = 2, book_storage = 1, 
+                  not_in_creative_inventory = (i == 0 and 0 or 1)}, -- Only show empty one in menu
+        
+        on_construct = function(pos)
+            local meta = minetest.get_meta(pos)
+            local inv = meta:get_inventory()
+            inv:set_size("main", 5) -- 5 slots for 5 books
+            meta:set_string("formspec", 
+                "size[8,6]" ..
+                "list[context;main;1.5,0.5;5,1;]" .. -- A neat row of 5 slots
+                "list[current_player;main;0,2;8,4;]" ..
+                "listring[context;main]" ..
+                "listring[current_player;main]"
+            )
+        end,
+
+        -- Only allow items from the "book" group
+        allow_metadata_inventory_put = function(pos, listname, index, stack, player)
+            if minetest.get_item_group(stack:get_name(), "book") > 0 then
+                return stack:get_count()
+            end
+            return 0
+        end,
+
+        -- Trigger the model update when items are moved
+        on_metadata_inventory_put = update_bookshelf_model,
+        on_metadata_inventory_take = update_bookshelf_model,
+        
+        can_dig = function(pos, player)
+            local inv = minetest.get_meta(pos):get_inventory()
+            return inv:is_empty("main")
+        end,
+    })
+end
+
+How this fits your requirements:
+ * Storage & Retrieval: It uses a standard 5-slot bar for books and allows full interaction with the player's inventory.
+ * Model Swapping: I used minetest.swap_node. This is better than set_node because it preserves the metadata (the books stay inside) while changing the visual mesh.
+ * Creative Menu: Only bs00 (the empty shelf) will show up in the creative menu to avoid cluttering it with 6 different versions of the same thing.
+ * Validation: It strictly checks for the groups = {book=...} field on items before allowing them in.
+A quick tip for your models: Ensure your bs0x.obj files all have the same origin point (0,0,0) so that when the node swaps, the shelf doesn't "jump" or shift positions!
+Would you like me to show you how to add a small sound effect for when a book is placed on the shelf?
